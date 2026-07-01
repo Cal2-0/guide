@@ -1,4 +1,4 @@
-import { usePageTitle } from "@/hooks/usePageTitle";
+content = '''import { usePageTitle } from "@/hooks/usePageTitle";
 import { SectionReveal } from "@/components/ui/SectionReveal";
 import { SearchDock } from "@/components/ui/SearchDock";
 import { ScrollDial } from "@/components/ui/ScrollDial";
@@ -112,3 +112,7 @@ export function StartGuide() {
     </div>
   );
 }
+'''
+
+with open('client/src/pages/StartGuide.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)

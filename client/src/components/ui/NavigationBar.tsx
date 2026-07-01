@@ -118,8 +118,8 @@ export function NavigationBar() {
                     <ListItem href="/library" title="All Tools">
                       Search and filter the complete Lyra directory.
                     </ListItem>
-                    <ListItem href="/guide" title="Start Guide">
-                      The honest guide to starting your project.
+                    <ListItem href="/guide" title="Launchpad">
+                      One page. Every step. Idea → Live product.
                     </ListItem>
                     <ListItem href="/stack" title="My Stack">
                       View your saved and bookmarked tools.

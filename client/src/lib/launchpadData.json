@@ -1,0 +1,942 @@
+[
+  {
+    "id": "01",
+    "emoji": "💡",
+    "title": "Idea",
+    "description": "You don't have an idea yet, or you have one but don't know if it's worth building. Use AI to brainstorm, Reddit to validate, SimilarWeb to check if competitors exist. *\"[Name] helps [who] do [what] so they can [benefit].\"* If you can't finish that sentence clearly, the idea isn't clear enough yet.",
+    "options": [
+      {
+        "need": "Generate ideas fast",
+        "startHere": "**Claude** or **ChatGPT** — prompt: *\"Give me 10 SaaS ideas for [your niche/skill]\"*",
+        "alternative": "Perplexity"
+      },
+      {
+        "need": "See if people actually want it",
+        "startHere": "**Reddit** — search your problem, see if people complain about it",
+        "alternative": "GummySearch 🟢"
+      },
+      {
+        "need": "Check if competitors exist",
+        "startHere": "**SimilarWeb** 🟢",
+        "alternative": "Ahrefs 💳"
+      },
+      {
+        "need": "Find trending problems",
+        "startHere": "**Exploding Topics** 🟢",
+        "alternative": "Google Trends 🟢"
+      },
+      {
+        "need": "Get startup idea inspiration",
+        "startHere": "**YC Requests for Startups** 🟢",
+        "alternative": "Indie Hackers 🟢"
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "emoji": "🔍",
+    "title": "Research & Planning",
+    "description": "Turn your idea into a plan. What pages does it need? What data does it store? What does a user actually *do* on it? AI is your free product manager here.",
+    "options": [
+      {
+        "need": "Write a product plan / PRD",
+        "startHere": "**Claude** — prompt: *\"Write a product requirements doc for [your idea]\"*",
+        "alternative": "ChatGPT"
+      },
+      {
+        "need": "Plan my database structure",
+        "startHere": "**Claude** — prompt: *\"Design a Postgres schema for [your app]\"*",
+        "alternative": "ChatGPT"
+      },
+      {
+        "need": "Write user stories",
+        "startHere": "**Claude** — prompt: *\"Write user stories for [feature] from a beginner user's perspective\"*",
+        "alternative": "Notion AI 💳"
+      },
+      {
+        "need": "Organize notes and planning",
+        "startHere": "**Notion** 🟢",
+        "alternative": "Obsidian 🟢"
+      },
+      {
+        "need": "Map out user flows",
+        "startHere": "**Excalidraw** 🟢",
+        "alternative": "FigJam 🟢"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "emoji": "🎨",
+    "title": "Design Inspiration",
+    "description": "Before you design anything, look at what already works. Don't start from a blank canvas. Steal like an artist. Copy the structure, never the content.",
+    "options": [
+      {
+        "need": "Landing page ideas",
+        "startHere": "**Land-book** 🟢",
+        "alternative": "Lapa Ninja 🟢"
+      },
+      {
+        "need": "App UI patterns",
+        "startHere": "**Mobbin** 🟢",
+        "alternative": "Refero 🟢"
+      },
+      {
+        "need": "Award-winning sites",
+        "startHere": "**Awwwards** 🟢",
+        "alternative": "Godly 🟢"
+      },
+      {
+        "need": "Animated/motion sites",
+        "startHere": "**MotionSites.ai** 🟢",
+        "alternative": "Layers.to 🟢"
+      },
+      {
+        "need": "Designer portfolios",
+        "startHere": "**Dribbble** 🟢",
+        "alternative": "Behance 🟢"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "emoji": "🖥",
+    "title": "UI Design Tool",
+    "description": "Where you actually design what your app looks like before (or instead of) coding it. If you're not a designer, skip straight to building with AI tools in step 06.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Figma** 🟢💳",
+        "startHere": "Free tier available",
+        "alternative": "You want industry-standard design, collaboration"
+      },
+      {
+        "need": "**Penpot** 🟢",
+        "startHere": "Fully free, open source",
+        "alternative": "You want Figma but self-hosted, no cost"
+      },
+      {
+        "need": "**Framer** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You want to design AND publish without coding"
+      },
+      {
+        "need": "**Excalidraw** 🟢",
+        "startHere": "Fully free",
+        "alternative": "You just need to sketch a rough wireframe quickly"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "emoji": "✨",
+    "title": "UI Components",
+    "description": "Pre-built buttons, cards, menus, modals — everything visual in your app. Don't build these yourself. Copy-paste from these libraries.",
+    "options": [
+      {
+        "need": "Library",
+        "startHere": "Cost",
+        "alternative": "Best for"
+      },
+      {
+        "need": "**shadcn/ui** ⭐ 🟢",
+        "startHere": "Free",
+        "alternative": "The default choice. Dark mode, Tailwind, copy-paste. Used by everyone."
+      },
+      {
+        "need": "**Magic UI** 🟢",
+        "startHere": "Free",
+        "alternative": "Landing page \"wow\" effects — animated borders, glowing cards, typing text"
+      },
+      {
+        "need": "**Aceternity UI** 🟢",
+        "startHere": "Free",
+        "alternative": "Premium motion components — parallax, 3D cards, spotlight hover"
+      },
+      {
+        "need": "**21st.dev** 🟢",
+        "startHere": "Free",
+        "alternative": "Marketplace of shadcn-style hero sections and bento grids"
+      },
+      {
+        "need": "**Mantine** 🟢",
+        "startHere": "Free",
+        "alternative": "If you need a full component system with charts, dates, complex inputs"
+      },
+      {
+        "need": "**DaisyUI** 🟢",
+        "startHere": "Free",
+        "alternative": "Simpler apps, less customisation needed, quickest to start"
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "emoji": "🪄",
+    "title": "Vibe Coding / AI Builders",
+    "description": "Tools that write the code FOR you. Describe what you want, get working code. This is where 80% of beginners should actually start — before writing a single line manually. *\"Build a [type of app] with [Next.js / React]. It should have [feature 1], [feature 2]. Use Tailwind CSS and shadcn/ui components. Dark mode by default.\"*",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**v0 by Vercel** ⭐ 🟢",
+        "startHere": "Free tier",
+        "alternative": "You want a single component or page, copy the code into your project"
+      },
+      {
+        "need": "**Bolt.new** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You want a full app scaffolded and running in the browser instantly"
+      },
+      {
+        "need": "**Lovable** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You want a full-stack app (React + Supabase) from a prompt, hosted"
+      },
+      {
+        "need": "**Claude Code** 💳",
+        "startHere": "Paid",
+        "alternative": "You have an existing project, want AI to work inside your real codebase"
+      },
+      {
+        "need": "**Cursor** 💳",
+        "startHere": "Free tier",
+        "alternative": "VSCode with AI built in — best for developers who know some code"
+      },
+      {
+        "need": "**Replit** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You want to code AND deploy in the browser, no local setup"
+      },
+      {
+        "need": "**Manus** 🟢",
+        "startHere": "Free (waitlist)",
+        "alternative": "Autonomous AI agent that builds, runs, and deploys for you asynchronously"
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "emoji": "⚙️",
+    "title": "Frontend Framework",
+    "description": "The foundation your app is built on. Think of this as choosing the type of house before decorating. If you don't know which to pick — pick Next.js. Decision made.",
+    "options": [
+      {
+        "need": "Framework",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Next.js** ⭐ 🟢",
+        "startHere": "Free",
+        "alternative": "Building ANY web app. The safe, powerful default."
+      },
+      {
+        "need": "**Vite + React** 🟢",
+        "startHere": "Free",
+        "alternative": "You want a simple SPA, no server-side rendering needed"
+      },
+      {
+        "need": "**Astro** 🟢",
+        "startHere": "Free",
+        "alternative": "Your site is mostly content (blog, docs, marketing) — fastest option"
+      },
+      {
+        "need": "**SvelteKit** 🟢",
+        "startHere": "Free",
+        "alternative": "You want something lighter than React with better performance"
+      },
+      {
+        "need": "**Nuxt** 🟢",
+        "startHere": "Free",
+        "alternative": "You prefer Vue over React"
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "emoji": "🔧",
+    "title": "Backend / BaaS",
+    "description": "The \"server\" part that stores data, handles logins, runs logic. BaaS (Backend as a Service) = someone else runs the server for you.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Supabase** ⭐ 🟢💳",
+        "startHere": "Free tier generous",
+        "alternative": "You need a database + auth + storage + API all in one. Best choice for 90% of apps."
+      },
+      {
+        "need": "**Firebase** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You know Google tools, need realtime data (chat, live updates)"
+      },
+      {
+        "need": "**Appwrite** 🟢",
+        "startHere": "Free, self-hostable",
+        "alternative": "You want Supabase but fully open-source and self-hosted"
+      },
+      {
+        "need": "**PocketBase** 🟢",
+        "startHere": "Free",
+        "alternative": "Tiny single-file backend for small projects. Download and run."
+      },
+      {
+        "need": "**Convex** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Realtime sync between server and client without WebSocket code"
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "emoji": "🗄",
+    "title": "Database",
+    "description": "Where your app's data actually lives — users, posts, products, anything that needs to be saved.",
+    "options": [
+      {
+        "need": "Database",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Supabase Postgres** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You're already using Supabase. Just use this."
+      },
+      {
+        "need": "**Neon** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Serverless Postgres, great for Next.js apps, auto-scales to zero"
+      },
+      {
+        "need": "**PlanetScale** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "MySQL, branches like Git for your database schema"
+      },
+      {
+        "need": "**Turso** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "SQLite at the edge — fast, cheap, good for global apps"
+      },
+      {
+        "need": "**MongoDB Atlas** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You prefer document storage over tables (JSON-like data)"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "emoji": "🔐",
+    "title": "Authentication",
+    "description": "Login, signup, \"forgot password\", Google/GitHub login buttons. DO NOT build this yourself. Use a library or service.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Better Auth** ⭐ 🟢",
+        "startHere": "Fully free",
+        "alternative": "TypeScript app, you want full control, no per-user billing"
+      },
+      {
+        "need": "**Supabase Auth** 🟢",
+        "startHere": "Free (included)",
+        "alternative": "You're already on Supabase — auth is built in, just enable it"
+      },
+      {
+        "need": "**Clerk** 🟢💳",
+        "startHere": "Free up to 10k MAU",
+        "alternative": "You want beautiful pre-built login UI in minutes, don't mind paying at scale"
+      },
+      {
+        "need": "**Auth.js / NextAuth** 🟢",
+        "startHere": "Free",
+        "alternative": "Next.js app, want open-source, comfortable with some config"
+      },
+      {
+        "need": "**Auth0** 💳",
+        "startHere": "Paid after free tier",
+        "alternative": "Enterprise features, social logins, fine-grained permissions"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "emoji": "📦",
+    "title": "Storage",
+    "description": "Where uploaded files live — profile pictures, documents, videos, anything users upload.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Supabase Storage** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Already on Supabase — included, S3-compatible, easy"
+      },
+      {
+        "need": "**Cloudflare R2** 🟢💳",
+        "startHere": "Free up to 10GB",
+        "alternative": "Zero egress fees — you don't pay to READ files back (unlike S3)"
+      },
+      {
+        "need": "**AWS S3** 💳",
+        "startHere": "Pay per use",
+        "alternative": "You need enterprise scale, fine-grained access control"
+      },
+      {
+        "need": "**Uploadthing** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Dead-simple file uploads in Next.js — npm install and done"
+      },
+      {
+        "need": "**Firebase Storage** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "You're on Firebase already"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "emoji": "💳",
+    "title": "Payments",
+    "description": "Charging users money. Subscriptions, one-time purchases, free trials.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Stripe** ⭐ 💳",
+        "startHere": "2.9% + 30¢ per charge",
+        "alternative": "You want maximum control, subscriptions, invoices, the industry standard"
+      },
+      {
+        "need": "**Lemon Squeezy** 💳",
+        "startHere": "5% + 50¢",
+        "alternative": "They handle VAT/sales tax globally for you — huge for solo founders"
+      },
+      {
+        "need": "**Paddle** 💳",
+        "startHere": "% of revenue",
+        "alternative": "Similar to Lemon Squeezy, better for enterprise pricing"
+      },
+      {
+        "need": "**Razorpay** 💳",
+        "startHere": "India only",
+        "alternative": "Best choice if you're charging Indian users"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "emoji": "📧",
+    "title": "Email",
+    "description": "Sending emails to your users — welcome emails, password resets, notifications, newsletters.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Resend** ⭐ 🟢💳",
+        "startHere": "Free: 3k/mo",
+        "alternative": "Write emails as React components. Best DX available."
+      },
+      {
+        "need": "**Loops** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Resend + email marketing combined — one tool for transactional AND campaigns"
+      },
+      {
+        "need": "**Postmark** 💳",
+        "startHere": "Paid",
+        "alternative": "Fast, reliable, great deliverability, no free tier"
+      },
+      {
+        "need": "**SendGrid** 🟢💳",
+        "startHere": "Free: 100/day",
+        "alternative": "Enterprise, more complex, overkill for most"
+      },
+      {
+        "need": "**Mailchimp** 🟢💳",
+        "startHere": "Free: 500 contacts",
+        "alternative": "For newsletters and marketing campaigns, not transactional"
+      },
+      {
+        "need": "**Beehiiv** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Building a newsletter with growth features built in"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "emoji": "🔔",
+    "title": "Notifications",
+    "description": "Push notifications (mobile), in-app notifications (bell icon), SMS alerts.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Novu** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "One API for email + in-app + push + SMS + Slack — open source"
+      },
+      {
+        "need": "**OneSignal** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Push notifications for web and mobile apps"
+      },
+      {
+        "need": "**Knock** 💳",
+        "startHere": "Paid",
+        "alternative": "Enterprise notification infrastructure with workflows"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "emoji": "📊",
+    "title": "Analytics",
+    "description": "Understanding who visits your site, what they click, where they drop off. Install this DAY ONE. You cannot improve what you don't measure.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**PostHog** ⭐ 🟢💳",
+        "startHere": "Free: 1M events/mo",
+        "alternative": "Replaces Google Analytics + Mixpanel + Hotjar. Open source. One install."
+      },
+      {
+        "need": "**Plausible** 🟢💳",
+        "startHere": "Free (self-host)",
+        "alternative": "Privacy-first, GDPR compliant, simple dashboard, no cookies"
+      },
+      {
+        "need": "**Umami** 🟢",
+        "startHere": "Free, self-hosted",
+        "alternative": "Plausible alternative, host it yourself on Railway for free"
+      },
+      {
+        "need": "**Google Analytics 4** 🟢",
+        "startHere": "Free",
+        "alternative": "Free but complex, data goes to Google"
+      },
+      {
+        "need": "**Mixpanel** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Product analytics, funnels, cohorts for apps"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "emoji": "🚀",
+    "title": "Deployment",
+    "description": "Making your app accessible on the internet.",
+    "options": [
+      {
+        "need": "Platform",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Vercel** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Next.js app (made by same team). Push to GitHub = deployed."
+      },
+      {
+        "need": "**Netlify** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Static sites, React SPAs, good alternative to Vercel"
+      },
+      {
+        "need": "**Cloudflare Pages** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Ultra fast CDN, global edge, very generous free tier"
+      },
+      {
+        "need": "Platform",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Railway** ⭐ 🟢💳",
+        "startHere": "$5/mo after free",
+        "alternative": "Detects your framework, deploys, attaches database — easiest backend deploy"
+      },
+      {
+        "need": "**Render** 🟢💳",
+        "startHere": "Free tier (slow)",
+        "alternative": "Like Railway, free tier available but spins down after inactivity"
+      },
+      {
+        "need": "**Fly.io** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Global deployment, fast, Docker-based, more config needed"
+      },
+      {
+        "need": "**Coolify** 🟢",
+        "startHere": "Free, self-host",
+        "alternative": "Self-hosted Heroku on your own VPS. Cheap at scale."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "emoji": "🌐",
+    "title": "Domain",
+    "description": "Your `.com` address. Costs ~$10–15/year.",
+    "options": [
+      {
+        "need": "Provider",
+        "startHere": "Cost",
+        "alternative": "Why"
+      },
+      {
+        "need": "**Cloudflare Registrar** ⭐ 💳",
+        "startHere": "At-cost pricing",
+        "alternative": "Cheapest prices, no markup, best DNS management included"
+      },
+      {
+        "need": "**Namecheap** 💳",
+        "startHere": "~$10–15/yr",
+        "alternative": "Clean UI, easy to use, reliable"
+      },
+      {
+        "need": "**Porkbun** 💳",
+        "startHere": "Cheap",
+        "alternative": "Often cheapest for first year deals"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "emoji": "🛡",
+    "title": "Security",
+    "description": "Protecting your app from bots, spam, attacks, and abuse.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Cloudflare** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "DDoS protection, firewall, bot blocking — put it in front of everything"
+      },
+      {
+        "need": "**Arcjet** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Rate limiting, bot detection, email validation in your Next.js API — npm install"
+      },
+      {
+        "need": "**Turnstile** 🟢",
+        "startHere": "Free",
+        "alternative": "Cloudflare's CAPTCHA alternative — user-friendly, no puzzle"
+      },
+      {
+        "need": "**reCAPTCHA** 🟢",
+        "startHere": "Free",
+        "alternative": "Google's CAPTCHA — familiar but more intrusive UX"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "emoji": "📈",
+    "title": "SEO",
+    "description": "Getting your site to show up on Google when people search for your product.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Google Search Console** ⭐ 🟢",
+        "startHere": "Free",
+        "alternative": "See what queries bring people to your site. Non-negotiable."
+      },
+      {
+        "need": "**Ahrefs Webmaster Tools** 🟢",
+        "startHere": "Free",
+        "alternative": "Free version shows broken links, keyword data for your own site"
+      },
+      {
+        "need": "**SurferSEO** 💳",
+        "startHere": "Paid",
+        "alternative": "AI-driven content optimization if you're writing blog content"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "emoji": "📏",
+    "title": "Monitoring & Errors",
+    "description": "Getting notified when something breaks BEFORE your users tell you.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Sentry** ⭐ 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Error tracking — you see full stack traces when something crashes"
+      },
+      {
+        "need": "**Better Stack** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Uptime monitoring — alerts you when your site goes down"
+      },
+      {
+        "need": "**Highlight.io** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Error tracking + session replay combined, open source"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "emoji": "🤖",
+    "title": "AI APIs",
+    "description": "Connecting your app to AI models — for chatbots, text generation, summaries, anything AI-powered.",
+    "options": [
+      {
+        "need": "Provider",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**OpenRouter** ⭐ 🟢💳",
+        "startHere": "Free models available",
+        "alternative": "One API key, 100+ models. **Start here.** Swap models without changing code."
+      },
+      {
+        "need": "**Groq** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Fastest inference available. Free. LLaMA 3.3 70B at 320 tokens/sec."
+      },
+      {
+        "need": "**Anthropic (Claude)** 💳",
+        "startHere": "Paid",
+        "alternative": "Best for coding, analysis, long documents, nuanced reasoning"
+      },
+      {
+        "need": "**OpenAI** 💳",
+        "startHere": "Paid",
+        "alternative": "GPT-4o, best multimodal (images + text), huge ecosystem"
+      },
+      {
+        "need": "**Google AI Studio** 🟢",
+        "startHere": "Free",
+        "alternative": "Gemini free tier, 1M token context — best free option for large documents"
+      },
+      {
+        "need": "**Cerebras** 🟢💳",
+        "startHere": "Free tier",
+        "alternative": "Even faster than Groq, less known, great backup"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "emoji": "🔍",
+    "title": "Search",
+    "description": "Letting users search your content, tools, products, posts — anything in your database.",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**Meilisearch** ⭐ 🟢💳",
+        "startHere": "Free, self-host",
+        "alternative": "Fast, typo-tolerant, beautiful filters. Open source."
+      },
+      {
+        "need": "**Typesense** 🟢💳",
+        "startHere": "Free, self-host",
+        "alternative": "Same as Meilisearch, slightly easier to run"
+      },
+      {
+        "need": "**Algolia** 💳",
+        "startHere": "Free: 10k req/mo",
+        "alternative": "Managed (they host it), most polished DX, expensive at scale"
+      },
+      {
+        "need": "**Fuse.js** 🟢",
+        "startHere": "Free npm package",
+        "alternative": "Client-side fuzzy search for small datasets (under 10k items) — no server needed"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "emoji": "🔁",
+    "title": "Automation",
+    "description": "Making things happen automatically without you doing them manually. \"When someone signs up, send them a welcome email and add them to Notion.\"",
+    "options": [
+      {
+        "need": "Tool",
+        "startHere": "Cost",
+        "alternative": "Use if…"
+      },
+      {
+        "need": "**n8n** ⭐ 🟢💳",
+        "startHere": "Free, self-host",
+        "alternative": "Open-source Zapier. Self-host on Railway free tier. 400+ integrations."
+      },
+      {
+        "need": "**Zapier** 💳",
+        "startHere": "Free: 100 tasks/mo",
+        "alternative": "Easiest to use, most integrations, gets expensive fast"
+      },
+      {
+        "need": "**Make** 🟢💳",
+        "startHere": "Free: 1k ops/mo",
+        "alternative": "Visual automation, cheaper than Zapier, more complex than Zapier"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "emoji": "📣",
+    "title": "Launch",
+    "description": "Telling the world your product exists.",
+    "options": [
+      {
+        "need": "Channel",
+        "startHere": "Cost",
+        "alternative": "Best for"
+      },
+      {
+        "need": "**Product Hunt** 🟢",
+        "startHere": "Free",
+        "alternative": "Traffic spike on launch day, exposure to early adopters"
+      },
+      {
+        "need": "**Hacker News (Show HN)** 🟢",
+        "startHere": "Free",
+        "alternative": "Developer tools, technical products — can go viral"
+      },
+      {
+        "need": "**Reddit** 🟢",
+        "startHere": "Free",
+        "alternative": "r/SideProject, r/webdev, r/entrepreneur — real feedback"
+      },
+      {
+        "need": "**X / Twitter** 🟢",
+        "startHere": "Free",
+        "alternative": "Build-in-public community, best for ongoing updates"
+      },
+      {
+        "need": "**Indie Hackers** 🟢",
+        "startHere": "Free",
+        "alternative": "Founder community, milestone posts, genuine engagement"
+      },
+      {
+        "need": "**Dev.to / Hashnode** 🟢",
+        "startHere": "Free",
+        "alternative": "Write about HOW you built it — drives developer traffic"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "emoji": "📦",
+    "title": "Full Starter Stacks",
+    "description": "Copy-paste one of these. Don't mix and match until you understand each piece.",
+    "options": [
+      {
+        "need": "Category",
+        "startHere": "Tool",
+        "alternative": "Monthly"
+      },
+      {
+        "need": "Frontend hosting",
+        "startHere": "Vercel",
+        "alternative": "$0"
+      },
+      {
+        "need": "Backend",
+        "startHere": "Railway",
+        "alternative": "$0–5"
+      },
+      {
+        "need": "Database",
+        "startHere": "Supabase",
+        "alternative": "$0"
+      },
+      {
+        "need": "Auth",
+        "startHere": "Better Auth",
+        "alternative": "$0"
+      },
+      {
+        "need": "Email",
+        "startHere": "Resend",
+        "alternative": "$0"
+      },
+      {
+        "need": "Analytics",
+        "startHere": "PostHog",
+        "alternative": "$0"
+      },
+      {
+        "need": "Error tracking",
+        "startHere": "Sentry",
+        "alternative": "$0"
+      },
+      {
+        "need": "Uptime monitoring",
+        "startHere": "Better Stack",
+        "alternative": "$0"
+      },
+      {
+        "need": "Domain",
+        "startHere": "Cloudflare",
+        "alternative": "~$1 (amortised)"
+      },
+      {
+        "need": "AI API",
+        "startHere": "OpenRouter free models",
+        "alternative": "$0"
+      },
+      {
+        "need": "**Total**",
+        "startHere": "",
+        "alternative": "**$0–6/month**"
+      }
+    ]
+  }
+]
