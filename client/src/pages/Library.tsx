@@ -3,7 +3,8 @@ import { SearchDock } from "@/components/ui/SearchDock";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { GlassPill } from "@/components/ui/GlassPill";
 import { tools } from "@/lib/toolsData";
-import { LayoutGrid, ArrowUp, Filter } from "lucide-react";
+import { LayoutGrid, ArrowUp, Filter, Search } from "lucide-react";
+import Fuse from "fuse.js";
 
 import { useSearch } from "wouter";
 import { usePageTitle } from "@/hooks/usePageTitle";
@@ -19,26 +20,29 @@ export function Library() {
   const initialCategory = params.get("category") || "All";
   const initialTags = params.get("tags")?.split(",").filter(Boolean) || [];
   const initialSort = (params.get("sort") as "liked" | "newest") || "liked";
+  const initialSearch = params.get("q") || "";
 
   const [activeCategory, setActiveCategoryState] = useState<string>(initialCategory);
   const [selectedTags, setSelectedTagsState] = useState<string[]>(initialTags);
   const [sortBy, setSortByState] = useState<"liked" | "newest">(initialSort);
+  const [searchQuery, setSearchQueryState] = useState(initialSearch);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [showMobileFilters, setShowMobileFilters] = useState(false);
 
   // Centralized URL sync helper
-  const updateUrl = (category: string, tags: string[], sort: string) => {
+  const updateUrl = (category: string, tags: string[], sort: string, q: string) => {
     const newParams = new URLSearchParams();
     if (category !== "All") newParams.set("category", category);
     if (tags.length > 0) newParams.set("tags", tags.join(","));
     if (sort !== "liked") newParams.set("sort", sort);
+    if (q) newParams.set("q", q);
     const query = newParams.toString();
     window.history.pushState({}, "", `/library${query ? `?${query}` : ""}`);
   };
 
   const setActiveCategory = (cat: string) => {
     setActiveCategoryState(cat);
-    updateUrl(cat, selectedTags, sortBy);
+    updateUrl(cat, selectedTags, sortBy, searchQuery);
   };
 
   const toggleTag = (tag: string) => {
@@ -46,13 +50,19 @@ export function Library() {
       ? selectedTags.filter(t => t !== tag)
       : [...selectedTags, tag];
     setSelectedTagsState(next);
-    updateUrl(activeCategory, next, sortBy);
+    updateUrl(activeCategory, next, sortBy, searchQuery);
   };
 
   const setSortBy = (sort: "liked" | "newest") => {
     setSortByState(sort);
-    updateUrl(activeCategory, selectedTags, sort);
+    updateUrl(activeCategory, selectedTags, sort, searchQuery);
   };
+
+  const setSearchQuery = (q: string) => {
+    setSearchQueryState(q);
+    updateUrl(activeCategory, selectedTags, sortBy, q);
+  };
+
 
   // Sync state if user navigates back/forward in browser history
   useEffect(() => {
@@ -86,8 +96,24 @@ export function Library() {
     return ["All", ...cats];
   }, []);
 
+  const fuse = useMemo(() => new Fuse(tools, {
+    keys: [
+      { name: "name", weight: 2 },
+      { name: "description", weight: 1 },
+      { name: "category", weight: 1 },
+      { name: "tags", weight: 1 }
+    ],
+    threshold: 0.3,
+  }), []);
+
   const filteredTools = useMemo(() => {
-    let result = activeCategory === "All" ? tools : tools.filter(t => t.category === activeCategory);
+    let result = searchQuery 
+      ? fuse.search(searchQuery).map(r => r.item)
+      : tools;
+      
+    if (activeCategory !== "All") {
+      result = result.filter(t => t.category === activeCategory);
+    }
     
     // Tag/pricing/ecosystem filter
     if (selectedTags.length > 0) {
@@ -104,13 +130,14 @@ export function Library() {
     }
     
     return result;
-  }, [activeCategory, selectedTags, sortBy]);
+  }, [activeCategory, selectedTags, sortBy, searchQuery, fuse]);
 
   const clearAllFilters = () => {
     setActiveCategoryState("All");
     setSelectedTagsState([]);
     setSortByState("liked");
-    updateUrl("All", [], "liked");
+    setSearchQueryState("");
+    updateUrl("All", [], "liked", "");
   };
 
   const hasActiveFilters = activeCategory !== "All" || selectedTags.length > 0;
@@ -200,26 +227,41 @@ export function Library() {
           {/* Right Rail: Tool Grid */}
           <main className="flex-1 min-w-0">
             {/* Header row: Title + Sort */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-              <h1 className="text-white text-3xl font-semibold tracking-tight">
-                {activeCategory === "All" ? "All Tools" : activeCategory}
-              </h1>
-              <div className="flex items-center gap-2">
-                <span className="text-text-tertiary text-sm">Sort by:</span>
-                <GlassPill 
-                  size="sm" 
-                  active={sortBy === "liked"} 
-                  onClick={() => setSortBy("liked")}
-                >
-                  Most Liked
-                </GlassPill>
-                <GlassPill 
-                  size="sm" 
-                  active={sortBy === "newest"} 
-                  onClick={() => setSortBy("newest")}
-                >
-                  Newest
-                </GlassPill>
+            <div className="flex flex-col gap-6 mb-6">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <h1 className="text-white text-3xl font-semibold tracking-tight">
+                  {activeCategory === "All" ? "All Tools" : activeCategory}
+                </h1>
+                <div className="flex items-center gap-2">
+                  <span className="text-text-tertiary text-sm">Sort by:</span>
+                  <GlassPill 
+                    size="sm" 
+                    active={sortBy === "liked"} 
+                    onClick={() => setSortBy("liked")}
+                  >
+                    Most Liked
+                  </GlassPill>
+                  <GlassPill 
+                    size="sm" 
+                    active={sortBy === "newest"} 
+                    onClick={() => setSortBy("newest")}
+                  >
+                    Newest
+                  </GlassPill>
+                </div>
+              </div>
+              
+              <div className="relative w-full max-w-lg">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <Search className="w-5 h-5 text-white/40" />
+                </div>
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Semantic search (e.g. 'paid', 'database', 'react')..."
+                  className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-white placeholder:text-white/40 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-colors"
+                />
               </div>
             </div>
 
@@ -240,7 +282,7 @@ export function Library() {
 
             {/* Tool Grid */}
             {filteredTools.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
                 {filteredTools.map(tool => (
                   <ToolCard key={tool.id} tool={tool} />
                 ))}
