@@ -121,10 +121,10 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
       "Better Auth",
       "Drizzle ORM",
       "Resend",
-      "Lemon Squeezy",
-      "Railway",
-      "PostHog",
-      "Infisical."
+      "Stripe",
+      "Cloudflare",
+      "Firebase",
+      "PostHog"
     ],
     "tools": [
       {
@@ -138,6 +138,18 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
       {
         "id": "resend",
         "rationale": "The cleanest email API available. Write your emails in React components (actual JSX). `resend.send({ to, from, react: <WelcomeEmail /> })`. Done. Replaces hours of HTML email hell."
+      },
+      {
+        "id": "stripe",
+        "rationale": "The industry standard for payments. Handles subscriptions, one-time payments, and billing portals effortlessly. If you're building a real business, you'll eventually need Stripe."
+      },
+      {
+        "id": "cloudflare",
+        "rationale": "DDoS protection, DNS, CDN, and Edge computing (Workers/Pages). It's essentially the front door to the modern internet. Most SaaS products use Cloudflare."
+      },
+      {
+        "id": "firebase",
+        "rationale": "Google's complete backend-as-a-service. If you need real-time data sync across thousands of clients, Firebase Firestore is still arguably the easiest way to do it. Supabase is the SQL alternative."
       },
       {
         "id": "lemon-squeezy",
@@ -365,16 +377,16 @@ export function BuildIntent({ params }: { params?: { intent?: string } }) {
               return (
                 <div key={tool.id} className="flex flex-col md:flex-row gap-6 bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 backdrop-blur-sm hover:bg-white/[0.07] transition-all animate-[heroFadeUp_0.8s_cubic-bezier(0.16,1,0.3,1)_forwards]" style={{ animationDelay: `${0.2 + (index * 0.1)}s` }}>
                   {/* Left: Tool Card */}
-                  <div className="md:w-1/3 shrink-0">
+                  <div className="md:w-[45%] shrink-0">
                     <ToolCard tool={tool} />
                   </div>
                   
                   {/* Right: Rationale */}
-                  <div className="md:w-2/3 flex flex-col justify-center border-t md:border-t-0 md:border-l border-white/10 pt-6 md:pt-0 md:pl-8">
-                    <h3 className="text-white font-medium text-lg mb-3">
+                  <div className="md:w-[55%] flex flex-col justify-center border-t md:border-t-0 md:border-l border-white/10 pt-6 md:pt-0 md:pl-8">
+                    <h3 className="text-white font-medium text-xl mb-4">
                       Why this one, not the obvious one
                     </h3>
-                    <p className="text-foreground/80 leading-relaxed">
+                    <p className="text-foreground/80 text-lg leading-relaxed">
                       {curated.rationale}
                     </p>
                   </div>

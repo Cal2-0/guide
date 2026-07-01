@@ -168,7 +168,7 @@ export function NavigationBar() {
             </button>
           )}
           <Link href="/guide" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
-              The Honest Guide
+              Launchpad
           </Link>
           <Link href="/stack" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
               My Stack
