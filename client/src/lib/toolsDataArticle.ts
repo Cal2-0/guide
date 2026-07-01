@@ -6887,5 +6887,50 @@ export const categories: Category[] = [
         ]
       }
     ]
+  },
+  {
+    "name": "Newly Added Tools",
+    "subcategories": [
+      {
+        "name": "Latest Additions",
+        "tools": [
+          {
+            "id": "neon",
+            "name": "Neon",
+            "description": "Serverless Postgres built for the cloud.",
+            "url": "https://neon.tech",
+            "tags": ["Database"]
+          },
+          {
+            "id": "clerk",
+            "name": "Clerk",
+            "description": "Complete authentication and user management.",
+            "url": "https://clerk.com",
+            "tags": ["Auth"]
+          },
+          {
+            "id": "shadcn-ui",
+            "name": "shadcn/ui",
+            "description": "Beautifully designed components that you can copy and paste into your apps.",
+            "url": "https://ui.shadcn.com",
+            "tags": ["UI"]
+          },
+          {
+            "id": "aceternity-ui",
+            "name": "Aceternity UI",
+            "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations.",
+            "url": "https://ui.aceternity.com",
+            "tags": ["UI"]
+          },
+          {
+            "id": "n8n",
+            "name": "n8n",
+            "description": "Free and open node based Workflow Automation Tool. Easily automate tasks across different services.",
+            "url": "https://n8n.io",
+            "tags": ["Automation"]
+          }
+        ]
+      }
+    ]
   }
 ];
