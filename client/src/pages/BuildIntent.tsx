@@ -32,35 +32,27 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
     "tools": [
       {
         "id": "mobbin",
-        "rationale": "The ultimate UI inspiration library. Don't reinvent the wheel \u2014 see exactly how top-tier apps solve navigation, onboarding, and settings. Search by specific UI patterns instead of just pretty dribbble shots."
+        "rationale": "The ultimate UI inspiration library."
       },
       {
         "id": "land-book",
-        "rationale": "The best curated gallery of landing pages. When you need inspiration for a high-converting, beautiful hero section or pricing page, start here. The quality bar is exceptionally high."
+        "rationale": "The best curated gallery of landing pages."
       },
       {
         "id": "21st-dev",
-        "rationale": "The npm for UI components. It aggregates the best React and Tailwind components from across the web. Find a stunning micro-interaction, copy the code, and drop it in."
+        "rationale": "The npm for UI components. Find a stunning micro-interaction and drop it in."
       },
       {
         "id": "magic-ui",
-        "rationale": "Premium React components tailored for marketing sites and landing pages. Marquees, bento grids, and animated text that would take hours to build from scratch. Makes your site feel like a million bucks."
+        "rationale": "Premium React components tailored for marketing sites and landing pages."
       },
       {
         "id": "lucide",
-        "rationale": "The only icon library you need. Clean, consistent, and massive. It's the community successor to Feather Icons. Don't waste time mixing and matching different icon sets \u2014 just use Lucide."
+        "rationale": "The only icon library you need. Clean, consistent, and massive."
       },
       {
         "id": "framer-motion",
-        "rationale": "The industry standard for React animations. Add a `motion.` prefix to your elements and you instantly get spring physics, layout animations, and gesture support. It's how the web feels alive."
-      },
-      {
-        "id": "motionsites-ai",
-        "rationale": "Gives you premium animated \"recipes\" \u2014 copy the prompt, paste into Claude/Cursor, get a 3D animated hero in minutes. Saves 4\u20136 hours of animation work per page."
-      },
-      {
-        "id": "haikei",
-        "rationale": "Generates unique SVG blob shapes, wave dividers, and layered backgrounds. Free, browser-based, instant download. Replaces hiring a designer for background assets."
+        "rationale": "The industry standard for React animations."
       }
     ],
     "insight": "Your website doesn't need to be custom-coded. Ship Framer first, validate that people care, then rebuild in code if the traffic warrants it."
@@ -118,58 +110,45 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
     "stackNodes": [
       "Next.js",
       "Supabase",
-      "Better Auth",
-      "Drizzle ORM",
-      "Resend",
+      "Clerk",
       "Stripe",
+      "Resend",
       "Cloudflare",
-      "Firebase",
-      "PostHog"
+      "PostHog",
+      "Railway"
     ],
     "tools": [
       {
-        "id": "better-auth",
-        "rationale": "TypeScript-native auth library. Free, self-hosted, no per-user billing (unlike Clerk which gets expensive fast). Full session management, OAuth, email/password, MFA \u2014 all included. Beginners choose Clerk, then get surprised by the bill at 1000 users."
+        "id": "nextjs",
+        "rationale": "The industry standard React framework."
       },
       {
-        "id": "drizzle-orm",
-        "rationale": "Lighter than Prisma, TypeScript-first, SQL-like syntax that actually makes sense. Schema migrations are fast. Type safety is automatic. If you know SQL already, Drizzle feels like SQL with superpowers."
+        "id": "supabase",
+        "rationale": "The ultimate open-source Firebase alternative."
       },
       {
-        "id": "resend",
-        "rationale": "The cleanest email API available. Write your emails in React components (actual JSX). `resend.send({ to, from, react: <WelcomeEmail /> })`. Done. Replaces hours of HTML email hell."
+        "id": "clerk",
+        "rationale": "Complete authentication and user management."
       },
       {
         "id": "stripe",
-        "rationale": "The industry standard for payments. Handles subscriptions, one-time payments, and billing portals effortlessly. If you're building a real business, you'll eventually need Stripe."
+        "rationale": "The industry standard for payments."
+      },
+      {
+        "id": "resend",
+        "rationale": "The cleanest email API available."
       },
       {
         "id": "cloudflare",
-        "rationale": "DDoS protection, DNS, CDN, and Edge computing (Workers/Pages). It's essentially the front door to the modern internet. Most SaaS products use Cloudflare."
-      },
-      {
-        "id": "firebase",
-        "rationale": "Google's complete backend-as-a-service. If you need real-time data sync across thousands of clients, Firebase Firestore is still arguably the easiest way to do it. Supabase is the SQL alternative."
-      },
-      {
-        "id": "lemon-squeezy",
-        "rationale": "Handles payments AND acts as merchant of record \u2014 meaning they deal with EU VAT, sales tax, compliance. You don't. Stripe is more powerful but doesn't handle tax for you. For a solo founder shipping internationally, Lemon Squeezy saves weeks of legal headaches."
-      },
-      {
-        "id": "infisical",
-        "rationale": "Open-source secrets manager. Your `.env` file is a liability \u2014 leaked once on GitHub and you're rebuilding everything. Infisical syncs secrets across environments and team members, and it's self-hostable."
+        "rationale": "DDoS protection, DNS, CDN, and Edge computing."
       },
       {
         "id": "posthog",
-        "rationale": "Replaces Google Analytics + Mixpanel + Hotjar in one tool. Open source, self-hostable. Session replay, funnels, feature flags, A/B tests, all in one dashboard. Free tier is generous. Most beginners don't track anything; PostHog makes tracking easy enough to actually do."
+        "rationale": "Replaces Google Analytics + Mixpanel + Hotjar in one tool."
       },
       {
         "id": "railway",
-        "rationale": "Zero-config deployment. Push your repo, Railway detects the framework, deploys it, attaches a Postgres database, assigns a domain. Cheaper than Render at scale, faster to configure than AWS. Best first deployment platform."
-      },
-      {
-        "id": "t3-app",
-        "rationale": "Pre-wired Next.js + TypeScript + Tailwind + tRPC + Prisma + NextAuth boilerplate. Run one command, get a production-ready foundation. Saves 2\u20133 days of project setup."
+        "rationale": "Zero-config deployment platform."
       }
     ],
     "insight": "Launch with a waitlist before you build. Use Carrd ($19/yr) + Resend to collect emails. If nobody signs up, you saved 3 months of building. If 50 people sign up, now you know you're building something real."
@@ -272,54 +251,35 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
     ],
     "insight": "Before writing any code, map the data sources manually first. Run theHarvester by hand, look at Shodan in the browser, use Holehe in the CLI. Understand what data looks like before you try to automate it."
   },
-  "web3": {
-    "title": "Build a Blockchain / Web3 Project",
-    "description": "You don't need to build a token or NFT. The most valuable blockchain projects right now are forensics tools, on-chain analytics, portfolio trackers, and smart contract security scanners \u2014 not another coin. The tools below reflect that. This is the builder angle, not the speculator angle.",
+  "backend": {
+    "title": "Build a Backend & API",
+    "description": "The engine that runs your business logic and stores data. Start serverless.",
     "stackNodes": [
-      "Alchemy",
-      "Etherscan API",
-      "DefiLlama API",
-      "GoPlus",
-      "Wagmi",
-      "Viem",
-      "Blockscout",
-      "Hardhat."
+      "Supabase",
+      "Neon",
+      "Firebase",
+      "FastAPI",
+      "n8n"
     ],
     "tools": [
       {
-        "id": "alchemy",
-        "rationale": "The best node provider. Free tier gives you access to Ethereum, Polygon, Arbitrum, Optimism, Base, and more. Their enhanced APIs (`alchemy_getAssetTransfers`, token metadata, NFT data) return structured data that raw RPC calls don't. Most beginners waste time parsing raw blockchain data; Alchemy's APIs give you the structured version directly."
+        "id": "supabase",
+        "rationale": "PostgreSQL with instant APIs."
       },
       {
-        "id": "etherscan",
-        "rationale": "The most complete transaction, contract, and token data API for Ethereum. Free tier is generous. Use `module=account&action=txlist` to pull full transaction history for any wallet. The foundation of every blockchain analytics project."
+        "id": "neon",
+        "rationale": "Serverless Postgres built for the cloud."
       },
       {
-        "id": "defillama",
-        "rationale": "Free, no API key required. Returns TVL (Total Value Locked), protocol revenue, token prices, yields across every major DeFi protocol. If you're building anything analytics-related, DefiLlama is the data source. No authentication required to start."
+        "id": "firebase",
+        "rationale": "Googles complete backend-as-a-service."
       },
       {
-        "id": "goplus",
-        "rationale": "Free API that returns a security score for any token contract. Checks for honeypots, rug pull indicators, malicious functions, hidden minting. For a forensics or safety tool, this is the signal layer you can't easily replicate yourself."
-      },
-      {
-        "id": "viem",
-        "rationale": "Modern, TypeScript-first Ethereum library. Replaced Web3.js and is eating ethers.js's market share because it's faster, has better types, and tree-shakes to a tiny bundle. Start with Viem, not Web3.js."
-      },
-      {
-        "id": "wagmi",
-        "rationale": "React hooks for blockchain interaction \u2014 `useAccount()`, `useBalance()`, `useReadContract()`. If you're building a frontend that connects to wallets, Wagmi is the standard. Built on top of Viem."
-      },
-      {
-        "id": "blockscout",
-        "rationale": "Open-source blockchain explorer you can self-host or use their hosted instance. If you're building a forensics tool and need to let users drill into a transaction, Blockscout's API gives you the same data as Etherscan but it's open-source and you can run your own instance."
-      },
-      {
-        "id": "hardhat",
-        "rationale": "Local Ethereum development environment. Spin up a local blockchain, deploy contracts to it, write tests in TypeScript. The standard for smart contract development. Foundry is faster but Hardhat has better beginner documentation."
+        "id": "n8n",
+        "rationale": "Free and open node based Workflow Automation Tool."
       }
     ],
-    "insight": "You don't need to understand consensus mechanisms to build on-chain tools. You need to understand: wallets have addresses, addresses have transaction histories, transactions move tokens between addresses. Start there, the rest is data engineering."
+    "insight": "Start with a Backend-as-a-Service like Supabase. Only write custom backend code when your BaaS literally cannot do it."
   }
 };
 

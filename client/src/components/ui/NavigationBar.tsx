@@ -146,8 +146,8 @@ export function NavigationBar() {
                     <ListItem title="Cybersecurity / OSINT" href="/build/osint">
                       Shodan, Holehe, Semgrep, Neo4j.
                     </ListItem>
-                    <ListItem title="Blockchain / Web3" href="/build/web3">
-                      Alchemy, Etherscan, DefiLlama, Viem.
+                    <ListItem title="Backend & API" href="/build/backend">
+                      Supabase, Neon, Firebase, FastAPI, n8n.
                     </ListItem>
                   </ul>
                 </NavigationMenuContent>
