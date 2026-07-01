@@ -1,30 +1,54 @@
-# Builder OS — Product Suggestions & Architectural Ideas
+# Lyra (Version 2.0) — Product Roadmap & Suggestions
 
-## 1. Upvote / Downvote (Like/Dislike) System
-* **Mechanic:** A clean, minimal upvote/downvote system for each tool (similar to Product Hunt or Hacker News, but styled with premium micro-interactions).
-* **Sorting & Curation:** 
-  * The default view can sort tools dynamically by "Most Liked" or "Trending" (a score combining likes and recency).
-  * The most upvoted tool in each category receives a special "Community Recommended" badge.
-* **UI/UX Implementation:** 
-  * Subtle hover states on the vote counters.
-  * Instant local state update (optimistic UI) with a micro-animation (e.g., a tiny scale-up of the arrow/heart icon when clicked) to feel fast and responsive.
+This is the master list of features we can build next to turn Lyra from a highly curated directory into an absolute powerhouse platform. I have broken these down by the type of developer we want to help, from absolute beginners to hardcore power users.
 
-## 2. Tool Submission & Review Pipeline ("Suggest a Tool")
-* **Mechanic:** A dedicated form or drawer where users can submit a helpful new tool.
-* **Fields:** Tool Name, Website URL, One-line Description, Primary Category, and why they find it helpful.
-* **Curation Workflow:** Submissions go to a review queue (which we can store in a database or local file) for moderation before going live. This keeps the directory premium and spam-free.
-* **UI/UX Implementation:** A minimal, command-line style modal or a beautifully designed floating drawer at the bottom of the screen.
+Whatever we don't build today, we can keep here for the future!
 
-## 3. Senior UI/UX & Frontend Expert Checklist for a World-Class Resource Guide
-To make Builder OS stand out as a premium, highly-curated, and widely shared platform:
-* **Progressive Disclosure:** Do not overwhelm users with 200 cards at once. Use tabs, search-first interfaces, or curated lists (e.g., "Top 5 Tools for AI Startups").
-* **Sensory Visual Rhythm:** Large typography, generous whitespace (line heights and margins), and a high-contrast dark theme.
-* **Fuzzy Command Search:** A spotlight/command palette search (similar to Raycast/Spotlight) using keyboard shortcuts (e.g., `Cmd+K`) that searches tags, categories, and descriptions instantly.
-* **Keyboard Navigation:** Allow power users to navigate search results and select tools using arrow keys and `Enter`.
-* **Instant Load Times (Zero CLS):** Ensure no layout shifts (CLS) on load by pre-calculating grid heights and using skeleton loaders for lazy-loaded assets.
-* **One-Click Actions:** Allow quick-copying of URLs, clone commands, or stacks right from the card level without opening details.
-* **Clean Metadata Badges:** Use clean, unified tag styling (e.g., Free, Open Source (OSS), Paid) with muted HSL colors instead of bright primary colors.
+---
 
-## 4. Spotlight Search Bar (Hero Feature)
-* **Design:** A large, central search input that dominates the top of the interface or floats as a Command Menu.
-* **Technology:** Powered by `fuse.js` (fuzzy search) on the frontend for instant, sub-millisecond filtering across name, tags, categories, and descriptions.
+## 🟢 For the "Noobie" (Beginners)
+*Goal: Remove overwhelm, build confidence, and provide clear opinions.*
+
+1. **"Versus" Pages (e.g., Next.js vs Vite, Supabase vs Firebase)**
+   * Beginners constantly suffer from analysis paralysis. If we create dedicated pages comparing the top 2 alternatives in simple, honest terms, they will rank incredibly high on Google and solve a massive pain point.
+2. **One-Click Starter Templates**
+   * Instead of just reading about the stack, give them a CLI command (e.g., `npx create-lyra-app`) or a GitHub template repository to instantly launch a pre-configured Next.js + Supabase + Tailwind project.
+3. **"Explain Like I'm 5" Tooltips**
+   * If a tool says it handles "Edge Compute" or "Reverse Proxies", a beginner won't know what that means. A subtle dotted underline that shows a simple English definition on hover would be a game-changer.
+4. **Interactive Tech Tree**
+   * A visual map (like a skill tree in a video game). "If you know HTML/CSS -> Learn React -> Learn Next.js". Clicking a node shows the tools for that stage.
+
+---
+
+## 🟡 For the "Intermediate" (Mid-Level Devs)
+*Goal: Optimize their workflow, help them transition to modern stacks, and discover hidden gems.*
+
+1. **Live GitHub Stars & NPM Downloads**
+   * Intermediate devs care about adoption. Fetching live GitHub stars and NPM weekly downloads directly onto the tool cards helps them judge if a tool is "safe" to adopt in production.
+2. **Shareable "My Stack" Profiles**
+   * Allow users to save their "My Stack" selections to a real database (Supabase) and generate a public profile link (`lyra.dev/stack/username`). They can put this in their Twitter or GitHub bio.
+3. **Use-Case Filtering (Semantic Tagging)**
+   * Beyond just "Database" or "UI", filter by exact needs: *"Tools for sending transactional emails"*, *"Tools for React Native animations"*, *"Cheap alternatives to Vercel"*.
+4. **Community Reviews / Honest Pros & Cons**
+   * A simple, high-quality review system where verified developers can leave 2 pros and 2 cons for a tool. No fluff, just technical realities (e.g., "Supabase: Pro - Instant APIs. Con - Migrations can be tricky").
+
+---
+
+## 🔴 For the "Pro" (Senior Devs & Architects)
+*Goal: Speed, efficiency, and deep architectural insights.*
+
+1. **Global Command Palette (`Cmd + K`)**
+   * Pro devs don't click. They use the keyboard. A global command palette that lets them instantly jump to a tool's documentation, copy the install command (`npm i framer-motion`), or navigate the site without touching the mouse.
+2. **Architecture Blueprints**
+   * High-level system design diagrams (using Mermaid.js or React Flow) showing exactly how these tools connect in production. (e.g., "How Netflix uses GraphQL" or "A standard B2B SaaS architecture map").
+3. **Pricing Calculators (The "Hidden Costs")**
+   * Pros care about scale. A simple slider on tools (like Vercel or Supabase) that estimates cost at 10k, 100k, and 1M users. Highlighting hidden costs (like bandwidth overage fees).
+4. **API Integration (Lyra as a Service)**
+   * Expose Lyra's highly-curated JSON dataset via an open API so other developers can build tooling, CLIs, or IDE extensions on top of your curation.
+
+---
+
+## 🛠️ The "Low-Hanging Fruit" (What we can do immediately)
+- [ ] Add a "Suggest a Tool" Google Form or Typeform link so the community can crowd-source the curation.
+- [ ] Implement `Cmd+K` keyboard shortcut to auto-focus the global search bar we just built.
+- [ ] Add a light mode toggle (though the dark mode is currently perfection). 
