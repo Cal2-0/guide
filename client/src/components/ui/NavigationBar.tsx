@@ -118,6 +118,9 @@ export function NavigationBar() {
                     <ListItem href="/library" title="All Tools">
                       Search and filter the complete Lyra directory.
                     </ListItem>
+                    <ListItem href="/guide" title="Start Guide">
+                      The honest guide to starting your project.
+                    </ListItem>
                     <ListItem href="/stack" title="My Stack">
                       View your saved and bookmarked tools.
                     </ListItem>
@@ -128,23 +131,23 @@ export function NavigationBar() {
                 <NavigationMenuTrigger className="bg-transparent text-foreground/80 hover:text-foreground">Build Intent</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                    <ListItem title="Frontend & UI" href="/build/website">
-                      React, Vue, Tailwind, Radix UI, Framer Motion.
+                    <ListItem title="Website / Landing Page" href="/build/website">
+                      Framer, MotionSites, Umami, Fontsource.
                     </ListItem>
-                    <ListItem title="Backend & APIs" href="/build/backend">
-                      Node, Rust, Go, GraphQL, tRPC.
+                    <ListItem title="AI App" href="/build/ai">
+                      OpenRouter, Groq, LlamaIndex, pgvector.
                     </ListItem>
-                    <ListItem title="Databases" href="/build/database">
-                      PostgreSQL, Redis, Supabase, Prisma.
+                    <ListItem title="SaaS / Startup" href="/build/saas">
+                      Next.js, Supabase, Drizzle, Lemon Squeezy.
                     </ListItem>
-                    <ListItem title="Deploy & Scale" href="/build/deploy">
-                      Vercel, AWS, Docker, Kubernetes.
+                    <ListItem title="Mobile App" href="/build/mobile">
+                      Expo, NativeWind, MMKV, RevenueCat.
                     </ListItem>
-                    <ListItem title="AI & ML" href="/build/ai">
-                      OpenAI, HuggingFace, LangChain, Pinecone.
+                    <ListItem title="Cybersecurity / OSINT" href="/build/osint">
+                      Shodan, Holehe, Semgrep, Neo4j.
                     </ListItem>
-                    <ListItem title="Mobile Apps" href="/build/mobile">
-                      React Native, Expo, Flutter, Swift.
+                    <ListItem title="Blockchain / Web3" href="/build/web3">
+                      Alchemy, Etherscan, DefiLlama, Viem.
                     </ListItem>
                   </ul>
                 </NavigationMenuContent>
@@ -164,6 +167,9 @@ export function NavigationBar() {
               {theme === 'dark' ? <Sun className="w-[18px] h-[18px]" /> : <Moon className="w-[18px] h-[18px]" />}
             </button>
           )}
+          <Link href="/guide" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
+              The Honest Guide
+          </Link>
           <Link href="/stack" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
               My Stack
           </Link>

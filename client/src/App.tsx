@@ -12,6 +12,7 @@ import { Library } from "./pages/Library";
 import { ToolDetail } from "./pages/ToolDetail";
 import { MyStack } from "./pages/MyStack";
 import { RevealBackground } from "./components/ui/RevealBackground";
+import { StartGuide } from "./pages/StartGuide";
 
 function Router() {
   return (
@@ -24,6 +25,7 @@ function Router() {
       <Route path="/library" component={Library} />
       <Route path="/tool/:id" component={ToolDetail} />
       <Route path="/stack" component={MyStack} />
+      <Route path="/guide" component={StartGuide} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
