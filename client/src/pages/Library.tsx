@@ -3,13 +3,14 @@ import { SearchDock } from "@/components/ui/SearchDock";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { GlassPill } from "@/components/ui/GlassPill";
 import { tools } from "@/lib/toolsData";
-import { LayoutGrid, ArrowUp } from "lucide-react";
+import { LayoutGrid, ArrowUp, Filter } from "lucide-react";
 
 import { useSearch } from "wouter";
 import { usePageTitle } from "@/hooks/usePageTitle";
 
-const PRICING_FILTERS = ["All", "Free", "OSS", "Paid", "Free tier", "AI"] as const;
-type PricingFilter = (typeof PRICING_FILTERS)[number];
+const PRICING_FILTERS = ["Free", "OSS", "Paid", "Free tier", "AI"] as const;
+const ECOSYSTEM_FILTERS = ["React", "Node", "Rust", "Python", "Go"] as const;
+const INTEGRATION_FILTERS = ["GitHub", "Vercel", "Slack"] as const;
 
 export function Library() {
   usePageTitle("Library");
@@ -23,6 +24,7 @@ export function Library() {
   const [selectedTags, setSelectedTagsState] = useState<string[]>(initialTags);
   const [sortBy, setSortByState] = useState<"liked" | "newest">(initialSort);
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
 
   // Centralized URL sync helper
   const updateUrl = (category: string, tags: string[], sort: string) => {
@@ -40,11 +42,6 @@ export function Library() {
   };
 
   const toggleTag = (tag: string) => {
-    if (tag === "All") {
-      setSelectedTagsState([]);
-      updateUrl(activeCategory, [], sortBy);
-      return;
-    }
     const next = selectedTags.includes(tag)
       ? selectedTags.filter(t => t !== tag)
       : [...selectedTags, tag];
@@ -92,10 +89,10 @@ export function Library() {
   const filteredTools = useMemo(() => {
     let result = activeCategory === "All" ? tools : tools.filter(t => t.category === activeCategory);
     
-    // Tag/pricing filter
+    // Tag/pricing/ecosystem filter
     if (selectedTags.length > 0) {
       result = result.filter(tool =>
-        selectedTags.some(tag => tool.tags.includes(tag))
+        selectedTags.every(tag => tool.tags.includes(tag) || tool.name.toLowerCase().includes(tag.toLowerCase()) || tool.description.toLowerCase().includes(tag.toLowerCase()))
       );
     }
 
@@ -118,36 +115,92 @@ export function Library() {
 
   const hasActiveFilters = activeCategory !== "All" || selectedTags.length > 0;
 
+  const FilterSection = ({ title, items }: { title: string, items: readonly string[] }) => (
+    <div className="mb-6">
+      <h4 className="text-foreground/70 text-xs font-semibold uppercase tracking-wider mb-3 px-1">{title}</h4>
+      <div className="flex flex-wrap gap-2">
+        {items.map(item => (
+          <GlassPill
+            key={item}
+            active={selectedTags.includes(item)}
+            onClick={() => toggleTag(item)}
+            className="text-xs px-3 py-1.5"
+            size="sm"
+          >
+            {item}
+          </GlassPill>
+        ))}
+      </div>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-transparent pt-24 pb-32">
       <div className="container max-w-[1400px]">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 mt-12">
-          {/* Left Rail: Categories */}
-          <aside className="lg:w-64 flex-none">
-            <div className="sticky top-48 flex flex-col gap-2">
-              <h3 className="text-text-primary font-semibold text-sm tracking-widest uppercase mb-4 px-2">
-                Categories
-              </h3>
-              <div className="flex flex-row lg:flex-col flex-nowrap gap-3 overflow-x-auto lg:overflow-x-hidden lg:max-h-[70vh] lg:overflow-y-auto pb-4 lg:pr-2 no-scrollbar">
-                {categories.map((cat) => (
-                  <GlassPill
-                    key={cat}
-                    size="md"
-                    active={activeCategory === cat}
-                    onClick={() => setActiveCategory(cat)}
-                    className="justify-start px-4 h-auto py-2.5 w-auto lg:w-full text-[14px]"
-                  >
-                    {cat}
-                  </GlassPill>
-                ))}
+        {/* Mobile Filter Toggle */}
+        <div className="lg:hidden flex items-center justify-between mt-8 mb-4">
+          <button 
+            onClick={() => setShowMobileFilters(!showMobileFilters)}
+            className="flex items-center gap-2 text-foreground bg-white/5 border border-border px-4 py-2 rounded-full"
+          >
+            <Filter className="w-4 h-4" />
+            <span>Filters {selectedTags.length > 0 && `(${selectedTags.length})`}</span>
+          </button>
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 lg:mt-12">
+          {/* Left Rail: Categories & Filters */}
+          <aside className={`lg:w-72 flex-none ${showMobileFilters ? 'block' : 'hidden lg:block'}`}>
+            <div className="sticky top-28 flex flex-col gap-8 max-h-[85vh] overflow-y-auto no-scrollbar pb-8 pr-2">
+              
+              {/* Category Filter */}
+              <div>
+                <h3 className="text-foreground font-semibold text-sm tracking-widest uppercase mb-4 px-2">
+                  Categories
+                </h3>
+                <div className="flex flex-col gap-1.5">
+                  {categories.map((cat) => (
+                    <button
+                      key={cat}
+                      onClick={() => {
+                        setActiveCategory(cat);
+                        setShowMobileFilters(false);
+                      }}
+                      className={`text-left px-3 py-2 rounded-lg text-sm transition-colors ${
+                        activeCategory === cat 
+                          ? 'bg-white/10 text-foreground font-medium' 
+                          : 'text-foreground/70 hover:bg-white/5 hover:text-foreground'
+                      }`}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
               </div>
+
+              {/* Advanced Filters */}
+              <div className="bg-white/5 border border-border rounded-xl p-5">
+                <FilterSection title="Pricing" items={PRICING_FILTERS} />
+                <FilterSection title="Ecosystem" items={ECOSYSTEM_FILTERS} />
+                <FilterSection title="Integration" items={INTEGRATION_FILTERS} />
+                
+                {selectedTags.length > 0 && (
+                  <button 
+                    onClick={() => setSelectedTagsState([])}
+                    className="w-full mt-2 py-2 text-sm text-foreground/60 hover:text-foreground hover:bg-white/5 rounded-lg transition-colors"
+                  >
+                    Clear Filters
+                  </button>
+                )}
+              </div>
+
             </div>
           </aside>
 
           {/* Right Rail: Tool Grid */}
           <main className="flex-1 min-w-0">
             {/* Header row: Title + Sort */}
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
               <h1 className="text-white text-3xl font-semibold tracking-tight">
                 {activeCategory === "All" ? "All Tools" : activeCategory}
               </h1>
@@ -170,43 +223,15 @@ export function Library() {
               </div>
             </div>
 
-            {/* Pricing/Type Filter Pills */}
-            <div className="flex items-center gap-2 mb-6 flex-wrap">
-              <span className="text-text-tertiary text-sm mr-1">Type:</span>
-              {PRICING_FILTERS.map((tag) => {
-                const isActive = tag === "All" ? selectedTags.length === 0 : selectedTags.includes(tag);
-                return (
-                  <GlassPill
-                    key={tag}
-                    size="sm"
-                    active={isActive}
-                    onClick={() => toggleTag(tag)}
-                    className={
-                      tag !== "All" && isActive
-                        ? tag === "Free" ? "!bg-emerald-500/20 !text-emerald-300 !border-emerald-500/30" :
-                          tag === "OSS" ? "!bg-blue-500/20 !text-blue-300 !border-blue-500/30" :
-                          tag === "Paid" ? "!bg-amber-500/20 !text-amber-300 !border-amber-500/30" :
-                          tag === "Free tier" ? "!bg-cyan-500/20 !text-cyan-300 !border-cyan-500/30" :
-                          tag === "AI" ? "!bg-purple-500/20 !text-purple-300 !border-purple-500/30" :
-                          ""
-                        : ""
-                    }
-                  >
-                    {tag}
-                  </GlassPill>
-                );
-              })}
-            </div>
-
-            {/* Result count */}
-            <div className="flex items-center justify-between mb-6">
-              <p className="text-text-tertiary text-sm">
-                Showing <span className="text-white font-medium">{filteredTools.length}</span> of {tools.length} tools
+            {/* Results Header */}
+            <div className="flex items-center justify-between mb-8">
+              <p className="text-text-secondary text-sm">
+                Showing {filteredTools.length} {filteredTools.length === 1 ? "tool" : "tools"}
               </p>
               {hasActiveFilters && (
                 <button 
                   onClick={clearAllFilters}
-                  className="text-[#e8702a] text-sm font-medium hover:text-[#d2611f] transition-colors"
+                  className="text-sm text-brand-accent hover:text-brand-accent-hover transition-colors"
                 >
                   Clear all filters
                 </button>

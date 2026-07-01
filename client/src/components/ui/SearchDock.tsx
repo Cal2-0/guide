@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, Command, X } from "lucide-react";
+import { Search, Command, X, Sparkles } from "lucide-react";
 import Fuse from "fuse.js";
 import { tools, Tool } from "@/lib/toolsData";
 import { ToolCard } from "./ToolCard";
@@ -24,6 +24,7 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
   const [isOpen, setIsOpen] = useState(isPinned);
   const [query, setQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [isVibeMode, setIsVibeMode] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -199,20 +200,38 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     onKeyDown={handleKeyDown}
-                    placeholder={`Search ${tools.length}+ tools...`}
-                    className="w-full h-16 pl-16 pr-14 bg-white/5 backdrop-blur-md border-b border-white/10 text-white text-xl placeholder:text-white/40 focus:outline-none"
+                    placeholder={isVibeMode ? "Describe what you're trying to build..." : `Search ${tools.length}+ tools...`}
+                    className={cn(
+                      "w-full h-16 pl-16 pr-14 backdrop-blur-md border-b text-foreground text-xl focus:outline-none transition-colors",
+                      isVibeMode
+                        ? "bg-purple-900/10 border-purple-500/30 placeholder:text-purple-300/50"
+                        : "bg-white/5 border-border placeholder:text-foreground/40"
+                    )}
                   />
                   <button
                     onClick={() => setIsOpen(false)}
-                    className="absolute inset-y-0 right-0 pr-5 flex items-center text-white/40 hover:text-white transition-colors"
+                    className="absolute inset-y-0 right-0 pr-5 flex items-center text-foreground/40 hover:text-foreground transition-colors"
                   >
                     <X className="w-6 h-6" />
                   </button>
                 </div>
 
                 {/* Quick filter pills */}
-                <div className="flex-none flex items-center gap-2 px-5 py-3 border-b border-white/5">
-                  <span className="text-text-tertiary text-[11px] font-medium uppercase tracking-wider mr-1">Filter:</span>
+                <div className="flex-none flex items-center gap-2 px-5 py-3 border-b border-border bg-background/50">
+                  <span className="text-foreground/60 text-[11px] font-medium uppercase tracking-wider mr-1">Filter:</span>
+                  <button
+                    onClick={() => setIsVibeMode(!isVibeMode)}
+                    className={cn(
+                      "px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide flex items-center gap-1.5 transition-all duration-200 border",
+                      isVibeMode
+                        ? "bg-purple-500/20 text-purple-300 border-purple-500/50 shadow-[0_0_15px_rgba(168,85,247,0.4)]"
+                        : "bg-white/5 text-foreground/60 border-border hover:bg-white/10"
+                    )}
+                  >
+                    <Sparkles className="w-3 h-3" />
+                    Vibe Search
+                  </button>
+                  <div className="w-px h-4 bg-border mx-1" />
                   {QUICK_FILTERS.map(tag => (
                     <button
                       key={tag}
@@ -224,7 +243,7 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
                             tag === "OSS" ? "bg-blue-500/20 text-blue-300 border-blue-500/30" :
                             tag === "Paid" ? "bg-amber-500/20 text-amber-300 border-amber-500/30" :
                             "bg-purple-500/20 text-purple-300 border-purple-500/30"
-                          : "bg-white/5 text-white/50 border-white/10 hover:bg-white/10 hover:text-white/70"
+                          : "bg-white/5 text-foreground/50 border-border hover:bg-white/10 hover:text-foreground/80"
                       )}
                     >
                       {tag}
@@ -233,23 +252,28 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
                   {activeFilter && (
                     <button
                       onClick={() => setActiveFilter(null)}
-                      className="text-text-tertiary text-[11px] hover:text-white transition-colors ml-1"
+                      className="text-foreground/50 text-[11px] hover:text-foreground transition-colors ml-1"
                     >
                       Clear
                     </button>
                   )}
                 </div>
 
-                <div ref={resultsRef} className="flex-1 overflow-y-auto p-4 custom-scrollbar">
+                <div ref={resultsRef} className="flex-1 overflow-y-auto p-4 custom-scrollbar bg-background/50">
                   {!hasQuery && (
-                    <div className="py-8 text-center text-text-tertiary">
-                      Start typing to search across all tools, categories, and tags.
+                    <div className="py-8 text-center text-foreground/50">
+                      {isVibeMode 
+                        ? "Example: 'I need a fast database for a weekend side project'" 
+                        : "Start typing to search across all tools, categories, and tags."}
                     </div>
                   )}
                   {hasQuery && displayResults.length > 0 && (
                     <>
-                      <div className="text-text-tertiary text-[11px] font-medium mb-3 px-1">
-                        {results.length} result{results.length !== 1 ? "s" : ""}{results.length > 8 ? " (showing top 8)" : ""}
+                      <div className="text-foreground/50 text-[11px] font-medium mb-3 px-1 flex items-center gap-2">
+                        {isVibeMode && <Sparkles className="w-3.5 h-3.5 text-purple-400" />}
+                        {isVibeMode 
+                          ? "AI Recommendations" 
+                          : `${results.length} result${results.length !== 1 ? "s" : ""}${results.length > 8 ? " (showing top 8)" : ""}`}
                       </div>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         {displayResults.map((tool, idx) => (
