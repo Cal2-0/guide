@@ -4,6 +4,7 @@ import { ScrollDial } from "@/components/ui/ScrollDial";
 import { SectionReveal } from "@/components/ui/SectionReveal";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { tools } from "@/lib/toolsData";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 // Hardcoded mock mapping for demonstration, real app would have more complex curations
 const INTENT_STAGES: Record<string, { id: string; label: string; categories: string[] }[]> = {
@@ -26,6 +27,7 @@ export function BuildIntent() {
   // Format intent ID for display
   const title = intentId.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
   const stages = INTENT_STAGES[intentId] || INTENT_STAGES["website"];
+  usePageTitle(`Build a ${title}`);
 
   return (
     <div className="min-h-screen bg-transparent pt-32 pb-32">

@@ -1,16 +1,19 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, Command, X } from "lucide-react";
 import Fuse from "fuse.js";
-import { tools } from "@/lib/toolsData";
+import { tools, Tool } from "@/lib/toolsData";
 import { ToolCard } from "./ToolCard";
 import { cn } from "@/lib/utils";
+import { useLocation } from "wouter";
 
 // Create Fuse instance once
 const fuse = new Fuse(tools, {
   keys: ["name", "description", "category", "tags"],
   threshold: 0.3,
 });
+
+const QUICK_FILTERS = ["Free", "OSS", "Paid", "AI"] as const;
 
 interface SearchDockProps {
   isPinned?: boolean;
@@ -20,7 +23,11 @@ interface SearchDockProps {
 export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDockProps) {
   const [isOpen, setIsOpen] = useState(isPinned);
   const [query, setQuery] = useState("");
+  const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const [, navigate] = useLocation();
 
   useEffect(() => {
     if (isPinned) return;
@@ -51,10 +58,67 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
   useEffect(() => {
     if (isOpen && !isPinned) {
       inputRef.current?.focus();
+      setQuery("");
+      setActiveFilter(null);
+      setSelectedIndex(-1);
     }
   }, [isOpen, isPinned]);
 
-  const results = query ? fuse.search(query).map((res) => res.item) : [];
+  // Compute results
+  const results = (() => {
+    let items: Tool[];
+    if (query) {
+      items = fuse.search(query).map((res) => res.item);
+    } else if (activeFilter) {
+      // Show filter results even without search text
+      items = tools.filter(t => t.tags.includes(activeFilter));
+    } else {
+      items = [];
+    }
+
+    // Apply tag filter on top of search results
+    if (activeFilter && query) {
+      items = items.filter(t => t.tags.includes(activeFilter));
+    }
+
+    return items;
+  })();
+
+  // Reset selected index when results change
+  useEffect(() => {
+    setSelectedIndex(-1);
+  }, [query, activeFilter]);
+
+  // Keyboard navigation for results
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    const maxIndex = Math.min(results.length, 8) - 1;
+    
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setSelectedIndex(prev => (prev < maxIndex ? prev + 1 : 0));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setSelectedIndex(prev => (prev > 0 ? prev - 1 : maxIndex));
+    } else if (e.key === "Enter" && selectedIndex >= 0 && selectedIndex <= maxIndex) {
+      e.preventDefault();
+      const tool = results[selectedIndex];
+      if (tool) {
+        navigate(`/tool/${tool.id}`);
+        setIsOpen(false);
+      }
+    }
+  }, [results, selectedIndex, navigate]);
+
+  // Scroll selected item into view
+  useEffect(() => {
+    if (selectedIndex >= 0 && resultsRef.current) {
+      const items = resultsRef.current.querySelectorAll("[data-result-item]");
+      items[selectedIndex]?.scrollIntoView({ block: "nearest" });
+    }
+  }, [selectedIndex]);
+
+  const hasQuery = query || activeFilter;
+  const displayResults = results.slice(0, 8);
 
   if (isPinned) {
     return (
@@ -68,7 +132,7 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search 400+ tools by name, tag, or intent..."
+            placeholder={`Search ${tools.length}+ tools by name, tag, or intent...`}
             className="w-full h-16 pl-16 pr-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-white text-lg placeholder:text-white/40 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] shadow-2xl cursor-text hover:bg-white/[0.08]"
           />
         </div>
@@ -134,7 +198,8 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Search 400+ tools..."
+                    onKeyDown={handleKeyDown}
+                    placeholder={`Search ${tools.length}+ tools...`}
                     className="w-full h-16 pl-16 pr-14 bg-white/5 backdrop-blur-md border-b border-white/10 text-white text-xl placeholder:text-white/40 focus:outline-none"
                   />
                   <button
@@ -145,22 +210,66 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
                   </button>
                 </div>
 
-                <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
-                  {!query && (
+                {/* Quick filter pills */}
+                <div className="flex-none flex items-center gap-2 px-5 py-3 border-b border-white/5">
+                  <span className="text-text-tertiary text-[11px] font-medium uppercase tracking-wider mr-1">Filter:</span>
+                  {QUICK_FILTERS.map(tag => (
+                    <button
+                      key={tag}
+                      onClick={() => setActiveFilter(prev => prev === tag ? null : tag)}
+                      className={cn(
+                        "px-2.5 py-1 rounded-full text-[11px] font-semibold tracking-wide uppercase transition-all duration-200 border",
+                        activeFilter === tag
+                          ? tag === "Free" ? "bg-emerald-500/20 text-emerald-300 border-emerald-500/30" :
+                            tag === "OSS" ? "bg-blue-500/20 text-blue-300 border-blue-500/30" :
+                            tag === "Paid" ? "bg-amber-500/20 text-amber-300 border-amber-500/30" :
+                            "bg-purple-500/20 text-purple-300 border-purple-500/30"
+                          : "bg-white/5 text-white/50 border-white/10 hover:bg-white/10 hover:text-white/70"
+                      )}
+                    >
+                      {tag}
+                    </button>
+                  ))}
+                  {activeFilter && (
+                    <button
+                      onClick={() => setActiveFilter(null)}
+                      className="text-text-tertiary text-[11px] hover:text-white transition-colors ml-1"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+
+                <div ref={resultsRef} className="flex-1 overflow-y-auto p-4 custom-scrollbar">
+                  {!hasQuery && (
                     <div className="py-8 text-center text-text-tertiary">
                       Start typing to search across all tools, categories, and tags.
                     </div>
                   )}
-                  {query && results.length > 0 && (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {results.slice(0, 8).map(tool => (
-                        <ToolCard key={tool.id} tool={tool} />
-                      ))}
-                    </div>
+                  {hasQuery && displayResults.length > 0 && (
+                    <>
+                      <div className="text-text-tertiary text-[11px] font-medium mb-3 px-1">
+                        {results.length} result{results.length !== 1 ? "s" : ""}{results.length > 8 ? " (showing top 8)" : ""}
+                      </div>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        {displayResults.map((tool, idx) => (
+                          <div 
+                            key={tool.id} 
+                            data-result-item
+                            className={cn(
+                              "rounded-2xl transition-all duration-200",
+                              selectedIndex === idx && "ring-2 ring-[#e8702a]/60 ring-offset-1 ring-offset-transparent"
+                            )}
+                          >
+                            <ToolCard tool={tool} />
+                          </div>
+                        ))}
+                      </div>
+                    </>
                   )}
-                  {query && results.length === 0 && (
+                  {hasQuery && results.length === 0 && (
                     <div className="py-8 text-center text-text-tertiary">
-                      No results found for "{query}"
+                      No results found{query ? ` for "${query}"` : ""}{activeFilter ? ` with filter "${activeFilter}"` : ""}
                     </div>
                   )}
                 </div>

@@ -1,23 +1,16 @@
-import { useState, useRef, useEffect } from "react";
-import { Menu, X, ArrowRight, Search } from "lucide-react";
-import { motion } from "framer-motion";
+import { Search } from "lucide-react";
 import { Link } from "wouter";
 import { categories } from "@/lib/toolsDataArticle";
 import { CategoryCarousel } from "@/components/ui/CategoryCarousel";
 import { SearchDock } from "@/components/ui/SearchDock";
-
-// ── Asset URLs ──
-
-const SPOTLIGHT_R = 260;
-
-
+import { tools } from "@/lib/toolsData";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 // ─────────────────────────────────────────────
 // Landing — Builder OS
 // ─────────────────────────────────────────────
 export default function Landing() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  usePageTitle();
 
   return (
     <div className="relative min-h-screen tracking-[-0.02em] text-white">
@@ -49,7 +42,7 @@ export default function Landing() {
           <p 
             className="mt-6 text-[15px] sm:text-[17px] text-white/65 font-medium max-w-lg mx-auto tracking-wide"
           >
-            The curated OS for builders. 400+ tools, zero noise.
+            The curated OS for builders. {tools.length}+ tools, zero noise.
           </p>
 
           <div className="mt-12 w-full max-w-2xl mx-auto pointer-events-auto">
@@ -87,10 +80,8 @@ export default function Landing() {
 
         {/* Layer 5 — Bottom‑right block + CTA */}
         <div className="absolute bottom-10 sm:bottom-12 left-5 right-5 sm:left-auto sm:right-8 md:right-12 flex flex-col items-start sm:items-end gap-5 z-50">
-          <Link href="/discover">
-            <a className="bg-[#e8702a] hover:bg-[#d2611f] text-white text-[14px] font-semibold px-8 py-3.5 rounded-full transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.04] active:scale-95 hover:shadow-[0_0_24px_rgba(232,112,42,0.4)]">
+          <Link href="/discover" className="bg-[#e8702a] hover:bg-[#d2611f] text-white text-[14px] font-semibold px-8 py-3.5 rounded-full transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.04] active:scale-95 hover:shadow-[0_0_24px_rgba(232,112,42,0.4)]">
               Start Exploring
-            </a>
           </Link>
         </div>
       </section>

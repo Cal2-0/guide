@@ -7,6 +7,7 @@ import {
 
 import { categories } from "@/lib/toolsDataArticle";
 import { SearchDock } from "@/components/ui/SearchDock";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const getCategoryIcon = (name: string) => {
   const n = name.toLowerCase();
@@ -31,14 +32,9 @@ const getCategoryIcon = (name: string) => {
   return Globe;
 };
 
-// Bigger heights to create a prominent staggered collage layout without scrolling
-const COLLAGE_HEIGHTS = [
-  "h-40", "h-48", "h-44", "h-52", 
-  "h-44", "h-48", "h-40", "h-52", 
-  "h-44", "h-48", "h-44", "h-48"
-];
-
 export function Discover() {
+  usePageTitle("Discover");
+
   return (
     <div className="relative min-h-screen pt-24 pb-32 overflow-hidden bg-transparent">
       <div className="container max-w-[1400px] relative z-10 mx-auto px-4">

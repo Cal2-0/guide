@@ -35,8 +35,7 @@ export function NavigationBar() {
         )}
       >
         {/* Left — Logo + Wordmark */}
-        <Link href="/">
-          <a className="flex items-center gap-2.5 group cursor-pointer">
+        <Link href="/" className="flex items-center gap-2.5 group cursor-pointer">
             <svg
               width="28"
               height="28"
@@ -57,7 +56,6 @@ export function NavigationBar() {
             <span className="text-white text-2xl font-playfair italic pr-1">
               Lyra
             </span>
-          </a>
         </Link>
 
         {/* Center — Pill Nav (desktop) */}
@@ -65,8 +63,7 @@ export function NavigationBar() {
           {navItems.map((item) => {
             const isActive = location === item.href || (location.startsWith("/build") && item.href === "/discover");
             return (
-              <Link key={item.label} href={item.href}>
-                <a
+              <Link key={item.label} href={item.href}
                   className={cn(
                     "px-5 py-1.5 rounded-full text-[13px] font-medium transition-all duration-300",
                     isActive
@@ -75,7 +72,6 @@ export function NavigationBar() {
                   )}
                 >
                   {item.label}
-                </a>
               </Link>
             );
           })}
@@ -83,10 +79,8 @@ export function NavigationBar() {
 
         {/* Right — Get Started (desktop) / Hamburger (mobile) */}
         <div className="flex items-center">
-          <Link href="/discover">
-            <a className="hidden md:block bg-brand-accent hover:bg-brand-accent-hover text-white text-[13px] font-semibold px-5 py-2.5 rounded-full transition-colors shadow-sm">
+          <Link href="/discover" className="hidden md:block bg-brand-accent hover:bg-brand-accent-hover text-white text-[13px] font-semibold px-5 py-2.5 rounded-full transition-colors shadow-sm">
               Start Exploring
-            </a>
           </Link>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -112,22 +106,18 @@ export function NavigationBar() {
             className="fixed inset-0 z-[99] bg-[#0a0a0a]/95 backdrop-blur-xl flex flex-col items-center justify-center gap-6"
           >
             {navItems.map((item) => (
-              <Link key={item.label} href={item.href}>
-                <a
+              <Link key={item.label} href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-white text-2xl font-light hover:text-white/70 transition-colors"
                 >
                   {item.label}
-                </a>
               </Link>
             ))}
-            <Link href="/discover">
-              <a 
+            <Link href="/discover"
                 onClick={() => setMobileMenuOpen(false)}
                 className="mt-4 bg-brand-accent text-white text-sm font-semibold px-8 py-3 rounded-full"
               >
                 Start Exploring
-              </a>
             </Link>
           </motion.div>
         )}

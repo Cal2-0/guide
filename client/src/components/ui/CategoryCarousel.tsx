@@ -152,13 +152,6 @@ export function CategoryCarousel() {
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
         />
       </div>
-      
-      {/* CSS to hide scrollbar */}
-      <style dangerouslySetInnerHTML={{__html: `
-        .no-scrollbar::-webkit-scrollbar {
-          display: none;
-        }
-      `}} />
     </div>
   );
 }

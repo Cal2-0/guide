@@ -6,12 +6,14 @@ import { GlassPill } from "@/components/ui/GlassPill";
 import { tools } from "@/lib/toolsData";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export function ToolDetail() {
   const [, params] = useRoute("/tool/:id");
   const toolId = params?.id;
   const tool = tools.find(t => t.id === toolId);
   const [isSaved, setIsSaved] = useState(false);
+  usePageTitle(tool?.name);
 
   useEffect(() => {
     if (!tool) return;
@@ -57,11 +59,9 @@ export function ToolDetail() {
       <div className="container max-w-4xl relative z-10">
         
         {/* Back navigation */}
-        <Link href="/library">
-          <a className="inline-flex items-center gap-2 text-text-tertiary hover:text-text-primary transition-colors mb-12 group">
+        <Link href="/library" className="inline-flex items-center gap-2 text-text-tertiary hover:text-text-primary transition-colors mb-12 group">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-medium text-sm">Back to Library</span>
-          </a>
         </Link>
 
         {/* Hero Section */}

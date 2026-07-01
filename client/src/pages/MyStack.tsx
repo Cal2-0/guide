@@ -4,8 +4,10 @@ import { SearchDock } from "@/components/ui/SearchDock";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { tools } from "@/lib/toolsData";
 import { Heart, LayoutGrid } from "lucide-react";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export function MyStack() {
+  usePageTitle("My Stack");
   const [savedTools, setSavedTools] = useState<typeof tools>([]);
 
   const loadTools = () => {

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ArrowUpRight, Heart, Bookmark } from "lucide-react";
+import { Link } from "wouter";
 import { Tool } from "@/lib/toolsData";
 import { cn } from "@/lib/utils";
 
@@ -67,6 +68,12 @@ export function ToolCard({ tool, className }: ToolCardProps) {
     }
   };
 
+  const handleVisitSite = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    window.open(tool.url, "_blank", "noopener,noreferrer");
+  };
+
   let hostname = "";
   try {
     hostname = new URL(tool.url).hostname.replace('www.', '');
@@ -74,11 +81,12 @@ export function ToolCard({ tool, className }: ToolCardProps) {
     hostname = tool.url;
   }
 
+  // Determine the primary pricing tag for the top-right badge
+  const pricingTag = tool.tags.find(t => ["Free", "OSS", "Free tier", "Paid"].includes(t));
+
   return (
-    <a
-      href={tool.url}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      href={`/tool/${tool.id}`}
       className={cn(
         "group relative flex flex-col h-full min-h-[260px] rounded-[24px] p-[1px] overflow-hidden",
         "transition-all duration-500 ease-out",
@@ -92,6 +100,21 @@ export function ToolCard({ tool, className }: ToolCardProps) {
       {/* Inner Card */}
       <div className="relative flex flex-col h-full bg-[#0d0d0d]/95 backdrop-blur-xl rounded-[23px] p-6 sm:p-7 transition-colors duration-500">
         
+        {/* Prominent pricing badge — top right corner */}
+        {pricingTag && (
+          <div className="absolute top-4 right-4 z-10">
+            <span className={cn(
+              "inline-flex items-center px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase border",
+              pricingTag === "Free" ? "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" :
+              pricingTag === "OSS" ? "bg-blue-500/15 text-blue-400 border-blue-500/25" :
+              pricingTag === "Free tier" ? "bg-cyan-500/15 text-cyan-400 border-cyan-500/25" :
+              "bg-amber-500/15 text-amber-400 border-amber-500/25"
+            )}>
+              {pricingTag}
+            </span>
+          </div>
+        )}
+
         {/* Top bar: Icon & Actions */}
         <div className="flex items-start justify-between mb-6 gap-4">
           <div className="flex items-center gap-4 min-w-0">
@@ -144,9 +167,14 @@ export function ToolCard({ tool, className }: ToolCardProps) {
               <Bookmark className={cn("w-4 h-4 transition-transform", isSaved && "fill-current")} />
             </button>
             
-            <div className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/40 opacity-0 -translate-x-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-white group-hover:bg-white/15 group-hover:border-white/30">
+            {/* External Link Button */}
+            <button
+              onClick={handleVisitSite}
+              className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/40 opacity-0 -translate-x-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-white group-hover:bg-white/15 group-hover:border-white/30"
+              title="Visit site"
+            >
               <ArrowUpRight className="w-4 h-4" />
-            </div>
+            </button>
           </div>
         </div>
 
@@ -158,7 +186,7 @@ export function ToolCard({ tool, className }: ToolCardProps) {
         {/* Tags */}
         {tool.tags && tool.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-auto">
-            {tool.tags.slice(0, 3).map((tag) => (
+            {tool.tags.filter(t => t !== pricingTag).slice(0, 3).map((tag) => (
               <span
                 key={tag}
                 className={cn(
@@ -173,14 +201,14 @@ export function ToolCard({ tool, className }: ToolCardProps) {
                 {tag}
               </span>
             ))}
-            {tool.tags.length > 3 && (
+            {tool.tags.filter(t => t !== pricingTag).length > 3 && (
               <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/5 text-white/50 text-[11px] font-medium tracking-wide border border-transparent">
-                +{tool.tags.length - 3}
+                +{tool.tags.filter(t => t !== pricingTag).length - 3}
               </span>
             )}
           </div>
         )}
       </div>
-    </a>
+    </Link>
   );
 }
