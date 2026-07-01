@@ -1,23 +1,23 @@
-# Lyra: The Billion-Dollar Developer Tool Directory
+# Lyra: The Definitive Developer OS & Directory
 
-Lyra is a premium, high-performance directory of over 400+ hand-curated developer tools, frameworks, databases, and APIs. Built for the modern "10x Developer," Lyra prioritizes a flawless user experience, extreme performance, and semantic search.
+Lyra is a premium, high-performance directory of over **640+ hand-curated developer tools**, frameworks, databases, and APIs. Built for the modern builder, Lyra prioritizes a flawless user experience, extreme performance, and highly opinionated curation to eliminate decision fatigue.
 
-## 💎 The "Billion-Dollar" UI/UX
+## 💎 The "Billion-Dollar" UX
 
 Lyra isn't just another directory; it's designed to feel like a premium, state-of-the-art native application:
 
-*   **Vibe Search (AI Semantic)**: "I need a fast database for a side project" - Lyra understands intent, not just keywords.
-*   **Dynamic Mega-Menu**: Grouped by "Build Intent" (Frontend, Backend, Deploy, Scale) for intuitive discovery.
-*   **Advanced Faceted Filtering**: Seamlessly filter by Ecosystem (React, Node, Rust) and Integrations (GitHub, Vercel).
-*   **Flawless Dark/Light Mode**: First-class support for system themes using semantic CSS variables and `next-themes`.
-*   **Glassmorphism & Micro-animations**: Built with Framer Motion, featuring buttery smooth 60fps transitions and a custom `requestAnimationFrame` optimized background.
-*   **Keyboard First**: Press `⌘ + K` to instantly open the Search Dock from anywhere. Navigate results entirely via keyboard.
+*   **The Launchpad (Start Guide)**: An opinionated, step-by-step roadmap from Idea to Launch. Skip the paradox of choice and see exactly which tool to use for frontend, auth, and deployment.
+*   **Semantic Fuzzy Search**: Powered by Fuse.js for instant, sub-millisecond filtering across tool names, tags, categories, and descriptions.
+*   **The Honest Guide**: Curated mega-menus grouping tools by "Build Intent" (SaaS / Startup, Cybersecurity, Backend & API, etc.) for intuitive discovery.
+*   **Flawless Dark Mode**: A stunning, high-contrast dark aesthetic featuring glassmorphism, 60fps framer-motion micro-animations, and perfect typography.
+*   **My Stack**: A personalized, persistent list of your favorite tools saved instantly to local storage.
+*   **Keyboard First**: Press `⌘ + K` to instantly open the Search Dock from anywhere on the site.
 
 ## 🏗️ Architecture
 
 Lyra is built as a blazingly fast Single Page Application (SPA).
 
-*   **Framework**: React 18 + Vite
+*   **Framework**: React 19 + Vite
 *   **Routing**: `wouter` (Minimalist, fast routing)
 *   **Styling**: Tailwind CSS v4 + Radix UI Primitives + Lucide Icons
 *   **Animations**: Framer Motion
@@ -30,33 +30,33 @@ Lyra is built as a blazingly fast Single Page Application (SPA).
 ### Prerequisites
 
 *   Node.js 18+
-*   npm or pnpm
+*   pnpm (recommended) or npm
 
 ### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Cal2-0/guide.git
+   cd guide
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   pnpm install
    ```
 3. Start the development server:
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 
-## 🛠️ Features Detailed
+## 🛠️ Data Management
 
-*   **Discover Page**: A curated, animated feed of the newest and most popular tools.
-*   **Library Page**: The full 400+ tool database with advanced filtering (Category, Pricing, Ecosystem, Integration) and sorting.
-*   **Tool Detail Page**: Deep dive into a specific tool, view its stack, dependencies, and add it to your personal stack.
-*   **My Stack**: A personalized, persistent list of your favorite tools saved via `localStorage`.
+The backbone of Lyra is its highly structured data.
+*   To add or modify tools, edit the `client/src/lib/toolsDataArticle.ts` file. 
+*   The application automatically deduplicates tools and maps them to their respective UI components on load.
 
 ## 🤝 Contributing
 
-Contributions to the Lyra directory are welcome! To add a tool, modify `client/src/lib/toolsData.ts`.
+Contributions to the Lyra directory are highly welcome! Whether you are submitting a new tool for the Honest Guide or fixing a typo, feel free to open a Pull Request. Check out `suggestions.txt` in this repo for our Version 2.0 Roadmap.
 
 ## 📄 License
 
