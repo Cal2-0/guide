@@ -128,7 +128,7 @@ export function NavigationBar() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent text-foreground/80 hover:text-foreground">Build Intent</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="bg-transparent text-foreground/80 hover:text-foreground">The Honest Guide</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                     <ListItem title="Website / Landing Page" href="/build/website">

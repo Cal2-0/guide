@@ -23,45 +23,44 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
     "title": "Build a Website / Landing Page",
     "description": "A \"website\" means something people visit in a browser. A landing page is a single page designed to get someone to click, sign up, or buy. Start here. It's the fastest thing to ship and shows you the whole build-deploy loop in one sitting.",
     "stackNodes": [
-      "Framer",
-      "Fontsource",
-      "Haikei",
-      "AutoAnimate",
-      "Umami",
-      ""
+      "Mobbin",
+      "Land-book",
+      "21st.dev",
+      "Magic UI",
+      "Lucide"
     ],
     "tools": [
       {
-        "id": "framer",
-        "rationale": "Not just a design tool \u2014 it *is* the website. You design it and it's live. No code needed to start, full code control when you're ready. Vercel/Webflow users switch to this and don't go back."
+        "id": "mobbin",
+        "rationale": "The ultimate UI inspiration library. Don't reinvent the wheel \u2014 see exactly how top-tier apps solve navigation, onboarding, and settings. Search by specific UI patterns instead of just pretty dribbble shots."
+      },
+      {
+        "id": "land-book",
+        "rationale": "The best curated gallery of landing pages. When you need inspiration for a high-converting, beautiful hero section or pricing page, start here. The quality bar is exceptionally high."
+      },
+      {
+        "id": "21st-dev",
+        "rationale": "The npm for UI components. It aggregates the best React and Tailwind components from across the web. Find a stunning micro-interaction, copy the code, and drop it in."
+      },
+      {
+        "id": "magic-ui",
+        "rationale": "Premium React components tailored for marketing sites and landing pages. Marquees, bento grids, and animated text that would take hours to build from scratch. Makes your site feel like a million bucks."
+      },
+      {
+        "id": "lucide",
+        "rationale": "The only icon library you need. Clean, consistent, and massive. It's the community successor to Feather Icons. Don't waste time mixing and matching different icon sets \u2014 just use Lucide."
+      },
+      {
+        "id": "framer-motion",
+        "rationale": "The industry standard for React animations. Add a `motion.` prefix to your elements and you instantly get spring physics, layout animations, and gesture support. It's how the web feels alive."
       },
       {
         "id": "motionsites-ai",
         "rationale": "Gives you premium animated \"recipes\" \u2014 copy the prompt, paste into Claude/Cursor, get a 3D animated hero in minutes. Saves 4\u20136 hours of animation work per page."
       },
       {
-        "id": "fontsource",
-        "rationale": "Self-hosted Google Fonts via npm. Zero latency, no GDPR cookie banner, 0ms font flash. This single change measurably improves your Lighthouse score. Most devs skip it and wonder why their fonts feel slow."
-      },
-      {
         "id": "haikei",
         "rationale": "Generates unique SVG blob shapes, wave dividers, and layered backgrounds. Free, browser-based, instant download. Replaces hiring a designer for background assets."
-      },
-      {
-        "id": "autoanimate",
-        "rationale": "One hook. Adds smooth list/conditional animations to any React component with literally one line. No keyframes. No Framer Motion config. Just works."
-      },
-      {
-        "id": "cruip",
-        "rationale": "Pre-built React + Tailwind landing page templates. Clean, dark, premium. Not Bootstrap. Costs nothing. Cut your starting time by a day."
-      },
-      {
-        "id": "umami",
-        "rationale": "Open-source, self-hostable Google Analytics alternative. No cookies, no GDPR issues, no selling user data to Google. Deploy on Railway in 3 minutes."
-      },
-      {
-        "id": "shape-divider",
-        "rationale": "Browser tool that generates CSS wave/curve section separators. Paste the CSS, done. Replaces a Figma design session."
       }
     ],
     "insight": "Your website doesn't need to be custom-coded. Ship Framer first, validate that people care, then rebuild in code if the traffic warrants it."
@@ -312,8 +311,7 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
   }
 };
 
-export function BuildIntent() {
-  const [, params] = useRoute("/build/:intent");
+export function BuildIntent({ params }: { params?: { intent?: string } }) {
   const intentId = params?.intent || "website";
   const data = SPECIALIZED_INTENTS[intentId] || SPECIALIZED_INTENTS["website"];
   
