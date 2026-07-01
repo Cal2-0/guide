@@ -27,7 +27,7 @@ export default function Landing() {
         <div className="absolute top-[18%] left-0 right-0 flex flex-col items-center text-center px-5 pointer-events-none z-50">
           <h1 className="text-white leading-[1.05] flex flex-col items-center">
             <span
-              className="block font-semibold text-[44px] sm:text-[64px] md:text-[80px] font-playfair italic"
+              className="block font-light text-[44px] sm:text-[64px] md:text-[80px] font-playfair italic"
               style={{ letterSpacing: "-0.02em" }}
             >
               Discover tools

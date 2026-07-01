@@ -25,7 +25,7 @@ const ListItem = React.forwardRef<
         <Link
           href={href}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "flex flex-col justify-center select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             className
           )}
           {...props}
@@ -87,7 +87,7 @@ export function NavigationBar() {
               />
               <circle cx="12" cy="12" r="2.5" fill="currentColor" />
             </svg>
-            <span className="text-foreground text-2xl font-playfair italic pr-1">
+            <span className="text-foreground text-2xl font-playfair italic font-light pr-1">
               Lyra
             </span>
         </Link>
