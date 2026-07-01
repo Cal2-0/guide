@@ -9,14 +9,35 @@ import { usePageTitle } from "@/hooks/usePageTitle";
 // Hardcoded mock mapping for demonstration, real app would have more complex curations
 const INTENT_STAGES: Record<string, { id: string; label: string; categories: string[] }[]> = {
   website: [
-    { id: "stage-1", label: "01. Design", categories: ["UI & UX Design", "Project Inspiration"] },
-    { id: "stage-2", label: "02. Frontend", categories: ["Developer Tools"] },
-    { id: "stage-3", label: "03. Ship It", categories: ["Resources", "Learning"] }
+    { id: "stage-1", label: "01. Ideation", categories: ["Ideas & Startup Discovery", "Project Inspiration & GitHub"] },
+    { id: "stage-2", label: "02. Design", categories: ["UI & UX Design"] },
+    { id: "stage-3", label: "03. Frontend", categories: ["Frontend Development", "Vibe Coding"] },
+    { id: "stage-4", label: "04. Launch", categories: ["DevOps & Cloud", "Startup & Growth"] }
   ],
-  "ai-app": [
-    { id: "stage-1", label: "01. Models", categories: ["AI Knowledge"] },
-    { id: "stage-2", label: "02. Logic", categories: ["Developer Tools"] },
-    { id: "stage-3", label: "03. UI", categories: ["UI & UX Design"] }
+  backend: [
+    { id: "stage-1", label: "01. Architecture", categories: ["Backend Development", "Build Ecosystem"] },
+    { id: "stage-2", label: "02. APIs & Data", categories: ["Resources & Free APIs", "Developer Tools"] },
+    { id: "stage-3", label: "03. Security", categories: ["Security & OSINT", "DevOps & Cloud"] }
+  ],
+  database: [
+    { id: "stage-1", label: "01. Data Storage", categories: ["Backend Development"] },
+    { id: "stage-2", label: "02. Operations", categories: ["DevOps & Cloud", "Security & OSINT"] },
+    { id: "stage-3", label: "03. Analytics", categories: ["Startup & Growth", "Workflow Automation"] }
+  ],
+  deploy: [
+    { id: "stage-1", label: "01. Hosting", categories: ["DevOps & Cloud"] },
+    { id: "stage-2", label: "02. CI/CD", categories: ["Build Ecosystem", "Workflow Automation"] },
+    { id: "stage-3", label: "03. Security", categories: ["Security & OSINT"] }
+  ],
+  ai: [
+    { id: "stage-1", label: "01. Models", categories: ["AI & LLM", "AI Knowledge"] },
+    { id: "stage-2", label: "02. Coding", categories: ["Vibe Coding"] },
+    { id: "stage-3", label: "03. Tooling", categories: ["Developer Tools", "Workflow Automation"] }
+  ],
+  mobile: [
+    { id: "stage-1", label: "01. Design", categories: ["UI & UX Design"] },
+    { id: "stage-2", label: "02. App Frameworks", categories: ["Frontend Development", "Build Ecosystem"] },
+    { id: "stage-3", label: "03. Backend", categories: ["Backend Development", "DevOps & Cloud"] }
   ]
 };
 

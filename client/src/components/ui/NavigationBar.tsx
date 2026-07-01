@@ -164,6 +164,9 @@ export function NavigationBar() {
               {theme === 'dark' ? <Sun className="w-[18px] h-[18px]" /> : <Moon className="w-[18px] h-[18px]" />}
             </button>
           )}
+          <Link href="/stack" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
+              My Stack
+          </Link>
           <Link href="/discover" className="hidden md:block bg-foreground text-background text-[13px] font-semibold px-5 py-2.5 rounded-full transition-transform hover:scale-105 shadow-sm">
               Start Exploring
           </Link>
