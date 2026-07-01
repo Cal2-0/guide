@@ -7,37 +7,37 @@ import { tools } from "@/lib/toolsData";
 import { usePageTitle } from "@/hooks/usePageTitle";
 
 // Hardcoded mock mapping for demonstration, real app would have more complex curations
-const INTENT_STAGES: Record<string, { id: string; label: string; categories: string[] }[]> = {
+const INTENT_STAGES: Record<string, { id: string; label: string; tools: string[] }[]> = {
   website: [
-    { id: "stage-1", label: "01. Ideation", categories: ["Ideas & Startup Discovery", "Project Inspiration & GitHub"] },
-    { id: "stage-2", label: "02. Design", categories: ["UI & UX Design"] },
-    { id: "stage-3", label: "03. Frontend", categories: ["Frontend Development", "Vibe Coding"] },
-    { id: "stage-4", label: "04. Launch", categories: ["DevOps & Cloud", "Startup & Growth"] }
+    { id: "stage-1", label: "01. Ideation", tools: ["product-hunt", "indie-hackers", "github-trending", "exploding-topics"] },
+    { id: "stage-2", label: "02. Design", tools: ["mobbin", "refero", "land-book", "godly", "figma"] },
+    { id: "stage-3", label: "03. Frontend", tools: ["react", "tailwind-css", "21st-dev", "magic-ui", "framer-motion", "lucide", "haikei", "motionsites-ai"] },
+    { id: "stage-4", label: "04. Launch", tools: ["vercel", "supabase", "posthog", "sentry"] }
   ],
   backend: [
-    { id: "stage-1", label: "01. Architecture", categories: ["Backend Development", "Build Ecosystem"] },
-    { id: "stage-2", label: "02. APIs & Data", categories: ["Resources & Free APIs", "Developer Tools"] },
-    { id: "stage-3", label: "03. Security", categories: ["Security & OSINT", "DevOps & Cloud"] }
+    { id: "stage-1", label: "01. Architecture", tools: ["node-js", "rust", "go", "python", "docker"] },
+    { id: "stage-2", label: "02. APIs & Data", tools: ["graphql", "trpc", "postman", "prisma"] },
+    { id: "stage-3", label: "03. Security", tools: ["clerk", "auth0", "snyk", "cloudflare"] }
   ],
   database: [
-    { id: "stage-1", label: "01. Data Storage", categories: ["Backend Development"] },
-    { id: "stage-2", label: "02. Operations", categories: ["DevOps & Cloud", "Security & OSINT"] },
-    { id: "stage-3", label: "03. Analytics", categories: ["Startup & Growth", "Workflow Automation"] }
+    { id: "stage-1", label: "01. Data Storage", tools: ["postgresql", "redis", "mongodb", "planetscale"] },
+    { id: "stage-2", label: "02. Operations", tools: ["prisma", "drizzle", "pgadmin", "datagrip"] },
+    { id: "stage-3", label: "03. Analytics", tools: ["metabase", "posthog", "mixpanel"] }
   ],
   deploy: [
-    { id: "stage-1", label: "01. Hosting", categories: ["DevOps & Cloud"] },
-    { id: "stage-2", label: "02. CI/CD", categories: ["Build Ecosystem", "Workflow Automation"] },
-    { id: "stage-3", label: "03. Security", categories: ["Security & OSINT"] }
+    { id: "stage-1", label: "01. Hosting", tools: ["vercel", "aws", "railway", "render", "digitalocean"] },
+    { id: "stage-2", label: "02. CI/CD", tools: ["github-actions", "gitlab-ci", "circleci", "docker"] },
+    { id: "stage-3", label: "03. Security", tools: ["cloudflare", "sentry", "datadog", "grafana"] }
   ],
   ai: [
-    { id: "stage-1", label: "01. Models", categories: ["AI & LLM", "AI Knowledge"] },
-    { id: "stage-2", label: "02. Coding", categories: ["Vibe Coding"] },
-    { id: "stage-3", label: "03. Tooling", categories: ["Developer Tools", "Workflow Automation"] }
+    { id: "stage-1", label: "01. Models", tools: ["openai", "anthropic", "huggingface", "replicate"] },
+    { id: "stage-2", label: "02. Coding", tools: ["cursor", "claude-code", "windsurf", "bolt-new", "v0-by-vercel"] },
+    { id: "stage-3", label: "03. Tooling", tools: ["langchain", "pinecone", "chroma", "promptbase"] }
   ],
   mobile: [
-    { id: "stage-1", label: "01. Design", categories: ["UI & UX Design"] },
-    { id: "stage-2", label: "02. App Frameworks", categories: ["Frontend Development", "Build Ecosystem"] },
-    { id: "stage-3", label: "03. Backend", categories: ["Backend Development", "DevOps & Cloud"] }
+    { id: "stage-1", label: "01. Design", tools: ["mobbin", "figma", "spline", "rive"] },
+    { id: "stage-2", label: "02. App Frameworks", tools: ["react-native", "expo", "flutter", "swift"] },
+    { id: "stage-3", label: "03. Backend", tools: ["supabase", "firebase", "clerk", "revenuecat"] }
   ]
 };
 
@@ -64,8 +64,10 @@ export function BuildIntent() {
 
         <div className="flex flex-col gap-32">
           {stages.map((stage, index) => {
-            // Get tools matching the categories for this stage
-            const stageTools = tools.filter(t => stage.categories.includes(t.category)).slice(0, 8); // limit for UI
+            // Get tools matching the curated IDs for this stage, preserving curated order
+            const stageTools = stage.tools
+              .map(id => tools.find(t => t.id === id))
+              .filter(Boolean) as typeof tools;
 
             if (stageTools.length === 0) return null;
 
