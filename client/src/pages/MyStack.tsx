@@ -76,10 +76,8 @@ export function MyStack() {
             <p className="text-text-secondary max-w-md mx-auto mb-8">
               Explore the library or discover curated paths to find the perfect tools for your next project.
             </p>
-            <Link href="/library">
-              <a className="bg-brand-accent hover:bg-brand-accent-hover text-white font-semibold px-8 py-3.5 rounded-full transition-all duration-300 ease-premium hover:scale-105 active:scale-95 shadow-[0_0_24px_rgba(232,112,42,0.3)]">
+            <Link href="/library" className="bg-brand-accent hover:bg-brand-accent-hover text-white font-semibold px-8 py-3.5 rounded-full transition-all duration-300 ease-premium hover:scale-105 active:scale-95 shadow-[0_0_24px_rgba(232,112,42,0.3)]">
                 Explore Library
-              </a>
             </Link>
           </div>
         )}

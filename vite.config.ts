@@ -4,7 +4,6 @@ import react from "@vitejs/plugin-react";
 import fs from "node:fs";
 import path from "node:path";
 import { defineConfig, type Plugin, type ViteDevServer } from "vite";
-import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
 // =============================================================================
 // Manus Debug Collector - Vite Plugin
@@ -203,7 +202,20 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+// Manus-specific plugins are optional — gracefully skip if unavailable (e.g. on Netlify)
+let manusRuntime: Plugin | null = null;
+try {
+  const { vitePluginManusRuntime: init } = await import("vite-plugin-manus-runtime");
+  manusRuntime = init();
+} catch {}
+
+const plugins: Plugin[] = [
+  react(),
+  tailwindcss(),
+  jsxLocPlugin(),
+  ...(manusRuntime ? [manusRuntime] : []),
+  ...(process.env.NODE_ENV !== "production" ? [vitePluginManusDebugCollector(), vitePluginStorageProxy()] : []),
+];
 
 export default defineConfig({
   plugins,

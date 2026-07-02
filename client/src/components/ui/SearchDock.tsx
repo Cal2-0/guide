@@ -31,20 +31,26 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
   const [, navigate] = useLocation();
 
   useEffect(() => {
-    if (isPinned) return;
-    
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
         e.preventDefault();
-        setIsOpen((prev) => !prev);
+        if (isPinned) {
+          inputRef.current?.focus();
+        } else {
+          setIsOpen((prev) => !prev);
+        }
       }
-      if (e.key === "Escape" && isOpen) {
+      if (e.key === "Escape" && isOpen && !isPinned) {
         setIsOpen(false);
       }
     };
 
     const handleOpenSearch = () => {
-      setIsOpen(true);
+      if (isPinned) {
+        inputRef.current?.focus();
+      } else {
+        setIsOpen(true);
+      }
     };
 
     window.addEventListener("keydown", handleKeyDown);
@@ -145,11 +151,7 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
             ))}
           </div>
         )}
-        {query && results.length === 0 && (
-          <div className="mt-16 text-center text-text-secondary">
-            No tools found matching "{query}". Try a different term or intent.
-          </div>
-        )}
+            <p className="text-text-secondary">No tools found matching "{query}". Try a different term.</p>
       </div>
     );
   }
@@ -292,8 +294,8 @@ export function SearchDock({ isPinned = false, hideTrigger = false }: SearchDock
                     </>
                   )}
                   {hasQuery && results.length === 0 && (
-                    <div className="py-8 text-center text-text-tertiary">
-                      No results found{query ? ` for "${query}"` : ""}{activeFilter ? ` with filter "${activeFilter}"` : ""}
+                    <div className="py-8 flex flex-col items-center gap-4 text-center">
+                      <p className="text-text-tertiary">No results found{query ? ` for "${query}"` : ""}{activeFilter ? ` with filter "${activeFilter}"` : ""}</p>
                     </div>
                   )}
                 </div>

@@ -98,7 +98,7 @@ export function ToolCard({ tool, className }: ToolCardProps) {
       <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-white/5 group-hover:from-[#e8702a]/60 group-hover:via-white/10 group-hover:to-[#e8702a]/30 transition-all duration-700 opacity-60 group-hover:opacity-100" />
       
       {/* Inner Card */}
-      <div className="relative flex flex-col h-full bg-[#0d0d0d]/95 backdrop-blur-xl rounded-[23px] p-6 sm:p-7 transition-colors duration-500">
+      <div className="relative flex flex-col h-full bg-card/95 backdrop-blur-xl rounded-[23px] p-6 sm:p-7 transition-colors duration-500">
         
         {/* Prominent pricing badge — top right corner */}
         {pricingTag && (

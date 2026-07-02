@@ -132,22 +132,22 @@ export function NavigationBar() {
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                     <ListItem title="Website / Landing Page" href="/build/website">
-                      Framer, MotionSites, Umami, Fontsource.
+                      Framer, Mobbin, Magic UI, 21st.dev.
                     </ListItem>
                     <ListItem title="AI App" href="/build/ai">
-                      OpenRouter, Groq, LlamaIndex, pgvector.
+                      OpenRouter, Groq, LlamaIndex, Dify.
                     </ListItem>
                     <ListItem title="SaaS / Startup" href="/build/saas">
-                      Next.js, Supabase, Drizzle, Lemon Squeezy.
+                      Next.js, Supabase, Clerk, Stripe.
                     </ListItem>
                     <ListItem title="Mobile App" href="/build/mobile">
-                      Expo, NativeWind, MMKV, RevenueCat.
-                    </ListItem>
-                    <ListItem title="Cybersecurity / OSINT" href="/build/osint">
-                      Shodan, Holehe, Semgrep, Neo4j.
+                      Expo, NativeWind, RevenueCat, EAS Build.
                     </ListItem>
                     <ListItem title="Backend & API" href="/build/backend">
-                      Supabase, Neon, Firebase, FastAPI, n8n.
+                      Supabase, Neon, Firebase, FastAPI.
+                    </ListItem>
+                    <ListItem title="Cybersecurity / OSINT" href="/build/osint">
+                      Shodan, theHarvester, Semgrep, Wazuh.
                     </ListItem>
                   </ul>
                 </NavigationMenuContent>
@@ -204,6 +204,9 @@ export function NavigationBar() {
             </Link>
             <Link href="/library" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
               Library
+            </Link>
+            <Link href="/guide" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
+              Launchpad
             </Link>
             <Link href="/stack" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
               My Stack

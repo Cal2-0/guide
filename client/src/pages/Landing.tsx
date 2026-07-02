@@ -59,7 +59,7 @@ export default function Landing() {
               />
               <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
                 <kbd className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white/10 text-xs font-mono text-white/50 border border-white/10">
-                  <span className="text-[10px]">⌘</span> K
+                  <span className="text-[10px]">{navigator.platform?.includes('Mac') ? '⌘' : 'Ctrl'}</span> K
                 </kbd>
               </div>
             </div>
