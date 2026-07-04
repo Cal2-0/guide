@@ -1,6 +1,5 @@
 import { Search } from "lucide-react";
 import { Link } from "wouter";
-import { categories } from "@/lib/toolsDataArticle";
 import { CategoryCarousel } from "@/components/ui/CategoryCarousel";
 import { SearchDock } from "@/components/ui/SearchDock";
 import { tools } from "@/lib/toolsData";

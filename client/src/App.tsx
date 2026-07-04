@@ -5,30 +5,34 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "next-themes";
 import { NavigationBar } from "./components/ui/NavigationBar";
-import Landing from "./pages/Landing";
-import { Discover } from "./pages/Discover";
-import { BuildIntent } from "./pages/BuildIntent";
-import { Library } from "./pages/Library";
-import { ToolDetail } from "./pages/ToolDetail";
-import { MyStack } from "./pages/MyStack";
 import { RevealBackground } from "./components/ui/RevealBackground";
-import { StartGuide } from "./pages/StartGuide";
+import React, { Suspense } from 'react';
+
+const Landing = React.lazy(() => import("./pages/Landing"));
+const Discover = React.lazy(() => import("./pages/Discover").then(module => ({ default: module.Discover })));
+const BuildIntent = React.lazy(() => import("./pages/BuildIntent").then(module => ({ default: module.BuildIntent })));
+const Library = React.lazy(() => import("./pages/Library").then(module => ({ default: module.Library })));
+const ToolDetail = React.lazy(() => import("./pages/ToolDetail").then(module => ({ default: module.ToolDetail })));
+const MyStack = React.lazy(() => import("./pages/MyStack").then(module => ({ default: module.MyStack })));
+const StartGuide = React.lazy(() => import("./pages/StartGuide").then(module => ({ default: module.StartGuide })));
 
 function Router() {
   return (
     <>
       <NavigationBar />
-      <Switch>
-      <Route path="/" component={Landing} />
-      <Route path="/discover" component={Discover} />
-      <Route path="/build/:intent" component={BuildIntent} />
-      <Route path="/library" component={Library} />
-      <Route path="/tool/:id" component={ToolDetail} />
-      <Route path="/stack" component={MyStack} />
-      <Route path="/guide" component={StartGuide} />
-      <Route path="/404" component={NotFound} />
-      <Route component={NotFound} />
-    </Switch>
+      <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-foreground/50">Loading...</div>}>
+        <Switch>
+          <Route path="/" component={Landing} />
+          <Route path="/discover" component={Discover} />
+          <Route path="/build/:intent" component={BuildIntent} />
+          <Route path="/library" component={Library} />
+          <Route path="/tool/:id" component={ToolDetail} />
+          <Route path="/stack" component={MyStack} />
+          <Route path="/guide" component={StartGuide} />
+          <Route path="/404" component={NotFound} />
+          <Route component={NotFound} />
+        </Switch>
+      </Suspense>
     </>
   );
 }
