@@ -11,7 +11,7 @@
 
 Lyra is engineered as a state-of-the-art, high-density developer platform:
 
-*   **The Universal Directory (`/directory`)**: 1,098+ verified developer tools, engineering playbooks, autonomous agent skills, and GitHub radars across 28 categories.
+*   **The Universal Directory (`/directory`)**: 1,098+ verified developer tools, engineering playbooks, autonomous agent skills, and GitHub radars across 28 categories. Browse the offline markdown index in [LYRA_SUPER_DIRECTORY.md](LYRA_SUPER_DIRECTORY.md).
 *   **Mobile-First Ergonomics**: Single-row horizontal swipeable category ribbons, compact app icons (32×32px), zero overlap, and progressive 60fps rendering.
 *   **Faceted Filtering**: Sub-millisecond multi-attribute filtering by Pricing (`Free`, `OSS`, `Free tier`, `Paid`), Ecosystem (`React`, `Node`, `Python`, `Rust`, `Go`, `TypeScript`), and Features (`AI`, `Cloud`, `CLI`, `API`).
 *   **Fast Sub-Millisecond Search**: Client-side fuzzy search powered by Fuse.js.
