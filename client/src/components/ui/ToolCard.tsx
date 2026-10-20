@@ -88,9 +88,9 @@ export function ToolCard({ tool, className }: ToolCardProps) {
     <Link
       href={`/tool/${tool.id}`}
       className={cn(
-        "group relative flex flex-col h-full min-h-[260px] rounded-[24px] p-[1px] overflow-hidden",
+        "group relative flex flex-col h-full min-h-0 sm:min-h-[210px] rounded-[18px] sm:rounded-[22px] p-[1px] overflow-hidden",
         "transition-all duration-500 ease-out",
-        "hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(232,112,42,0.15)]",
+        "hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(232,112,42,0.15)]",
         className
       )}
     >
@@ -98,111 +98,110 @@ export function ToolCard({ tool, className }: ToolCardProps) {
       <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-white/5 group-hover:from-[#e8702a]/60 group-hover:via-white/10 group-hover:to-[#e8702a]/30 transition-all duration-700 opacity-60 group-hover:opacity-100" />
       
       {/* Inner Card */}
-      <div className="relative flex flex-col h-full bg-card/95 backdrop-blur-xl rounded-[23px] p-6 sm:p-7 transition-colors duration-500">
+      <div className="relative flex flex-col h-full bg-card/95 backdrop-blur-xl rounded-[17px] sm:rounded-[21px] p-3.5 sm:p-6 transition-colors duration-500">
         
-        {/* Prominent pricing badge — top right corner */}
-        {pricingTag && (
-          <div className="absolute top-4 right-4 z-10">
-            <span className={cn(
-              "inline-flex items-center px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase border",
-              pricingTag === "Free" ? "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" :
-              pricingTag === "OSS" ? "bg-blue-500/15 text-blue-400 border-blue-500/25" :
-              pricingTag === "Free tier" ? "bg-cyan-500/15 text-cyan-400 border-cyan-500/25" :
-              "bg-amber-500/15 text-amber-400 border-amber-500/25"
-            )}>
-              {pricingTag}
-            </span>
-          </div>
-        )}
-
         {/* Top bar: Icon & Actions */}
-        <div className="flex items-start justify-between mb-6 gap-4">
-          <div className="flex items-center gap-4 min-w-0">
-            <div className="relative flex shrink-0 w-12 h-12 rounded-[14px] bg-gradient-to-br from-white/10 to-white/5 border border-white/10 items-center justify-center shadow-inner group-hover:scale-105 group-hover:border-[#e8702a]/40 transition-all duration-500 overflow-hidden">
+        <div className="flex items-start justify-between mb-3 sm:mb-5 gap-2.5">
+          <div className="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
+            {/* Sleek, responsive app icon */}
+            <div className="relative flex shrink-0 w-8 h-8 sm:w-11 sm:h-11 rounded-[9px] sm:rounded-[14px] bg-gradient-to-br from-white/10 to-white/5 border border-white/10 items-center justify-center shadow-inner group-hover:scale-105 group-hover:border-[#e8702a]/40 transition-all duration-500 overflow-hidden">
               <div className="absolute inset-0 bg-[#e8702a]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               {tool.icon ? (
-                <span className="relative z-10 text-2xl drop-shadow-md">{tool.icon}</span>
+                <span className="relative z-10 text-sm sm:text-2xl drop-shadow-md">{tool.icon}</span>
               ) : (
-                <span className="relative z-10 text-white/90 font-bold text-xl uppercase tracking-wider drop-shadow-md">
+                <span className="relative z-10 text-white/90 font-bold text-xs sm:text-lg uppercase tracking-wider drop-shadow-md">
                   {tool.name.charAt(0)}
                 </span>
               )}
             </div>
             <div className="flex flex-col truncate">
-              <h3 className="font-semibold text-white/90 group-hover:text-white text-[18px] tracking-tight truncate transition-colors">
+              <h3 className="font-semibold text-white text-[14px] sm:text-[18px] tracking-tight truncate transition-colors">
                 {tool.name}
               </h3>
-              <span className="text-[13px] text-white/40 truncate mt-0.5">
+              <span className="text-[11px] sm:text-[13px] text-white/60 truncate">
                 {hostname}
               </span>
             </div>
           </div>
           
-          <div className="flex items-center gap-1.5 shrink-0">
+          <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
+            {/* Compact pricing badge inline with actions */}
+            {pricingTag && (
+              <span className={cn(
+                "inline-flex items-center px-1.5 py-0.5 sm:px-2 rounded-full text-[9px] sm:text-[10px] font-bold tracking-wider uppercase border mr-0.5",
+                pricingTag === "Free" ? "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" :
+                pricingTag === "OSS" ? "bg-blue-500/15 text-blue-400 border-blue-500/25" :
+                pricingTag === "Free tier" ? "bg-cyan-500/15 text-cyan-400 border-cyan-500/25" :
+                "bg-amber-500/15 text-amber-400 border-amber-500/25"
+              )}>
+                {pricingTag}
+              </span>
+            )}
+
             {/* Like Button */}
             <button
               onClick={toggleLike}
               className={cn(
-                "p-1.5 rounded-full transition-all duration-300 shrink-0",
+                "p-1 sm:p-1.5 rounded-full transition-all duration-300 shrink-0",
                 isLiked 
                   ? "text-rose-400 bg-rose-500/15 border border-rose-500/30" 
-                  : "text-white/40 bg-white/5 border border-white/10 hover:text-white hover:bg-white/10"
+                  : "text-white/70 bg-white/5 border border-white/10 hover:text-white hover:bg-white/10"
               )}
               title={isLiked ? "Unlike" : "Like"}
             >
-              <Heart className={cn("w-4 h-4 transition-transform", isLiked && "fill-current scale-110")} />
+              <Heart className={cn("w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform", isLiked && "fill-current scale-110")} />
             </button>
             
             {/* Private Save Button */}
             <button
               onClick={toggleSave}
               className={cn(
-                "p-1.5 rounded-full transition-all duration-300 shrink-0",
+                "p-1 sm:p-1.5 rounded-full transition-all duration-300 shrink-0",
                 isSaved 
                   ? "text-[#e8702a] bg-[#e8702a]/15 border border-[#e8702a]/30" 
-                  : "text-white/40 bg-white/5 border border-white/10 hover:text-white hover:bg-white/10"
+                  : "text-white/70 bg-white/5 border border-white/10 hover:text-white hover:bg-white/10"
               )}
               title={isSaved ? "Remove from My Stack" : "Save to My Stack"}
             >
-              <Bookmark className={cn("w-4 h-4 transition-transform", isSaved && "fill-current")} />
+              <Bookmark className={cn("w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform", isSaved && "fill-current")} />
             </button>
             
             {/* External Link Button */}
             <button
               onClick={handleVisitSite}
-              className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/40 opacity-0 -translate-x-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-white group-hover:bg-white/15 group-hover:border-white/30"
+              className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/70 opacity-90 sm:opacity-0 sm:-translate-x-2 transition-all duration-300 sm:duration-500 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-white group-hover:bg-white/15 group-hover:border-white/30"
               title="Visit site"
             >
-              <ArrowUpRight className="w-4 h-4" />
+              <ArrowUpRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </button>
           </div>
         </div>
 
         {/* Description */}
-        <p className="text-white/50 group-hover:text-white/70 text-[15px] leading-relaxed mb-8 flex-grow transition-colors duration-300">
+        <p className="text-white/75 group-hover:text-white/95 text-[13px] sm:text-[15px] leading-relaxed mb-3 sm:mb-6 line-clamp-2 sm:line-clamp-none flex-grow transition-colors duration-300">
           {tool.description}
         </p>
 
         {/* Tags */}
         {tool.tags && tool.tags.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-auto">
+          <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-auto">
             {tool.tags.filter(t => t !== pricingTag).slice(0, 3).map((tag) => (
               <span
                 key={tag}
                 className={cn(
-                  "inline-flex items-center px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide uppercase transition-colors duration-300 border border-transparent",
+                  "inline-flex items-center px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-[10px] sm:text-[11px] font-semibold tracking-wide uppercase transition-colors duration-300 border border-transparent",
                   tag === "Free" ? "bg-emerald-500/10 text-emerald-400" :
                   tag === "OSS" ? "bg-blue-500/10 text-blue-400" :
                   tag === "Paid" ? "bg-amber-500/10 text-amber-400" :
                   tag === "Free tier" ? "bg-cyan-500/10 text-cyan-400" :
-                  "bg-white/5 text-white/50 group-hover:text-white/70"
+                  "bg-white/[0.08] text-white/75 group-hover:text-white/95"
                 )}
               >
                 {tag}
               </span>
             ))}
             {tool.tags.filter(t => t !== pricingTag).length > 3 && (
-              <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/5 text-white/50 text-[11px] font-medium tracking-wide border border-transparent">
+              <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-white/[0.08] text-white/75 text-[10px] sm:text-[11px] font-medium tracking-wide border border-transparent">
                 +{tool.tags.filter(t => t !== pricingTag).length - 3}
               </span>
             )}

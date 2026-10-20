@@ -1,0 +1,2430 @@
+[
+  {
+    "id": "agent-agent-adaptive-coordinator",
+    "name": "Agent Adaptive Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent adaptive coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-agent",
+    "name": "Agent Agent",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent agent.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 249
+  },
+  {
+    "id": "agent-agent-automation-smart-agent",
+    "name": "Agent Automation Smart Agent",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent automation smart agent.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 402
+  },
+  {
+    "id": "agent-agent-byzantine-coordinator",
+    "name": "Agent Byzantine Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent byzantine coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-agent-collective-intelligence-coordinator",
+    "name": "Agent Collective Intelligence Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent collective intelligence coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 219
+  },
+  {
+    "id": "agent-agent-consensus-coordinator",
+    "name": "Agent Consensus Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent consensus coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-agent-coordination",
+    "name": "Agent Coordination",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent coordination.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-agent-coordinator-swarm-init",
+    "name": "Agent Coordinator Swarm Init",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent coordinator swarm init.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 402
+  },
+  {
+    "id": "agent-agent-crdt-synchronizer",
+    "name": "Agent Crdt Synchronizer",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent crdt synchronizer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-gossip-coordinator",
+    "name": "Agent Gossip Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent gossip coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-agent-hierarchical-coordinator",
+    "name": "Agent Hierarchical Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent hierarchical coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 420
+  },
+  {
+    "id": "agent-agent-mesh-coordinator",
+    "name": "Agent Mesh Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent mesh coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-multi-repo-swarm",
+    "name": "Agent Multi Repo Swarm",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent multi repo swarm.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-queen-coordinator",
+    "name": "Agent Queen Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent queen coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-quorum-manager",
+    "name": "Agent Quorum Manager",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent quorum manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-raft-manager",
+    "name": "Agent Raft Manager",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent raft manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-agent-resource-allocator",
+    "name": "Agent Resource Allocator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent resource allocator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-agent-sparc-coordinator",
+    "name": "Agent Sparc Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent sparc coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-swarm",
+    "name": "Agent Swarm",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 249
+  },
+  {
+    "id": "agent-agent-swarm-issue",
+    "name": "Agent Swarm Issue",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm issue.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-agent-swarm-memory-manager",
+    "name": "Agent Swarm Memory Manager",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm memory manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-swarm-pr",
+    "name": "Agent Swarm Pr",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm pr.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 276
+  },
+  {
+    "id": "agent-agent-sync-coordinator",
+    "name": "Agent Sync Coordinator",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent sync coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-hive-mind",
+    "name": "Hive Mind",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for hive mind.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 231
+  },
+  {
+    "id": "agent-hive-mind-advanced",
+    "name": "Hive Mind Advanced",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for hive mind advanced.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-open-federation",
+    "name": "Open Federation",
+    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for open federation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Orchestration and Coordination",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 285
+  },
+  {
+    "id": "agent-frontend-design-complete",
+    "name": "Frontend Design Complete",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for frontend design complete.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-interface-design",
+    "name": "Interface Design",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for interface design.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-ui-ux-design",
+    "name": "Ui Ux Design",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for ui ux design.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 258
+  },
+  {
+    "id": "agent-web-design-guidelines",
+    "name": "Web Design Guidelines",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for web design guidelines.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-vercel-composition-patterns",
+    "name": "Vercel Composition Patterns",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for vercel composition patterns.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-vercel-react-best-practices",
+    "name": "Vercel React Best Practices",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for vercel react best practices.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-shadcn",
+    "name": "Shadcn",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for shadcn.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 204
+  },
+  {
+    "id": "agent-requesting-code-review",
+    "name": "Requesting Code Review",
+    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for requesting code review.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Frontend and Design",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Frontend"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-test-driven-development",
+    "name": "Test Driven Development",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for test driven development.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-systematic-debugging",
+    "name": "Systematic Debugging",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for systematic debugging.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-verification-before-completion",
+    "name": "Verification Before Completion",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for verification before completion.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 420
+  },
+  {
+    "id": "agent-verification-quality",
+    "name": "Verification Quality",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for verification quality.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-tester",
+    "name": "Agent Tester",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for agent tester.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 258
+  },
+  {
+    "id": "agent-agent-tdd-london-swarm",
+    "name": "Agent Tdd London Swarm",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for agent tdd london swarm.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-test-long-runner",
+    "name": "Agent Test Long Runner",
+    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for agent test long runner.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Testing and Quality",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Testing"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-security-audit",
+    "name": "Security Audit",
+    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for security audit.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Security",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Security"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 276
+  },
+  {
+    "id": "agent-agent-security-manager",
+    "name": "Agent Security Manager",
+    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent security manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Security",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Security"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-v3-security-architect",
+    "name": "Agent V3 Security Architect",
+    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent v3 security architect.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Security",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Security"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-agent-authentication",
+    "name": "Agent Authentication",
+    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent authentication.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Security",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Security"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-sandbox",
+    "name": "Agent Sandbox",
+    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent sandbox.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Security",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Security"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 267
+  },
+  {
+    "id": "agent-agent-challenges",
+    "name": "Agent Challenges",
+    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent challenges.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Security",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Security"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-performance-analysis",
+    "name": "Performance Analysis",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for performance analysis.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-performance-analyzer",
+    "name": "Agent Performance Analyzer",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance analyzer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-performance-benchmarker",
+    "name": "Agent Performance Benchmarker",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance benchmarker.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 411
+  },
+  {
+    "id": "agent-agent-performance-monitor",
+    "name": "Agent Performance Monitor",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance monitor.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 375
+  },
+  {
+    "id": "agent-agent-performance-optimizer",
+    "name": "Agent Performance Optimizer",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance optimizer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-agent-v3-performance-engineer",
+    "name": "Agent V3 Performance Engineer",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent v3 performance engineer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 411
+  },
+  {
+    "id": "agent-agent-matrix-optimizer",
+    "name": "Agent Matrix Optimizer",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent matrix optimizer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-topology-optimizer",
+    "name": "Agent Topology Optimizer",
+    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent topology optimizer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Performance",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-sparc-methodology",
+    "name": "Sparc Methodology",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for sparc methodology.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-agent-architecture",
+    "name": "Agent Architecture",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent architecture.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-agent-arch-system-design",
+    "name": "Agent Arch System Design",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent arch system design.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-agent-code-goal-planner",
+    "name": "Agent Code Goal Planner",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent code goal planner.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-migration-plan",
+    "name": "Agent Migration Plan",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent migration plan.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-planner",
+    "name": "Agent Planner",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent planner.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 267
+  },
+  {
+    "id": "agent-agent-pseudocode",
+    "name": "Agent Pseudocode",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent pseudocode.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agent-repo-architect",
+    "name": "Agent Repo Architect",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent repo architect.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-specification",
+    "name": "Agent Specification",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent specification.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-agent-refinement",
+    "name": "Agent Refinement",
+    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent refinement.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Architecture and Planning",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agent-coder",
+    "name": "Agent Coder",
+    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent coder.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Implementation",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 249
+  },
+  {
+    "id": "agent-agent-implementer-sparc-coder",
+    "name": "Agent Implementer Sparc Coder",
+    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent implementer sparc coder.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Implementation",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 411
+  },
+  {
+    "id": "agent-agent-base-template-generator",
+    "name": "Agent Base Template Generator",
+    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent base template generator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Implementation",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 411
+  },
+  {
+    "id": "agent-agent-code-analyzer",
+    "name": "Agent Code Analyzer",
+    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent code analyzer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Implementation",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-agent-worker-specialist",
+    "name": "Agent Worker Specialist",
+    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent worker specialist.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Implementation",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-pair-programming",
+    "name": "Pair Programming",
+    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for pair programming.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Implementation",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-github-automation",
+    "name": "Github Automation",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github automation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-github-code-review",
+    "name": "Github Code Review",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github code review.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-github-multi-repo",
+    "name": "Github Multi Repo",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github multi repo.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-github-project-management",
+    "name": "Github Project Management",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github project management.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 375
+  },
+  {
+    "id": "agent-github-release-management",
+    "name": "Github Release Management",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github release management.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 375
+  },
+  {
+    "id": "agent-github-workflow-automation",
+    "name": "Github Workflow Automation",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github workflow automation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-github-modes",
+    "name": "Agent Github Modes",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent github modes.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-agent-github-pr-manager",
+    "name": "Agent Github Pr Manager",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent github pr manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-pr-manager",
+    "name": "Agent Pr Manager",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent pr manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agent-issue-tracker",
+    "name": "Agent Issue Tracker",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent issue tracker.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-agent-ops-cicd-github",
+    "name": "Agent Ops Cicd Github",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent ops cicd github.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-agent-project-board-sync",
+    "name": "Agent Project Board Sync",
+    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent project board sync.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "GitHub and DevOps",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "DevOps"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-agent-release-manager",
+    "name": "Agent Release Manager",
+    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent release manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Release and Workflow",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-agent-release-swarm",
+    "name": "Agent Release Swarm",
+    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent release swarm.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Release and Workflow",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-agent-workflow",
+    "name": "Agent Workflow",
+    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent workflow.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Release and Workflow",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 276
+  },
+  {
+    "id": "agent-agent-workflow-automation",
+    "name": "Agent Workflow Automation",
+    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent workflow automation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Release and Workflow",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 375
+  },
+  {
+    "id": "agent-workflow-automation",
+    "name": "Workflow Automation",
+    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for workflow automation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Release and Workflow",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-hooks-automation",
+    "name": "Hooks Automation",
+    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for hooks automation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Release and Workflow",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-memory-management",
+    "name": "Memory Management",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for memory management.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-agent-memory-coordinator",
+    "name": "Agent Memory Coordinator",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agent memory coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 366
+  },
+  {
+    "id": "agent-agent-swarm-memory-manager",
+    "name": "Agent Swarm Memory Manager",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agent swarm memory manager.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-v3-memory-specialist",
+    "name": "Agent V3 Memory Specialist",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agent v3 memory specialist.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agentdb-advanced",
+    "name": "Agentdb Advanced",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb advanced.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agentdb-learning",
+    "name": "Agentdb Learning",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb learning.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agentdb-memory-patterns",
+    "name": "Agentdb Memory Patterns",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb memory patterns.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agentdb-optimization",
+    "name": "Agentdb Optimization",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb optimization.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agentdb-vector-search",
+    "name": "Agentdb Vector Search",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb vector search.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-reasoningbank-agentdb",
+    "name": "Reasoningbank Agentdb",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for reasoningbank agentdb.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-reasoningbank-intelligence",
+    "name": "Reasoningbank Intelligence",
+    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for reasoningbank intelligence.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Memory and Knowledge",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI",
+      "Memory"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-researcher",
+    "name": "Agent Researcher",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent researcher.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agent-data-ml-model",
+    "name": "Agent Data Ml Model",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent data ml model.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-agent-neural-network",
+    "name": "Agent Neural Network",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent neural network.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-neural-training",
+    "name": "Neural Training",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for neural training.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 285
+  },
+  {
+    "id": "agent-embeddings",
+    "name": "Embeddings",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for embeddings.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 240
+  },
+  {
+    "id": "agent-agent-pagerank-analyzer",
+    "name": "Agent Pagerank Analyzer",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent pagerank analyzer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-trading-predictor",
+    "name": "Agent Trading Predictor",
+    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent trading predictor.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Research and Data",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-dev-backend-api",
+    "name": "Agent Dev Backend Api",
+    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent dev backend api.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Backend and API",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-agent-docs-api-openapi",
+    "name": "Agent Docs Api Openapi",
+    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent docs api openapi.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Backend and API",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-app-store",
+    "name": "Agent App Store",
+    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent app store.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Backend and API",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 285
+  },
+  {
+    "id": "agent-agent-agentic-payments",
+    "name": "Agent Agentic Payments",
+    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent agentic payments.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Backend and API",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-agent-payments",
+    "name": "Agent Payments",
+    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent payments.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Backend and API",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 276
+  },
+  {
+    "id": "agent-flow-nexus-neural",
+    "name": "Flow Nexus Neural",
+    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for flow nexus neural.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Cloud and Sandbox",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-flow-nexus-platform",
+    "name": "Flow Nexus Platform",
+    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for flow nexus platform.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Cloud and Sandbox",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-flow-nexus-swarm",
+    "name": "Flow Nexus Swarm",
+    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for flow nexus swarm.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Cloud and Sandbox",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agent-sandbox",
+    "name": "Agent Sandbox",
+    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for agent sandbox.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Cloud and Sandbox",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 267
+  },
+  {
+    "id": "agent-agent-reviewer",
+    "name": "Agent Reviewer",
+    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent reviewer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Code Review",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 276
+  },
+  {
+    "id": "agent-agent-code-review-swarm",
+    "name": "Agent Code Review Swarm",
+    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent code review swarm.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Code Review",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 357
+  },
+  {
+    "id": "agent-agent-analyze-code-quality",
+    "name": "Agent Analyze Code Quality",
+    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent analyze code quality.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Code Review",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-production-validator",
+    "name": "Agent Production Validator",
+    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent production validator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Code Review",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-v3-cli-modernization",
+    "name": "V3 Cli Modernization",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 cli modernization.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-v3-core-implementation",
+    "name": "V3 Core Implementation",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 core implementation.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 348
+  },
+  {
+    "id": "agent-v3-ddd-architecture",
+    "name": "V3 Ddd Architecture",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 ddd architecture.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-v3-integration-deep",
+    "name": "V3 Integration Deep",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 integration deep.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-v3-mcp-optimization",
+    "name": "V3 Mcp Optimization",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 mcp optimization.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-v3-memory-unification",
+    "name": "V3 Memory Unification",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 memory unification.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-v3-performance-optimization",
+    "name": "V3 Performance Optimization",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 performance optimization.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-v3-security-overhaul",
+    "name": "V3 Security Overhaul",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 security overhaul.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-v3-swarm-coordination",
+    "name": "V3 Swarm Coordination",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 swarm coordination.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-agent-v3-integration-architect",
+    "name": "Agent V3 Integration Architect",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 integration architect.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 420
+  },
+  {
+    "id": "agent-agent-v3-memory-specialist",
+    "name": "Agent V3 Memory Specialist",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 memory specialist.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-v3-performance-engineer",
+    "name": "Agent V3 Performance Engineer",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 performance engineer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 411
+  },
+  {
+    "id": "agent-agent-v3-queen-coordinator",
+    "name": "Agent V3 Queen Coordinator",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 queen coordinator.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 384
+  },
+  {
+    "id": "agent-agent-v3-security-architect",
+    "name": "Agent V3 Security Architect",
+    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 security architect.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "V3 Modernization",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 393
+  },
+  {
+    "id": "agent-claims",
+    "name": "Claims",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for claims.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 204
+  },
+  {
+    "id": "agent-stream-chain",
+    "name": "Stream Chain",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for stream chain.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 258
+  },
+  {
+    "id": "agent-agentic-jujutsu",
+    "name": "Agentic Jujutsu",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agentic jujutsu.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 285
+  },
+  {
+    "id": "agent-agent-safla-neural",
+    "name": "Agent Safla Neural",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent safla neural.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-agent-sona-learning-optimizer",
+    "name": "Agent Sona Learning Optimizer",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent sona learning optimizer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 411
+  },
+  {
+    "id": "agent-agent-load-balancer",
+    "name": "Agent Load Balancer",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent load balancer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 321
+  },
+  {
+    "id": "agent-skill-builder",
+    "name": "Skill Builder",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for skill builder.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 267
+  },
+  {
+    "id": "agent-agent-scout-explorer",
+    "name": "Agent Scout Explorer",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent scout explorer.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 330
+  },
+  {
+    "id": "agent-agent-goal-planner",
+    "name": "Agent Goal Planner",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent goal planner.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-agent-user-tools",
+    "name": "Agent User Tools",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent user tools.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 294
+  },
+  {
+    "id": "agent-agent-spec-mobile-react-native",
+    "name": "Agent Spec Mobile React Native",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent spec mobile react native.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 420
+  },
+  {
+    "id": "agent-agent-benchmark-suite",
+    "name": "Agent Benchmark Suite",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent benchmark suite.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 339
+  },
+  {
+    "id": "agent-worker-benchmarks",
+    "name": "Worker Benchmarks",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for worker benchmarks.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 303
+  },
+  {
+    "id": "agent-worker-integration",
+    "name": "Worker Integration",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for worker integration.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 312
+  },
+  {
+    "id": "agent-swarm-advanced",
+    "name": "Swarm Advanced",
+    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for swarm advanced.",
+    "category": "Autonomous Agent Swarms",
+    "subcategory": "Specialized",
+    "tags": [
+      "AI",
+      "Agent",
+      "OSS",
+      "CLI"
+    ],
+    "url": "https://github.com/ruvnet/ruflo",
+    "icon": "\ud83e\udd16",
+    "likes": 276
+  }
+]

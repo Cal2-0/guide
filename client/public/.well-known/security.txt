@@ -1,0 +1,7 @@
+# Security policy and disclosure contact for Lyra / Developer Tools Directory
+Contact: mailto:security@lyra.dev
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Policy: https://github.com/lyra/security-policy
+Acknowledgments: https://github.com/lyra/security-policy/acknowledgments
+Canonical: https://lyra.dev/.well-known/security.txt

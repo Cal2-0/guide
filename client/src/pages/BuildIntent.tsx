@@ -1,9 +1,11 @@
-import { useRoute } from "wouter";
+import { useRoute, Link } from "wouter";
 import { SearchDock } from "@/components/ui/SearchDock";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { tools } from "@/lib/toolsData";
 import { usePageTitle } from "@/hooks/usePageTitle";
-import { ChevronRight, Lightbulb } from "lucide-react";
+import { ChevronRight, Lightbulb, ArrowLeft, BookmarkPlus, Check } from "lucide-react";
+import { useState } from "react";
+import { toast } from "sonner";
 
 interface CuratedTool {
   id: string;
@@ -119,7 +121,7 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
     ],
     "tools": [
       {
-        "id": "nextjs",
+        "id": "next-js",
         "rationale": "The industry standard React framework."
       },
       {
@@ -286,38 +288,90 @@ const SPECIALIZED_INTENTS: Record<string, IntentData> = {
 export function BuildIntent({ params }: { params?: { intent?: string } }) {
   const intentId = params?.intent || "website";
   const data = SPECIALIZED_INTENTS[intentId] || SPECIALIZED_INTENTS["website"];
+  const [adopted, setAdopted] = useState(false);
   
   // Format the title by removing any numbering like "Build a Website / Landing Page"
   usePageTitle(`Build a ${data.title}`);
 
+  const handleAdoptStack = () => {
+    try {
+      const currentSaves: string[] = JSON.parse(localStorage.getItem("my_stack_saves") || "[]");
+      const toolIdsToAdd = data.tools.map(t => t.id);
+      const updated = Array.from(new Set([...currentSaves, ...toolIdsToAdd]));
+      localStorage.setItem("my_stack_saves", JSON.stringify(updated));
+      window.dispatchEvent(new Event("stack-change"));
+      setAdopted(true);
+      toast.success(`Adopted ${toolIdsToAdd.length} tools into My Stack!`);
+      setTimeout(() => setAdopted(false), 3000);
+    } catch {
+      toast.error("Could not save to stack");
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-transparent pt-32 pb-32">
-      <div className="container max-w-5xl relative z-10">
+    <div className="min-h-screen bg-transparent pt-28 pb-32">
+      <div className="container max-w-5xl relative z-10 px-4 sm:px-6">
+        
+        {/* Breadcrumb & Navigation */}
+        <div className="flex items-center justify-between mb-8">
+          <Link 
+            href="/blueprints" 
+            className="inline-flex items-center gap-2 text-text-tertiary hover:text-white transition-colors group text-sm font-medium"
+          >
+            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+            Back to Blueprints
+          </Link>
+
+          <button
+            onClick={handleAdoptStack}
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${
+              adopted
+                ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30"
+                : "bg-[#e8702a] hover:bg-[#d2611f] text-white shadow-[0_0_20px_rgba(232,112,42,0.3)] hover:scale-105 active:scale-95"
+            }`}
+          >
+            {adopted ? (
+              <>
+                <Check className="w-3.5 h-3.5" />
+                Stack Adopted!
+              </>
+            ) : (
+              <>
+                <BookmarkPlus className="w-3.5 h-3.5" />
+                Adopt This Entire Stack
+              </>
+            )}
+          </button>
+        </div>
+
         {/* Header */}
-        <div className="mb-16">
-          <h1 className="text-white text-4xl md:text-6xl font-playfair italic mb-6 animate-[heroFadeUp_0.8s_cubic-bezier(0.16,1,0.3,1)_forwards]">
+        <div className="mb-14">
+          <div className="text-xs font-semibold uppercase tracking-widest text-[#e8702a] mb-3">
+            Curated Blueprint
+          </div>
+          <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-playfair italic mb-5 animate-[heroFadeUp_0.8s_cubic-bezier(0.16,1,0.3,1)_forwards]">
             Building a {data.title}
           </h1>
           <div className="bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 backdrop-blur-md animate-[heroFadeUp_0.8s_cubic-bezier(0.16,1,0.3,1)_0.1s_forwards]">
-            <p className="text-foreground/90 text-lg leading-relaxed">
+            <p className="text-foreground/90 text-base md:text-lg leading-relaxed">
               {data.description}
             </p>
           </div>
         </div>
 
         {/* Recommended Stack */}
-        <div className="mb-24 animate-[heroFadeUp_0.8s_cubic-bezier(0.16,1,0.3,1)_0.2s_forwards]">
-          <h2 className="text-white/60 text-sm font-semibold uppercase tracking-widest mb-6">
+        <div className="mb-20 animate-[heroFadeUp_0.8s_cubic-bezier(0.16,1,0.3,1)_0.2s_forwards]">
+          <h2 className="text-white/60 text-xs sm:text-sm font-semibold uppercase tracking-widest mb-4">
             Recommended Starting Stack
           </h2>
-          <div className="flex flex-wrap items-center gap-y-4 gap-x-2 md:gap-x-4">
+          <div className="flex flex-wrap items-center gap-y-3 gap-x-2 md:gap-x-3">
             {data.stackNodes.map((node, i) => (
-              <div key={i} className="flex items-center gap-2 md:gap-4">
-                <div className="bg-foreground text-background font-medium px-4 py-2 rounded-full text-sm shadow-sm">
+              <div key={i} className="flex items-center gap-2 md:gap-3">
+                <div className="bg-white/10 border border-white/10 text-white font-medium px-4 py-1.5 rounded-full text-xs sm:text-sm shadow-sm">
                   {node}
                 </div>
                 {i < data.stackNodes.length - 1 && (
-                  <ChevronRight className="text-white/30 w-5 h-5" />
+                  <ChevronRight className="text-white/30 w-4 h-4" />
                 )}
               </div>
             ))}
@@ -376,3 +430,6 @@ export function BuildIntent({ params }: { params?: { intent?: string } }) {
     </div>
   );
 }
+
+export default BuildIntent;
+

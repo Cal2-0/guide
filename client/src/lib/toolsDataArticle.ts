@@ -648,11 +648,11 @@ export const categories: Category[] = [
           {
             "id": "lucide",
             "name": "Lucide",
-            "description": "Beautiful and consistent 1500+ icon library",
+            "description": "Beautiful and consistent 1500+ icon library (Feather fork).",
             "tags": [
-              "Paid"
+              "OSS"
             ],
-            "url": "Feather fork). (https://lucide.dev"
+            "url": "https://lucide.dev"
           },
           {
             "id": "phosphor-icons",
@@ -1463,11 +1463,11 @@ export const categories: Category[] = [
           {
             "id": "cursor",
             "name": "Cursor",
-            "description": "AI-first code editor",
+            "description": "AI-first code editor (VSCode fork) with inline completions.",
             "tags": [
               "Paid"
             ],
-            "url": "VSCode fork) with inline completions. (https://www.cursor.com"
+            "url": "https://www.cursor.com"
           },
           {
             "id": "windsurf",
@@ -4150,11 +4150,11 @@ export const categories: Category[] = [
           {
             "id": "pulumi",
             "name": "Pulumi",
-            "description": "IaC using real programming languages",
+            "description": "IaC using real programming languages (TypeScript/Python).",
             "tags": [
               "Paid"
             ],
-            "url": "TypeScript/Python). (https://www.pulumi.com"
+            "url": "https://www.pulumi.com"
           },
           {
             "id": "ansible",

@@ -1,0 +1,12 @@
+# Gitleaks Configuration for Lyra
+title = "Gitleaks config for Lyra"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Global allowlist for public mock keys or test fixtures"
+paths = [
+  '''pnpm-lock\.yaml''',
+  '''dist/.*''',
+]

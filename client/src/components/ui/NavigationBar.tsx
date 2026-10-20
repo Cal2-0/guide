@@ -1,45 +1,9 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Moon, Sun } from "lucide-react";
+import { Menu, X, Moon, Sun, Search } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
-import React from "react";
-
-const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a"> & { title: string, href: string }
->(({ className, title, children, href, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <Link
-          href={href}
-          className={cn(
-            "flex flex-col justify-center select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </Link>
-      </NavigationMenuLink>
-    </li>
-  );
-});
-ListItem.displayName = "ListItem";
 
 export function NavigationBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -47,6 +11,7 @@ export function NavigationBar() {
   const [location] = useLocation();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [stackCount, setStackCount] = useState(0);
 
   useEffect(() => {
     setMounted(true);
@@ -57,9 +22,43 @@ export function NavigationBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Track My Stack count from localStorage
+  useEffect(() => {
+    const updateCount = () => {
+      try {
+        const savedIds = JSON.parse(localStorage.getItem("my_stack_saves") || "[]");
+        const likedIds = JSON.parse(localStorage.getItem("my_stack_likes") || "[]");
+        const combined = new Set([...savedIds, ...likedIds]);
+        setStackCount(combined.size);
+      } catch {
+        setStackCount(0);
+      }
+    };
+    updateCount();
+    window.addEventListener("stack-change", updateCount);
+    window.addEventListener("storage", updateCount);
+    return () => {
+      window.removeEventListener("stack-change", updateCount);
+      window.removeEventListener("storage", updateCount);
+    };
+  }, []);
+
+  const navLinks = [
+    { href: "/directory", label: "Directory" },
+    { href: "/blueprints", label: "Blueprints" },
+    { href: "/stack", label: "My Stack" },
+  ];
+
+  const isActive = (href: string) => {
+    if (href === "/directory") return location.startsWith("/directory") || location.startsWith("/library") || location.startsWith("/tool/");
+    if (href === "/blueprints") return location.startsWith("/blueprints") || location.startsWith("/build") || location === "/guide";
+    if (href === "/stack") return location === "/stack";
+    return location === href;
+  };
+
   return (
     <>
-      <motion.nav 
+      <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
@@ -92,72 +91,43 @@ export function NavigationBar() {
             </span>
         </Link>
 
-        {/* Center — Mega Menu (desktop) */}
-        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 bg-background/50 backdrop-blur-md border border-border rounded-full px-4 py-1 items-center shadow-2xl">
-          <NavigationMenu>
-            <NavigationMenuList>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent text-foreground/80 hover:text-foreground">Explore</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                    <li className="row-span-3">
-                      <NavigationMenuLink asChild>
-                        <Link
-                          className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="/discover"
-                        >
-                          <div className="mb-2 mt-4 text-lg font-medium">
-                            Discover Tools
-                          </div>
-                          <p className="text-sm leading-tight text-muted-foreground">
-                            Browse the curated library of over 400 developer tools, frameworks, and APIs.
-                          </p>
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
-                    <ListItem href="/library" title="All Tools">
-                      Search and filter the complete Lyra directory.
-                    </ListItem>
-                    <ListItem href="/guide" title="Launchpad">
-                      One page. Every step. Idea → Live product.
-                    </ListItem>
-                    <ListItem href="/stack" title="My Stack">
-                      View your saved and bookmarked tools.
-                    </ListItem>
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent text-foreground/80 hover:text-foreground">The Honest Guide</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                    <ListItem title="Website / Landing Page" href="/build/website">
-                      Framer, Mobbin, Magic UI, 21st.dev.
-                    </ListItem>
-                    <ListItem title="AI App" href="/build/ai">
-                      OpenRouter, Groq, LlamaIndex, Dify.
-                    </ListItem>
-                    <ListItem title="SaaS / Startup" href="/build/saas">
-                      Next.js, Supabase, Clerk, Stripe.
-                    </ListItem>
-                    <ListItem title="Mobile App" href="/build/mobile">
-                      Expo, NativeWind, RevenueCat, EAS Build.
-                    </ListItem>
-                    <ListItem title="Backend & API" href="/build/backend">
-                      Supabase, Neon, Firebase, FastAPI.
-                    </ListItem>
-                    <ListItem title="Cybersecurity / OSINT" href="/build/osint">
-                      Shodan, theHarvester, Semgrep, Wazuh.
-                    </ListItem>
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
+        {/* Center — Clean direct links (desktop) */}
+        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 bg-background/50 backdrop-blur-md border border-border rounded-full px-2 py-1.5 items-center gap-1 shadow-2xl">
+          {navLinks.map(link => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={cn(
+                "relative px-4 py-2 rounded-full text-[13px] font-medium transition-all duration-300",
+                isActive(link.href)
+                  ? "text-foreground bg-white/10"
+                  : "text-foreground/60 hover:text-foreground hover:bg-white/5"
+              )}
+            >
+              {link.label}
+              {link.label === "My Stack" && stackCount > 0 && (
+                <span className="ml-1.5 inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 rounded-full text-[10px] font-bold bg-[#e8702a] text-white animate-[heroFadeUp_0.3s_ease-out]">
+                  {stackCount}
+                </span>
+              )}
+            </Link>
+          ))}
         </div>
 
         {/* Right — Actions */}
         <div className="flex items-center gap-2 z-50">
+          {/* Search trigger */}
+          <button
+            onClick={() => window.dispatchEvent(new Event("open-search"))}
+            className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-full text-foreground/50 hover:text-foreground hover:bg-white/10 transition-colors text-[12px] font-medium"
+            aria-label="Search tools"
+          >
+            <Search className="w-3.5 h-3.5" />
+            <kbd className="px-1.5 py-0.5 rounded bg-white/10 text-[10px] font-mono border border-white/5">
+              {typeof navigator !== 'undefined' && navigator.platform?.includes('Mac') ? '⌘' : 'Ctrl'}K
+            </kbd>
+          </button>
+
           {mounted && (
             <button
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
@@ -167,15 +137,6 @@ export function NavigationBar() {
               {theme === 'dark' ? <Sun className="w-[18px] h-[18px]" /> : <Moon className="w-[18px] h-[18px]" />}
             </button>
           )}
-          <Link href="/guide" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
-              Launchpad
-          </Link>
-          <Link href="/stack" className="hidden md:block text-foreground/80 hover:text-foreground text-[13px] font-medium px-2 py-2.5 transition-colors">
-              My Stack
-          </Link>
-          <Link href="/discover" className="hidden md:block bg-foreground text-background text-[13px] font-semibold px-5 py-2.5 rounded-full transition-transform hover:scale-105 shadow-sm">
-              Start Exploring
-          </Link>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 rounded-lg text-foreground hover:bg-white/10 transition"
@@ -199,18 +160,33 @@ export function NavigationBar() {
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-[99] bg-background/95 backdrop-blur-xl flex flex-col items-center justify-center gap-6"
           >
-            <Link href="/discover" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
-              Discover
-            </Link>
-            <Link href="/library" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
-              Library
-            </Link>
-            <Link href="/guide" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
-              Launchpad
-            </Link>
-            <Link href="/stack" onClick={() => setMobileMenuOpen(false)} className="text-foreground text-2xl font-light hover:opacity-70 transition-opacity">
-              My Stack
-            </Link>
+            {navLinks.map(link => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className={cn(
+                  "text-2xl font-light transition-opacity",
+                  isActive(link.href) ? "text-foreground" : "text-foreground/60 hover:text-foreground"
+                )}
+              >
+                {link.label}
+                {link.label === "My Stack" && stackCount > 0 && (
+                  <span className="ml-2 inline-flex items-center justify-center min-w-[24px] h-[24px] px-1.5 rounded-full text-[12px] font-bold bg-[#e8702a] text-white">
+                    {stackCount}
+                  </span>
+                )}
+              </Link>
+            ))}
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                setTimeout(() => window.dispatchEvent(new Event("open-search")), 100);
+              }}
+              className="text-foreground/40 text-lg font-light hover:text-foreground transition-opacity mt-4"
+            >
+              Search tools...
+            </button>
           </motion.div>
         )}
       </AnimatePresence>

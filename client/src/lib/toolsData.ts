@@ -3,6 +3,7 @@ export interface Tool {
   name: string;
   description: string;
   category: string;
+  subcategory?: string;
   tags: string[];
   url: string;
   icon?: string;
@@ -28,9 +29,18 @@ export interface Clone {
 }
 
 import { categories } from "./toolsDataArticle";
+import { directoryAdditions } from "./directoryAdditions";
 
 export const tools: Tool[] = (() => {
   const toolMap = new Map<string, Tool>();
+
+  const genericCategories = [
+    "Curated Collections",
+    "Open Source & Alternatives",
+    "Newly Added Tools",
+    "Project Inspiration & GitHub",
+    "Curated Stacks"
+  ];
 
   categories.forEach((cat, cIdx) => {
     cat.subcategories.forEach((sub, sIdx) => {
@@ -40,17 +50,18 @@ export const tools: Tool[] = (() => {
         const likes = Math.floor(Math.abs(pseudoRandom % 4000)) + 42;
         const createdAt = new Date(Date.now() - Math.floor(Math.abs(pseudoRandom % (1000 * 60 * 60 * 24 * 365 * 2)))).toISOString();
         
-        const newTool = {
+        const newTool: Tool = {
           ...tool,
           category: cat.name,
+          subcategory: sub.name,
           likes,
           createdAt
         };
 
         if (toolMap.has(tool.id)) {
           const existingCat = toolMap.get(tool.id)!.category;
-          const isCurrentGeneric = cat.name === "Curated Collections" || cat.name === "Open Source & Alternatives";
-          const isExistingGeneric = existingCat === "Curated Collections" || existingCat === "Open Source & Alternatives";
+          const isCurrentGeneric = genericCategories.includes(cat.name);
+          const isExistingGeneric = genericCategories.includes(existingCat);
           
           if (isExistingGeneric && !isCurrentGeneric) {
             toolMap.set(tool.id, newTool);
@@ -62,6 +73,13 @@ export const tools: Tool[] = (() => {
     });
   });
 
+  // Merge additions (58 Engineering Skills, 52 GitHub Radars, 186 Ranked tools)
+  directoryAdditions.forEach((addition) => {
+    if (!toolMap.has(addition.id)) {
+      toolMap.set(addition.id, addition);
+    }
+  });
+
   return Array.from(toolMap.values());
 })();
 
@@ -70,7 +88,7 @@ export const stacks: Stack[] = [
     id: "stack-saas",
     name: "Beginner SaaS Stack",
     description: "The fastest path from idea to production SaaS — auth, DB, payments and email handled.",
-    tools: ["nextjs", "supabase-db", "clerk-auth", "stripe", "resend", "vercel", "posthog"],
+    tools: ["next-js", "supabase", "clerk", "stripe", "resend", "railway", "posthog"],
     icon: "🚀",
   },
   {

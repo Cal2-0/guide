@@ -109,7 +109,7 @@ export function CategoryCarousel() {
           const Icon = getCategoryIcon(cat.name);
 
           return (
-            <Link key={`${cat.name}-${idx}`} href={`/library?category=${encodeURIComponent(cat.name)}`}>
+            <Link key={`${cat.name}-${idx}`} href={`/directory?category=${encodeURIComponent(cat.name)}`}>
               <div 
                 className="shrink-0 w-60 sm:w-68 h-36 rounded-[24px] bg-white/[0.03] border border-white/10 backdrop-blur-md flex flex-col items-center justify-center text-center hover:bg-white/[0.06] hover:border-white/20 hover:shadow-[0_8px_32px_rgba(0,0,0,0.4)] transition-all duration-500 cursor-pointer group relative overflow-hidden p-5"
               >
