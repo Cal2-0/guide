@@ -1,63 +1,75 @@
 # Lyra: The Definitive Developer OS & Directory
 
-Lyra is a premium, high-performance directory of over **640+ hand-curated developer tools**, frameworks, databases, and APIs. Built for the modern builder, Lyra prioritizes a flawless user experience, extreme performance, and highly opinionated curation to eliminate decision fatigue.
+> **A fast, honest catalog of 1,098+ hand-curated developer tools, architectural recipes, and launch checklists across 28 verified categories. Zero fluff.**
 
-## 💎 The "Billion-Dollar" UX
+[![CI & Security Quality Gate](https://github.com/Cal2-0/guide/actions/workflows/ci-security.yml/badge.svg)](https://github.com/Cal2-0/guide/actions/workflows/ci-security.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Lyra isn't just another directory; it's designed to feel like a premium, state-of-the-art native application:
+---
 
-*   **The Launchpad (Start Guide)**: An opinionated, step-by-step roadmap from Idea to Launch. Skip the paradox of choice and see exactly which tool to use for frontend, auth, and deployment.
-*   **Semantic Fuzzy Search**: Powered by Fuse.js for instant, sub-millisecond filtering across tool names, tags, categories, and descriptions.
-*   **The Honest Guide**: Curated mega-menus grouping tools by "Build Intent" (SaaS / Startup, Cybersecurity, Backend & API, etc.) for intuitive discovery.
-*   **Flawless Dark Mode**: A stunning, high-contrast dark aesthetic featuring glassmorphism, 60fps framer-motion micro-animations, and perfect typography.
-*   **My Stack**: A personalized, persistent list of your favorite tools saved instantly to local storage.
-*   **Keyboard First**: Press `⌘ + K` to instantly open the Search Dock from anywhere on the site.
+## 💎 The Modern Builder UX
 
-## 🏗️ Architecture
+Lyra is engineered as a state-of-the-art, high-density developer platform:
 
-Lyra is built as a blazingly fast Single Page Application (SPA).
+*   **The Universal Directory (`/directory`)**: 1,098+ verified developer tools, engineering playbooks, autonomous agent skills, and GitHub radars across 28 categories.
+*   **Mobile-First Ergonomics**: Single-row horizontal swipeable category ribbons, compact app icons (32×32px), zero overlap, and progressive 60fps rendering.
+*   **Faceted Filtering**: Sub-millisecond multi-attribute filtering by Pricing (`Free`, `OSS`, `Free tier`, `Paid`), Ecosystem (`React`, `Node`, `Python`, `Rust`, `Go`, `TypeScript`), and Features (`AI`, `Cloud`, `CLI`, `API`).
+*   **Fast Sub-Millisecond Search**: Client-side fuzzy search powered by Fuse.js.
+*   **Blueprints (`/blueprints`)**: Validated build paths and curated 12-step launch checklists.
+*   **My Stack (`/stack`)**: Persistent stack curation saved privately to local storage with one-click export.
+*   **Keyboard First**: Press `⌘ + K` or `Ctrl + K` to open the search modal from anywhere.
 
-*   **Framework**: React 19 + Vite
-*   **Routing**: `wouter` (Minimalist, fast routing)
+---
+
+## 🏗️ Architecture & Technology Stack
+
+Lyra is built as an ultra-fast Single Page Application (SPA):
+
+*   **Framework**: React 19 + Vite 7
+*   **Routing**: `wouter` (minimalist, zero-overhead routing)
 *   **Styling**: Tailwind CSS v4 + Radix UI Primitives + Lucide Icons
 *   **Animations**: Framer Motion
-*   **Search**: Fuse.js (Client-side fuzzy search)
-*   **State Management**: React Hooks + LocalStorage (for "My Stack")
-*   **Theming**: `next-themes`
+*   **Search Engine**: Fuse.js client-side indexing
+*   **State Management**: React Hooks + LocalStorage
+*   **Theming**: `next-themes` (instant dark / light mode)
+*   **Deployment**: Zero-configuration Netlify (`netlify.toml`) & Vercel (`vercel.json`)
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-*   Node.js 18+
+*   Node.js 20+
 *   pnpm (recommended) or npm
 
-### Installation
+### Installation & Local Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Cal2-0/guide.git
-   cd guide
-   ```
-2. Install dependencies:
-   ```bash
-   pnpm install
-   ```
-3. Start the development server:
-   ```bash
-   pnpm run dev
-   ```
+```bash
+# 1. Clone the repository
+git clone https://github.com/Cal2-0/guide.git
+cd guide
 
-## 🛠️ Data Management
+# 2. Install dependencies
+pnpm install
 
-The backbone of Lyra is its highly structured data.
-*   To add or modify tools, edit the `client/src/lib/toolsDataArticle.ts` file. 
-*   The application automatically deduplicates tools and maps them to their respective UI components on load.
+# 3. Start local development server
+pnpm run dev
+```
 
-## 🤝 Contributing
+Visit `http://localhost:3000` in your browser.
 
-Contributions to the Lyra directory are highly welcome! Whether you are submitting a new tool for the Honest Guide or fixing a typo, feel free to open a Pull Request. Check out `suggestions.txt` in this repo for our Version 2.0 Roadmap.
+---
+
+## 🛡️ Security & Quality
+
+*   **Security Policy**: Documented in [SECURITY.md](SECURITY.md) and exposed at `/.well-known/security.txt`.
+*   **Secret Detection**: Gitleaks scanner enforced via CI (`.gitleaks.toml`).
+*   **Vulnerability Scanning**: Automated Google OSV-Scanner for lockfile CVE detection.
+*   **Link Verification**: Strict outbound link security auditor (`pnpm check:links`).
+
+---
 
 ## 📄 License
 
-MIT License
+MIT License © 2026 Lyra Authors
