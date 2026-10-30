@@ -30,12 +30,12 @@ export function Directory() {
   
   const initialCategory = params.get("category") || "All";
   const initialTags = params.get("tags")?.split(",").filter(Boolean) || [];
-  const initialSort = (params.get("sort") as "liked" | "newest") || "liked";
+  const initialSort = (params.get("sort") as "featured" | "newest") || "featured";
   const initialSearch = params.get("q") || "";
 
   const [activeCategory, setActiveCategoryState] = useState<string>(initialCategory);
   const [selectedTags, setSelectedTagsState] = useState<string[]>(initialTags);
-  const [sortBy, setSortByState] = useState<"liked" | "newest">(initialSort);
+  const [sortBy, setSortByState] = useState<"featured" | "newest">(initialSort);
   const [searchQuery, setSearchQueryState] = useState(initialSearch);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [activeFilterDropdown, setActiveFilterDropdown] = useState<string | null>(null);
@@ -55,7 +55,7 @@ export function Directory() {
     const newParams = new URLSearchParams();
     if (category !== "All") newParams.set("category", category);
     if (tags.length > 0) newParams.set("tags", tags.join(","));
-    if (sort !== "liked") newParams.set("sort", sort);
+    if (sort !== "featured") newParams.set("sort", sort);
     if (q) newParams.set("q", q);
     const query = newParams.toString();
     const newUrl = `/directory${query ? `?${query}` : ""}`;
@@ -81,7 +81,7 @@ export function Directory() {
     updateUrl(activeCategory, next, sortBy, searchQuery);
   };
 
-  const setSortBy = (sort: "liked" | "newest") => {
+  const setSortBy = (sort: "featured" | "newest") => {
     setSortByState(sort);
     updateUrl(activeCategory, selectedTags, sort, searchQuery);
   };
@@ -96,7 +96,7 @@ export function Directory() {
     const currentParams = new URLSearchParams(searchString || window.location.search);
     setActiveCategoryState(currentParams.get("category") || "All");
     setSelectedTagsState(currentParams.get("tags")?.split(",").filter(Boolean) || []);
-    setSortByState((currentParams.get("sort") as "liked" | "newest") || "liked");
+    setSortByState((currentParams.get("sort") as "featured" | "newest") || "featured");
     setSearchQueryState(currentParams.get("q") || "");
   }, [searchString]);
 
@@ -105,7 +105,7 @@ export function Directory() {
       const currentParams = new URLSearchParams(window.location.search);
       setActiveCategoryState(currentParams.get("category") || "All");
       setSelectedTagsState(currentParams.get("tags")?.split(",").filter(Boolean) || []);
-      setSortByState((currentParams.get("sort") as "liked" | "newest") || "liked");
+      setSortByState((currentParams.get("sort") as "featured" | "newest") || "featured");
       setSearchQueryState(currentParams.get("q") || "");
     };
     window.addEventListener("popstate", handlePopState);
@@ -189,9 +189,8 @@ export function Directory() {
       );
     }
 
-    if (sortBy === "liked") {
-      result = [...result].sort((a, b) => (b.likes || 0) - (a.likes || 0));
-    } else if (sortBy === "newest") {
+    // "featured" keeps the curated order
+    if (sortBy === "newest") {
       result = [...result].sort((a, b) => new Date(b.createdAt || 0).getTime() - new Date(a.createdAt || 0).getTime());
     }
     
@@ -206,9 +205,9 @@ export function Directory() {
   const clearAllFilters = () => {
     setActiveCategoryState("All");
     setSelectedTagsState([]);
-    setSortByState("liked");
+    setSortByState("featured");
     setSearchQueryState("");
-    updateUrl("All", [], "liked", "");
+    updateUrl("All", [], "featured", "");
   };
 
   const hasActiveFilters = activeCategory !== "All" || selectedTags.length > 0 || searchQuery !== "";
@@ -235,15 +234,15 @@ export function Directory() {
               <span className="text-xs text-white/80 font-medium">Sort by:</span>
               <div className="inline-flex p-1 rounded-full bg-white/[0.08] border border-white/15">
                 <button
-                  onClick={() => setSortBy("liked")}
+                  onClick={() => setSortBy("featured")}
                   className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
-                    sortBy === "liked"
+                    sortBy === "featured"
                       ? "bg-white/20 text-white shadow-sm font-semibold"
                       : "text-white/70 hover:text-white"
                   }`}
                 >
                   <Flame className="w-3 h-3 text-[#e8702a]" />
-                  Most Liked
+                  Featured
                 </button>
                 <button
                   onClick={() => setSortBy("newest")}

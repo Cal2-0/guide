@@ -13,7 +13,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 753,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -28,7 +27,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 863,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -43,7 +41,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 731,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -58,7 +55,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 819,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -73,7 +69,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 775,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -88,7 +83,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 665,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -104,7 +98,6 @@ export const directoryAdditions: Tool[] = [
       "Backend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 709,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -120,7 +113,6 @@ export const directoryAdditions: Tool[] = [
       "Backend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 797,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -136,7 +128,6 @@ export const directoryAdditions: Tool[] = [
       "Backend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 819,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -152,7 +143,6 @@ export const directoryAdditions: Tool[] = [
       "Backend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 775,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -168,7 +158,6 @@ export const directoryAdditions: Tool[] = [
       "Backend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 830,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -184,7 +173,6 @@ export const directoryAdditions: Tool[] = [
       "Backend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -199,7 +187,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 863,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -214,7 +201,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 863,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -229,7 +215,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 808,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -244,7 +229,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -259,7 +243,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 885,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -274,7 +257,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 863,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -289,7 +271,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 507,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -304,7 +285,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 874,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -319,7 +299,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 709,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -335,7 +314,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 643,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -351,7 +329,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 698,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -367,7 +344,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 731,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -383,7 +359,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 753,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -399,7 +374,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 643,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -415,7 +389,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 819,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -431,7 +404,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 830,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -446,7 +418,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 742,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -461,7 +432,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 742,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -476,7 +446,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 687,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -491,7 +460,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 775,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -506,7 +474,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 698,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -521,7 +488,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 808,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -537,7 +503,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 507,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -553,7 +518,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 753,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -569,7 +533,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 709,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -585,7 +548,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 819,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -601,7 +563,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 808,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -617,7 +578,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 830,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -633,7 +593,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 764,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -649,7 +608,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 764,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -665,7 +623,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 720,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -681,7 +638,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 797,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -697,7 +653,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 687,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -713,7 +668,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 720,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -729,7 +683,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 753,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -745,7 +698,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -761,7 +713,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 863,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -777,13 +728,12 @@ export const directoryAdditions: Tool[] = [
       "CLI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 588,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
     "id": "skill-agent-loop-patterns",
     "name": "Agent Loop Patterns",
-    "description": "Loaded during Steps 6\u20137 of the token-optimization workflow: model",
+    "description": "Loaded during Steps 6–7 of the token-optimization workflow: model",
     "category": "Engineering Skills",
     "subcategory": "Token & Context Optimization",
     "tags": [
@@ -793,13 +743,12 @@ export const directoryAdditions: Tool[] = [
       "CLI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 742,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
     "id": "skill-context-management",
     "name": "Context Management",
-    "description": "Loaded during Steps 3\u20135 of the token-optimization workflow: slimming",
+    "description": "Loaded during Steps 3–5 of the token-optimization workflow: slimming",
     "category": "Engineering Skills",
     "subcategory": "Token & Context Optimization",
     "tags": [
@@ -809,7 +758,6 @@ export const directoryAdditions: Tool[] = [
       "CLI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 731,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -825,13 +773,12 @@ export const directoryAdditions: Tool[] = [
       "CLI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
     "id": "skill-output-and-verification",
     "name": "Output and Verification",
-    "description": "Loaded during Steps 8\u20139 of the token-optimization workflow: trimming generated output and verifying that the optimization actually moved the dominant bucket. The SKILL.md body has the headline bullets; this file expands the templates, cookb",
+    "description": "Loaded during Steps 8–9 of the token-optimization workflow: trimming generated output and verifying that the optimization actually moved the dominant bucket. The SKILL.md body has the headline bullets; this file expands the templates, cookb",
     "category": "Engineering Skills",
     "subcategory": "Token & Context Optimization",
     "tags": [
@@ -841,7 +788,6 @@ export const directoryAdditions: Tool[] = [
       "CLI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -857,7 +803,6 @@ export const directoryAdditions: Tool[] = [
       "CLI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 687,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -872,7 +817,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 819,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -887,7 +831,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 764,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -902,7 +845,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 742,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -917,7 +859,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -932,7 +873,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 632,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -947,7 +887,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 786,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -962,7 +901,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 819,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -977,7 +915,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 687,
     "createdAt": "2026-03-15T00:00:00.000Z"
   },
   {
@@ -993,7 +930,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/ruvnet/ruflo",
-    "likes": 1139,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1009,7 +945,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/obra/superpowers",
-    "likes": 1037,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1025,7 +960,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/dietrichgebert/ponytail",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1040,7 +974,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/garrytan/gstack",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1057,7 +990,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/garrytan/gbrain",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1073,7 +1005,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/All-Hands-AI/OpenHands",
-    "likes": 1003,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1088,7 +1019,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/paul-gauthier/aider",
-    "likes": 935,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1103,13 +1033,12 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/continuedev/continue",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
     "id": "radar-rtk-rust-token-killer",
     "name": "RTK (Rust Token Killer)",
-    "description": "High-performance CLI proxy built in Rust. Intercepts `git`, `npm`, `pnpm`, `tsc`, `lint`, `cargo`, `pytest`, filtering boilerplate and saving 60\u201390% of command tokens. Tracks savings via `rtk gain`.",
+    "description": "High-performance CLI proxy built in Rust. Intercepts `git`, `npm`, `pnpm`, `tsc`, `lint`, `cargo`, `pytest`, filtering boilerplate and saving 60–90% of command tokens. Tracks savings via `rtk gain`.",
     "category": "GitHub Radars",
     "subcategory": "Authoritative Repositories",
     "tags": [
@@ -1121,7 +1050,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/rtk-ai/rtk",
-    "likes": 1241,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1136,7 +1064,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/bm629/agent-skills/tree/main/skills/token-optimization",
-    "likes": 1258,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1152,7 +1079,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/yamadashy/repomix",
-    "likes": 969,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1167,7 +1093,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/pbakaus/impeccable",
-    "likes": 1020,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1183,7 +1108,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-    "likes": 1071,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1198,7 +1122,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/vercel-labs/agent-skills",
-    "likes": 1173,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1214,7 +1137,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/shadcn-ui/ui",
-    "likes": 1003,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1230,7 +1152,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/magicuidesign/magicui",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1245,7 +1166,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/21st-dev/magic",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1261,7 +1181,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/microsoft/playwright",
-    "likes": 1020,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1277,7 +1196,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/vitest-dev/vitest",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1293,7 +1211,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/testing-library/react-testing-library",
-    "likes": 1105,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1309,7 +1226,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/trailofbits/skills",
-    "likes": 1190,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1325,7 +1241,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/usestrix/strix",
-    "likes": 935,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1340,7 +1255,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/gitleaks/gitleaks",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1356,7 +1270,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/semgrep/semgrep",
-    "likes": 969,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1371,7 +1284,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/google/osv-scanner",
-    "likes": 1037,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1386,7 +1298,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/trufflesecurity/trufflehog",
-    "likes": 1020,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1402,7 +1313,6 @@ export const directoryAdditions: Tool[] = [
       "Security"
     ],
     "url": "https://github.com/supabase/agent-skills",
-    "likes": 1207,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1417,7 +1327,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/j4flmao/agent-skills",
-    "likes": 1241,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1432,7 +1341,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/prisma/prisma",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1447,7 +1355,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/drizzle-team/drizzle-orm",
-    "likes": 1037,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1462,7 +1369,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/duckdb/duckdb",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1477,7 +1383,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/anthropics/skills",
-    "likes": 1275,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1492,7 +1397,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/modelcontextprotocol/servers",
-    "likes": 1224,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1508,7 +1412,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/vercel/ai",
-    "likes": 1071,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1524,7 +1427,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/langfuse/langfuse",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1540,7 +1442,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/langgenius/dify",
-    "likes": 918,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1555,7 +1456,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/qdrant/qdrant",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1570,7 +1470,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/github/spec-kit",
-    "likes": 986,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1585,7 +1484,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/eyaltoledano/claude-task-master",
-    "likes": 1156,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1600,7 +1498,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/oraios/serena",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1615,7 +1512,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/Egonex-AI/Understand-Anything",
-    "likes": 1173,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1630,7 +1526,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/coreyhaines31/marketingskills",
-    "likes": 1122,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1646,7 +1541,6 @@ export const directoryAdditions: Tool[] = [
       "Frontend"
     ],
     "url": "https://github.com/sandbaseai/sandbase-skills",
-    "likes": 1105,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1661,7 +1555,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/jjfroehlich/agent-skills-for-academic-research",
-    "likes": 1258,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1677,7 +1570,6 @@ export const directoryAdditions: Tool[] = [
       "Testing"
     ],
     "url": "https://github.com/Emily2040/data-science-agent-skills",
-    "likes": 1275,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1692,7 +1584,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/pola-rs/polars",
-    "likes": 952,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1707,13 +1598,12 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/huggingface/transformers",
-    "likes": 1122,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
     "id": "radar-awesome-agent-skills",
     "name": "Awesome Agent Skills",
-    "description": "",
+    "description": "Curated list of agent skills for Claude Code, Codex, Gemini CLI and other coding agents.",
     "category": "GitHub Radars",
     "subcategory": "Authoritative Repositories",
     "tags": [
@@ -1722,7 +1612,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://github.com/VoltAgent/awesome-agent-skills",
-    "likes": 1190,
     "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
@@ -1736,7 +1625,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://ai-sdk.dev",
-    "likes": 721,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1749,7 +1637,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://git-scm.com",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1763,7 +1650,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://github.com",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1777,7 +1663,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://modelcontextprotocol.io",
-    "likes": 874,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1790,7 +1675,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://docs.astral.sh/uv",
-    "likes": 534,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1804,7 +1688,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://huggingface.co",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1818,7 +1701,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://context7.com",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1832,7 +1714,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://langfuse.com",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1845,7 +1726,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://docs.astral.sh/ruff",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1858,7 +1738,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://docs.pydantic.dev",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1872,7 +1751,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://workers.cloudflare.com",
-    "likes": 806,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1885,7 +1763,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://opentelemetry.io",
-    "likes": 721,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1898,7 +1775,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://cli.github.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1911,7 +1787,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://ffmpeg.org",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1924,7 +1799,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://caniuse.com",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1937,7 +1811,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://docs.renovatebot.com",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1951,7 +1824,6 @@ export const directoryAdditions: Tool[] = [
       "Database"
     ],
     "url": "https://duckdb.org",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1965,7 +1837,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://storybook.js.org",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1978,7 +1849,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://testing-library.com",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -1992,7 +1862,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://tailscale.com",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2005,7 +1874,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://free-for.dev",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2018,7 +1886,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://tanstack.com/start",
-    "likes": 738,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2031,7 +1898,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://trpc.io",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2044,7 +1910,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://reactnative.dev",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2057,7 +1922,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://reactrouter.com",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2071,7 +1935,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://www.promptfoo.dev",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2085,7 +1948,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://docling-project.github.io/docling",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2099,7 +1961,6 @@ export const directoryAdditions: Tool[] = [
       "Database"
     ],
     "url": "https://www.sqlalchemy.org",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2113,7 +1974,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/browser-use/browser-use",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2127,7 +1987,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://mastra.ai",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2141,7 +2000,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://phoenix.arize.com",
-    "likes": 721,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2155,7 +2013,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://google.github.io/adk-docs/",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2169,7 +2026,6 @@ export const directoryAdditions: Tool[] = [
       "Automation"
     ],
     "url": "https://www.inngest.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2182,7 +2038,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://turborepo.com",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2196,7 +2051,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://base-ui.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2210,7 +2064,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://tweakcn.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2223,7 +2076,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://google.github.io/osv-scanner",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2237,7 +2089,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://socket.dev",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2250,7 +2101,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://www.cloudflare.com/application-services/products/turnstile/",
-    "likes": 840,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2263,7 +2113,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://owasp.org/www-project-application-security-verification-standard/",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2276,7 +2125,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.zaproxy.org",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2289,7 +2137,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://cheatsheetseries.owasp.org",
-    "likes": 908,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2303,7 +2150,6 @@ export const directoryAdditions: Tool[] = [
       "Freemium"
     ],
     "url": "https://bitwarden.com",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2316,7 +2162,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://mswjs.io",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2329,7 +2174,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://testcontainers.com",
-    "likes": 738,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2342,7 +2186,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://mise.jdx.dev",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2355,7 +2198,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://jqlang.github.io/jq/",
-    "likes": 534,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2368,7 +2210,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://github.com/BurntSushi/ripgrep",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2381,7 +2222,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://github.com/junegunn/fzf",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2394,7 +2234,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://pre-commit.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2407,7 +2246,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://containers.dev",
-    "likes": 738,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2421,7 +2259,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/openai/codex",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2436,7 +2273,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/google-gemini/gemini-cli",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2450,7 +2286,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://cline.bot",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2464,7 +2299,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://gofastmcp.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2478,7 +2312,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://e2b.dev",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2492,7 +2325,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://www.gradio.app",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2506,7 +2338,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://streamlit.io",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2519,7 +2350,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://jupyter.org",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2533,7 +2363,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://modal.com",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2548,7 +2377,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://workos.com",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2562,7 +2390,6 @@ export const directoryAdditions: Tool[] = [
       "Paid"
     ],
     "url": "https://polar.sh",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2577,7 +2404,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://upstash.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2590,7 +2416,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://opentofu.org",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2603,7 +2428,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
-    "likes": 789,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2616,7 +2440,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://uptime.kuma.pet",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2629,7 +2452,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://clarity.microsoft.com",
-    "likes": 789,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2643,7 +2465,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://loops.so",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2656,7 +2477,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.electronjs.org",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2669,7 +2489,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://sharp.pixelplumbing.com",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2682,7 +2501,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://date-fns.org",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2695,7 +2513,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://go.dev",
-    "likes": 534,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2708,7 +2525,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.rust-lang.org",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2721,7 +2537,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://laravel.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2734,7 +2549,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://fastify.dev",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2747,7 +2561,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.openapis.org",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2760,7 +2573,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://payloadcms.com",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2773,7 +2585,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://mailpit.axllent.org",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2786,7 +2597,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://nginx.org",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2799,7 +2609,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://caddyserver.com",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2812,7 +2621,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://mermaid.js.org",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2825,7 +2633,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://k6.io",
-    "likes": 534,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2838,7 +2645,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://tsx.is",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2851,7 +2657,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://regex101.com",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2865,7 +2670,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://webhook.site",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2878,7 +2682,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://bundlephobia.com",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2892,7 +2695,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://iconify.design",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2906,7 +2708,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://www.openstreetmap.org",
-    "likes": 721,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2920,7 +2721,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://karpathy.ai/zero-to-hero.html",
-    "likes": 993,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2933,7 +2733,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://fullstackopen.com",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2946,7 +2745,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://web.dev",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2959,7 +2757,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://missing.csail.mit.edu",
-    "likes": 840,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2972,7 +2769,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://javascript.info",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2985,7 +2781,6 @@ export const directoryAdditions: Tool[] = [
       "Paid"
     ],
     "url": "https://dataintensive.net",
-    "likes": 629,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -2998,7 +2793,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://12factor.net",
-    "likes": 857,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3012,7 +2806,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://sonner.emilkowal.ski",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3025,7 +2818,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.i18next.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3038,7 +2830,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://pandoc.org",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3051,7 +2842,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://jsonplaceholder.typicode.com",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3064,7 +2854,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://fakerjs.dev",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3077,7 +2866,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://crontab.guru",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3091,7 +2879,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://www.webpagetest.org",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3104,7 +2891,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://www.conventionalcommits.org",
-    "likes": 840,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3117,7 +2903,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://lawsofux.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3130,7 +2915,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://www.a11yproject.com",
-    "likes": 772,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3143,7 +2927,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://tauri.app",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3156,7 +2939,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://helm.sh",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3169,7 +2951,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://argo-cd.readthedocs.io",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3182,7 +2963,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://svelte.dev/docs/kit",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3195,7 +2975,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://github.com/FiloSottile/mkcert",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3208,7 +2987,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://securityheaders.com",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3221,7 +2999,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://github.com/projectdiscovery/nuclei",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3234,7 +3011,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://owasp.org/www-project-top-ten/",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3247,7 +3023,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://gchq.github.io/CyberChef/",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3260,7 +3035,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.wireshark.org",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3273,7 +3047,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://portswigger.net/web-security",
-    "likes": 840,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3287,7 +3060,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://dspy.ai",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3301,7 +3073,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/unclecode/crawl4ai",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3315,7 +3086,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://jina.ai/reader",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3329,7 +3099,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://python.useinstructor.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3343,7 +3112,6 @@ export const directoryAdditions: Tool[] = [
       "Database"
     ],
     "url": "https://lancedb.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3357,7 +3125,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/microsoft/agent-framework",
-    "likes": 925,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3371,7 +3138,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://repomix.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3385,7 +3151,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://github.com/github/spec-kit",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3400,7 +3165,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://www.coderabbit.ai",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3413,7 +3177,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://rolldown.rs",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3426,7 +3189,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://tiptap.dev",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3439,7 +3201,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://dndkit.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3453,7 +3214,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://github.com/dip/cmdk",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3467,7 +3227,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://cva.style",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3480,7 +3239,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://leafletjs.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3493,7 +3251,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://capacitorjs.com",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3506,7 +3263,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://docs.swmansion.com/react-native-reanimated/",
-    "likes": 891,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3519,7 +3275,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://fastlane.tools",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3532,7 +3287,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://maestro.dev",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3545,7 +3299,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://flask.palletsprojects.com",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3558,7 +3311,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://scalar.com",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3572,7 +3324,6 @@ export const directoryAdditions: Tool[] = [
       "Database"
     ],
     "url": "https://alembic.sqlalchemy.org",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3587,7 +3338,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://turso.tech",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3600,7 +3350,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.growthbook.io",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3613,7 +3362,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://k9scli.io",
-    "likes": 551,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3626,7 +3374,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://github.com/getsops/sops",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3639,7 +3386,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://github.com/changesets/changesets",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3652,7 +3398,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://restic.net",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3666,7 +3411,6 @@ export const directoryAdditions: Tool[] = [
       "Database"
     ],
     "url": "https://litestream.io",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3679,7 +3423,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://just.systems",
-    "likes": 568,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3692,7 +3435,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://nx.dev",
-    "likes": 534,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3705,7 +3447,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://starlight.astro.build",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3718,7 +3459,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://squoosh.app",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3732,7 +3472,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://www.photopea.com",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3745,7 +3484,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://obsproject.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3758,7 +3496,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://ahrefs.com/webmaster-tools",
-    "likes": 874,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3771,7 +3508,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://marimo.io",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3785,7 +3521,6 @@ export const directoryAdditions: Tool[] = [
       "UI"
     ],
     "url": "https://transitions.dev",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3799,7 +3534,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://tally.so",
-    "likes": 585,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3812,7 +3546,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://uploadthing.com",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3826,7 +3559,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://www.stagehand.dev",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3840,7 +3572,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://livekit.io",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3854,7 +3585,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://fal.ai",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3867,7 +3597,6 @@ export const directoryAdditions: Tool[] = [
       "Paid"
     ],
     "url": "https://dodopayments.com",
-    "likes": 721,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3881,7 +3610,6 @@ export const directoryAdditions: Tool[] = [
       "Database"
     ],
     "url": "https://clickhouse.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3894,7 +3622,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://pola.rs",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3907,7 +3634,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.metabase.com",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3920,7 +3646,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://flutter.dev",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3934,7 +3659,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://www.raycast.com",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3947,7 +3671,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://tldraw.dev",
-    "likes": 602,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3960,7 +3683,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://maplibre.org",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3973,7 +3695,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://open-meteo.com",
-    "likes": 670,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3986,7 +3707,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://documenso.com",
-    "likes": 653,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -3999,7 +3719,6 @@ export const directoryAdditions: Tool[] = [
       "Paid"
     ],
     "url": "https://stripe.com/atlas",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4012,7 +3731,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://getfoundry.sh",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4025,7 +3743,6 @@ export const directoryAdditions: Tool[] = [
       "OSS"
     ],
     "url": "https://www.openzeppelin.com/contracts",
-    "likes": 874,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4038,7 +3755,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://cs50.harvard.edu/x",
-    "likes": 704,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4051,7 +3767,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://eloquentjavascript.net",
-    "likes": 823,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4064,7 +3779,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://doc.rust-lang.org/book/",
-    "likes": 993,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4078,7 +3792,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://realpython.com",
-    "likes": 687,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4091,7 +3804,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://use-the-index-luke.com",
-    "likes": 823,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4104,7 +3816,6 @@ export const directoryAdditions: Tool[] = [
       "Paid"
     ],
     "url": "https://www.refactoringui.com",
-    "likes": 738,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4117,7 +3828,6 @@ export const directoryAdditions: Tool[] = [
       "Paid"
     ],
     "url": "https://css-for-js.dev",
-    "likes": 993,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4131,7 +3841,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://www.totaltypescript.com",
-    "likes": 772,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4145,7 +3854,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://refactoring.guru",
-    "likes": 772,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4159,7 +3867,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://course.fast.ai",
-    "likes": 619,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4174,7 +3881,6 @@ export const directoryAdditions: Tool[] = [
       "Free tier"
     ],
     "url": "https://www.deeplearning.ai",
-    "likes": 755,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4188,7 +3894,6 @@ export const directoryAdditions: Tool[] = [
       "AI"
     ],
     "url": "https://huggingface.co/learn",
-    "likes": 806,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4201,7 +3906,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://www.theodinproject.com",
-    "likes": 772,
     "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
@@ -4214,2435 +3918,6 @@ export const directoryAdditions: Tool[] = [
       "Free"
     ],
     "url": "https://exercism.org",
-    "likes": 636,
     "createdAt": "2026-01-20T00:00:00.000Z"
-  },
-  {
-    "id": "agent-agent-adaptive-coordinator",
-    "name": "Agent Adaptive Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent adaptive coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-agent",
-    "name": "Agent Agent",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent agent.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 249
-  },
-  {
-    "id": "agent-agent-automation-smart-agent",
-    "name": "Agent Automation Smart Agent",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent automation smart agent.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 402
-  },
-  {
-    "id": "agent-agent-byzantine-coordinator",
-    "name": "Agent Byzantine Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent byzantine coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-agent-collective-intelligence-coordinator",
-    "name": "Agent Collective Intelligence Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent collective intelligence coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 219
-  },
-  {
-    "id": "agent-agent-consensus-coordinator",
-    "name": "Agent Consensus Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent consensus coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-agent-coordination",
-    "name": "Agent Coordination",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent coordination.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-agent-coordinator-swarm-init",
-    "name": "Agent Coordinator Swarm Init",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent coordinator swarm init.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 402
-  },
-  {
-    "id": "agent-agent-crdt-synchronizer",
-    "name": "Agent Crdt Synchronizer",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent crdt synchronizer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-gossip-coordinator",
-    "name": "Agent Gossip Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent gossip coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-agent-hierarchical-coordinator",
-    "name": "Agent Hierarchical Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent hierarchical coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 420
-  },
-  {
-    "id": "agent-agent-mesh-coordinator",
-    "name": "Agent Mesh Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent mesh coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-multi-repo-swarm",
-    "name": "Agent Multi Repo Swarm",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent multi repo swarm.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-queen-coordinator",
-    "name": "Agent Queen Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent queen coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-quorum-manager",
-    "name": "Agent Quorum Manager",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent quorum manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-raft-manager",
-    "name": "Agent Raft Manager",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent raft manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-agent-resource-allocator",
-    "name": "Agent Resource Allocator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent resource allocator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-agent-sparc-coordinator",
-    "name": "Agent Sparc Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent sparc coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-swarm",
-    "name": "Agent Swarm",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 249
-  },
-  {
-    "id": "agent-agent-swarm-issue",
-    "name": "Agent Swarm Issue",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm issue.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-agent-swarm-memory-manager",
-    "name": "Agent Swarm Memory Manager",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm memory manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-swarm-pr",
-    "name": "Agent Swarm Pr",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent swarm pr.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 276
-  },
-  {
-    "id": "agent-agent-sync-coordinator",
-    "name": "Agent Sync Coordinator",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for agent sync coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-hive-mind",
-    "name": "Hive Mind",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for hive mind.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 231
-  },
-  {
-    "id": "agent-hive-mind-advanced",
-    "name": "Hive Mind Advanced",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for hive mind advanced.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-open-federation",
-    "name": "Open Federation",
-    "description": "Autonomous swarm capability for orchestration and coordination: provides specialized agent intelligence for open federation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Orchestration and Coordination",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 285
-  },
-  {
-    "id": "agent-frontend-design-complete",
-    "name": "Frontend Design Complete",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for frontend design complete.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-interface-design",
-    "name": "Interface Design",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for interface design.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-ui-ux-design",
-    "name": "Ui Ux Design",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for ui ux design.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 258
-  },
-  {
-    "id": "agent-web-design-guidelines",
-    "name": "Web Design Guidelines",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for web design guidelines.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-vercel-composition-patterns",
-    "name": "Vercel Composition Patterns",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for vercel composition patterns.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-vercel-react-best-practices",
-    "name": "Vercel React Best Practices",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for vercel react best practices.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-shadcn",
-    "name": "Shadcn",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for shadcn.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 204
-  },
-  {
-    "id": "agent-requesting-code-review",
-    "name": "Requesting Code Review",
-    "description": "Autonomous swarm capability for frontend and design: provides specialized agent intelligence for requesting code review.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Frontend and Design",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Frontend"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-test-driven-development",
-    "name": "Test Driven Development",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for test driven development.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-systematic-debugging",
-    "name": "Systematic Debugging",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for systematic debugging.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-verification-before-completion",
-    "name": "Verification Before Completion",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for verification before completion.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 420
-  },
-  {
-    "id": "agent-verification-quality",
-    "name": "Verification Quality",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for verification quality.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-tester",
-    "name": "Agent Tester",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for agent tester.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 258
-  },
-  {
-    "id": "agent-agent-tdd-london-swarm",
-    "name": "Agent Tdd London Swarm",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for agent tdd london swarm.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-test-long-runner",
-    "name": "Agent Test Long Runner",
-    "description": "Autonomous swarm capability for testing and quality: provides specialized agent intelligence for agent test long runner.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Testing and Quality",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Testing"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-security-audit",
-    "name": "Security Audit",
-    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for security audit.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Security",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Security"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 276
-  },
-  {
-    "id": "agent-agent-security-manager",
-    "name": "Agent Security Manager",
-    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent security manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Security",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Security"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-v3-security-architect",
-    "name": "Agent V3 Security Architect",
-    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent v3 security architect.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Security",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Security"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-agent-authentication",
-    "name": "Agent Authentication",
-    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent authentication.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Security",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Security"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-sandbox",
-    "name": "Agent Sandbox",
-    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent sandbox.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Security",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Security"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 267
-  },
-  {
-    "id": "agent-agent-challenges",
-    "name": "Agent Challenges",
-    "description": "Autonomous swarm capability for security: provides specialized agent intelligence for agent challenges.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Security",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Security"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-performance-analysis",
-    "name": "Performance Analysis",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for performance analysis.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-performance-analyzer",
-    "name": "Agent Performance Analyzer",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance analyzer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-performance-benchmarker",
-    "name": "Agent Performance Benchmarker",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance benchmarker.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 411
-  },
-  {
-    "id": "agent-agent-performance-monitor",
-    "name": "Agent Performance Monitor",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance monitor.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 375
-  },
-  {
-    "id": "agent-agent-performance-optimizer",
-    "name": "Agent Performance Optimizer",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent performance optimizer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-agent-v3-performance-engineer",
-    "name": "Agent V3 Performance Engineer",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent v3 performance engineer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 411
-  },
-  {
-    "id": "agent-agent-matrix-optimizer",
-    "name": "Agent Matrix Optimizer",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent matrix optimizer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-topology-optimizer",
-    "name": "Agent Topology Optimizer",
-    "description": "Autonomous swarm capability for performance: provides specialized agent intelligence for agent topology optimizer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Performance",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-sparc-methodology",
-    "name": "Sparc Methodology",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for sparc methodology.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-agent-architecture",
-    "name": "Agent Architecture",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent architecture.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-agent-arch-system-design",
-    "name": "Agent Arch System Design",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent arch system design.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-agent-code-goal-planner",
-    "name": "Agent Code Goal Planner",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent code goal planner.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-migration-plan",
-    "name": "Agent Migration Plan",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent migration plan.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-planner",
-    "name": "Agent Planner",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent planner.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 267
-  },
-  {
-    "id": "agent-agent-pseudocode",
-    "name": "Agent Pseudocode",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent pseudocode.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agent-repo-architect",
-    "name": "Agent Repo Architect",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent repo architect.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-specification",
-    "name": "Agent Specification",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent specification.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-agent-refinement",
-    "name": "Agent Refinement",
-    "description": "Autonomous swarm capability for architecture and planning: provides specialized agent intelligence for agent refinement.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Architecture and Planning",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agent-coder",
-    "name": "Agent Coder",
-    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent coder.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Implementation",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 249
-  },
-  {
-    "id": "agent-agent-implementer-sparc-coder",
-    "name": "Agent Implementer Sparc Coder",
-    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent implementer sparc coder.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Implementation",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 411
-  },
-  {
-    "id": "agent-agent-base-template-generator",
-    "name": "Agent Base Template Generator",
-    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent base template generator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Implementation",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 411
-  },
-  {
-    "id": "agent-agent-code-analyzer",
-    "name": "Agent Code Analyzer",
-    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent code analyzer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Implementation",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-agent-worker-specialist",
-    "name": "Agent Worker Specialist",
-    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for agent worker specialist.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Implementation",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-pair-programming",
-    "name": "Pair Programming",
-    "description": "Autonomous swarm capability for implementation: provides specialized agent intelligence for pair programming.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Implementation",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-github-automation",
-    "name": "Github Automation",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github automation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-github-code-review",
-    "name": "Github Code Review",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github code review.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-github-multi-repo",
-    "name": "Github Multi Repo",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github multi repo.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-github-project-management",
-    "name": "Github Project Management",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github project management.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 375
-  },
-  {
-    "id": "agent-github-release-management",
-    "name": "Github Release Management",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github release management.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 375
-  },
-  {
-    "id": "agent-github-workflow-automation",
-    "name": "Github Workflow Automation",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for github workflow automation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-github-modes",
-    "name": "Agent Github Modes",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent github modes.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-agent-github-pr-manager",
-    "name": "Agent Github Pr Manager",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent github pr manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-pr-manager",
-    "name": "Agent Pr Manager",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent pr manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agent-issue-tracker",
-    "name": "Agent Issue Tracker",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent issue tracker.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-agent-ops-cicd-github",
-    "name": "Agent Ops Cicd Github",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent ops cicd github.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-agent-project-board-sync",
-    "name": "Agent Project Board Sync",
-    "description": "Autonomous swarm capability for github and devops: provides specialized agent intelligence for agent project board sync.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "GitHub and DevOps",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "DevOps"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-agent-release-manager",
-    "name": "Agent Release Manager",
-    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent release manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Release and Workflow",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-agent-release-swarm",
-    "name": "Agent Release Swarm",
-    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent release swarm.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Release and Workflow",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-agent-workflow",
-    "name": "Agent Workflow",
-    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent workflow.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Release and Workflow",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 276
-  },
-  {
-    "id": "agent-agent-workflow-automation",
-    "name": "Agent Workflow Automation",
-    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for agent workflow automation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Release and Workflow",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 375
-  },
-  {
-    "id": "agent-workflow-automation",
-    "name": "Workflow Automation",
-    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for workflow automation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Release and Workflow",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-hooks-automation",
-    "name": "Hooks Automation",
-    "description": "Autonomous swarm capability for release and workflow: provides specialized agent intelligence for hooks automation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Release and Workflow",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-memory-management",
-    "name": "Memory Management",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for memory management.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-agent-memory-coordinator",
-    "name": "Agent Memory Coordinator",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agent memory coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 366
-  },
-  {
-    "id": "agent-agent-swarm-memory-manager",
-    "name": "Agent Swarm Memory Manager",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agent swarm memory manager.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-v3-memory-specialist",
-    "name": "Agent V3 Memory Specialist",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agent v3 memory specialist.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agentdb-advanced",
-    "name": "Agentdb Advanced",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb advanced.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agentdb-learning",
-    "name": "Agentdb Learning",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb learning.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agentdb-memory-patterns",
-    "name": "Agentdb Memory Patterns",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb memory patterns.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agentdb-optimization",
-    "name": "Agentdb Optimization",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb optimization.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agentdb-vector-search",
-    "name": "Agentdb Vector Search",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for agentdb vector search.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-reasoningbank-agentdb",
-    "name": "Reasoningbank Agentdb",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for reasoningbank agentdb.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-reasoningbank-intelligence",
-    "name": "Reasoningbank Intelligence",
-    "description": "Autonomous swarm capability for memory and knowledge: provides specialized agent intelligence for reasoningbank intelligence.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Memory and Knowledge",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI",
-      "Memory"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-researcher",
-    "name": "Agent Researcher",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent researcher.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agent-data-ml-model",
-    "name": "Agent Data Ml Model",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent data ml model.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-agent-neural-network",
-    "name": "Agent Neural Network",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent neural network.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-neural-training",
-    "name": "Neural Training",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for neural training.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 285
-  },
-  {
-    "id": "agent-embeddings",
-    "name": "Embeddings",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for embeddings.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 240
-  },
-  {
-    "id": "agent-agent-pagerank-analyzer",
-    "name": "Agent Pagerank Analyzer",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent pagerank analyzer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-trading-predictor",
-    "name": "Agent Trading Predictor",
-    "description": "Autonomous swarm capability for research and data: provides specialized agent intelligence for agent trading predictor.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Research and Data",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-dev-backend-api",
-    "name": "Agent Dev Backend Api",
-    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent dev backend api.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Backend and API",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-agent-docs-api-openapi",
-    "name": "Agent Docs Api Openapi",
-    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent docs api openapi.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Backend and API",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-app-store",
-    "name": "Agent App Store",
-    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent app store.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Backend and API",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 285
-  },
-  {
-    "id": "agent-agent-agentic-payments",
-    "name": "Agent Agentic Payments",
-    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent agentic payments.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Backend and API",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-agent-payments",
-    "name": "Agent Payments",
-    "description": "Autonomous swarm capability for backend and api: provides specialized agent intelligence for agent payments.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Backend and API",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 276
-  },
-  {
-    "id": "agent-flow-nexus-neural",
-    "name": "Flow Nexus Neural",
-    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for flow nexus neural.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Cloud and Sandbox",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-flow-nexus-platform",
-    "name": "Flow Nexus Platform",
-    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for flow nexus platform.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Cloud and Sandbox",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-flow-nexus-swarm",
-    "name": "Flow Nexus Swarm",
-    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for flow nexus swarm.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Cloud and Sandbox",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agent-sandbox",
-    "name": "Agent Sandbox",
-    "description": "Autonomous swarm capability for cloud and sandbox: provides specialized agent intelligence for agent sandbox.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Cloud and Sandbox",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 267
-  },
-  {
-    "id": "agent-agent-reviewer",
-    "name": "Agent Reviewer",
-    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent reviewer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Code Review",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 276
-  },
-  {
-    "id": "agent-agent-code-review-swarm",
-    "name": "Agent Code Review Swarm",
-    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent code review swarm.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Code Review",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 357
-  },
-  {
-    "id": "agent-agent-analyze-code-quality",
-    "name": "Agent Analyze Code Quality",
-    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent analyze code quality.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Code Review",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-production-validator",
-    "name": "Agent Production Validator",
-    "description": "Autonomous swarm capability for code review: provides specialized agent intelligence for agent production validator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Code Review",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-v3-cli-modernization",
-    "name": "V3 Cli Modernization",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 cli modernization.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-v3-core-implementation",
-    "name": "V3 Core Implementation",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 core implementation.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 348
-  },
-  {
-    "id": "agent-v3-ddd-architecture",
-    "name": "V3 Ddd Architecture",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 ddd architecture.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-v3-integration-deep",
-    "name": "V3 Integration Deep",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 integration deep.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-v3-mcp-optimization",
-    "name": "V3 Mcp Optimization",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 mcp optimization.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-v3-memory-unification",
-    "name": "V3 Memory Unification",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 memory unification.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-v3-performance-optimization",
-    "name": "V3 Performance Optimization",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 performance optimization.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-v3-security-overhaul",
-    "name": "V3 Security Overhaul",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 security overhaul.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-v3-swarm-coordination",
-    "name": "V3 Swarm Coordination",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for v3 swarm coordination.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-agent-v3-integration-architect",
-    "name": "Agent V3 Integration Architect",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 integration architect.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 420
-  },
-  {
-    "id": "agent-agent-v3-memory-specialist",
-    "name": "Agent V3 Memory Specialist",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 memory specialist.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-v3-performance-engineer",
-    "name": "Agent V3 Performance Engineer",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 performance engineer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 411
-  },
-  {
-    "id": "agent-agent-v3-queen-coordinator",
-    "name": "Agent V3 Queen Coordinator",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 queen coordinator.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 384
-  },
-  {
-    "id": "agent-agent-v3-security-architect",
-    "name": "Agent V3 Security Architect",
-    "description": "Autonomous swarm capability for v3 modernization: provides specialized agent intelligence for agent v3 security architect.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "V3 Modernization",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 393
-  },
-  {
-    "id": "agent-claims",
-    "name": "Claims",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for claims.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 204
-  },
-  {
-    "id": "agent-stream-chain",
-    "name": "Stream Chain",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for stream chain.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 258
-  },
-  {
-    "id": "agent-agentic-jujutsu",
-    "name": "Agentic Jujutsu",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agentic jujutsu.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 285
-  },
-  {
-    "id": "agent-agent-safla-neural",
-    "name": "Agent Safla Neural",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent safla neural.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-agent-sona-learning-optimizer",
-    "name": "Agent Sona Learning Optimizer",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent sona learning optimizer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 411
-  },
-  {
-    "id": "agent-agent-load-balancer",
-    "name": "Agent Load Balancer",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent load balancer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 321
-  },
-  {
-    "id": "agent-skill-builder",
-    "name": "Skill Builder",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for skill builder.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 267
-  },
-  {
-    "id": "agent-agent-scout-explorer",
-    "name": "Agent Scout Explorer",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent scout explorer.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 330
-  },
-  {
-    "id": "agent-agent-goal-planner",
-    "name": "Agent Goal Planner",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent goal planner.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-agent-user-tools",
-    "name": "Agent User Tools",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent user tools.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 294
-  },
-  {
-    "id": "agent-agent-spec-mobile-react-native",
-    "name": "Agent Spec Mobile React Native",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent spec mobile react native.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 420
-  },
-  {
-    "id": "agent-agent-benchmark-suite",
-    "name": "Agent Benchmark Suite",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for agent benchmark suite.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 339
-  },
-  {
-    "id": "agent-worker-benchmarks",
-    "name": "Worker Benchmarks",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for worker benchmarks.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 303
-  },
-  {
-    "id": "agent-worker-integration",
-    "name": "Worker Integration",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for worker integration.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 312
-  },
-  {
-    "id": "agent-swarm-advanced",
-    "name": "Swarm Advanced",
-    "description": "Autonomous swarm capability for specialized: provides specialized agent intelligence for swarm advanced.",
-    "category": "Autonomous Agent Swarms",
-    "subcategory": "Specialized",
-    "tags": [
-      "AI",
-      "Agent",
-      "OSS",
-      "CLI"
-    ],
-    "url": "https://github.com/ruvnet/ruflo",
-    "icon": "\ud83e\udd16",
-    "likes": 276
   }
 ];

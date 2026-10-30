@@ -1,6 +1,6 @@
 # Lyra: The Definitive Developer OS & Directory
 
-> **A fast, honest catalog of 1,098+ hand-curated developer tools, architectural recipes, and launch checklists across 28 verified categories. Zero fluff.**
+> **A fast, honest catalog of 954 hand-curated developer tools, architectural recipes, and launch checklists across 27 categories. Zero fluff.**
 
 [![CI & Security Quality Gate](https://github.com/Cal2-0/guide/actions/workflows/ci-security.yml/badge.svg)](https://github.com/Cal2-0/guide/actions/workflows/ci-security.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -11,7 +11,7 @@
 
 Lyra is engineered as a state-of-the-art, high-density developer platform:
 
-*   **The Universal Directory (`/directory`)**: 1,098+ verified developer tools, engineering playbooks, autonomous agent skills, and GitHub radars across 28 categories. Browse the offline markdown index in [LYRA_SUPER_DIRECTORY.md](LYRA_SUPER_DIRECTORY.md).
+*   **The Universal Directory (`/directory`)**: 954 curated developer tools, engineering playbooks, and GitHub radars across 27 categories. Browse the offline markdown index in [LYRA_SUPER_DIRECTORY.md](LYRA_SUPER_DIRECTORY.md).
 *   **Mobile-First Ergonomics**: Single-row horizontal swipeable category ribbons, compact app icons (32×32px), zero overlap, and progressive 60fps rendering.
 *   **Faceted Filtering**: Sub-millisecond multi-attribute filtering by Pricing (`Free`, `OSS`, `Free tier`, `Paid`), Ecosystem (`React`, `Node`, `Python`, `Rust`, `Go`, `TypeScript`), and Features (`AI`, `Cloud`, `CLI`, `API`).
 *   **Fast Sub-Millisecond Search**: Client-side fuzzy search powered by Fuse.js.

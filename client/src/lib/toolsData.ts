@@ -42,20 +42,13 @@ export const tools: Tool[] = (() => {
     "Curated Stacks"
   ];
 
-  categories.forEach((cat, cIdx) => {
-    cat.subcategories.forEach((sub, sIdx) => {
-      sub.tools.forEach((tool, tIdx) => {
-        // Deterministic random generation based on indexes
-        const pseudoRandom = Math.sin(cIdx * 100 + sIdx * 10 + tIdx + 1) * 10000;
-        const likes = Math.floor(Math.abs(pseudoRandom % 4000)) + 42;
-        const createdAt = new Date(Date.now() - Math.floor(Math.abs(pseudoRandom % (1000 * 60 * 60 * 24 * 365 * 2)))).toISOString();
-        
+  categories.forEach((cat) => {
+    cat.subcategories.forEach((sub) => {
+      sub.tools.forEach((tool) => {
         const newTool: Tool = {
           ...tool,
           category: cat.name,
-          subcategory: sub.name,
-          likes,
-          createdAt
+          subcategory: sub.name
         };
 
         if (toolMap.has(tool.id)) {
@@ -73,7 +66,7 @@ export const tools: Tool[] = (() => {
     });
   });
 
-  // Merge additions (58 Engineering Skills, 52 GitHub Radars, 186 Ranked tools)
+  // Merge additions (engineering skills, GitHub radars, ranked tools)
   directoryAdditions.forEach((addition) => {
     if (!toolMap.has(addition.id)) {
       toolMap.set(addition.id, addition);

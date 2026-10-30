@@ -27,121 +27,152 @@ export const categories: Category[] = [
             "id": "react-email",
             "name": "React Email",
             "description": "Build and send emails using React.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://react.email"
           },
           {
             "id": "t3-app",
             "name": "T3 Stack",
             "description": "The best way to start a full-stack, typesafe Next.js app.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://create.t3.gg/"
           },
           {
             "id": "expo",
             "name": "Expo",
             "description": "An open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://expo.dev"
           },
           {
             "id": "expo-router",
             "name": "Expo Router",
             "description": "File-based routing for React Native and web applications.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://docs.expo.dev/router/introduction/"
           },
           {
             "id": "nativewind",
             "name": "NativeWind",
             "description": "Tailwind CSS for React Native.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://www.nativewind.dev"
           },
           {
             "id": "mmkv",
             "name": "MMKV",
             "description": "An efficient, small mobile key-value storage framework.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://github.com/Tencent/MMKV"
           },
           {
             "id": "eas-build",
             "name": "EAS Build",
             "description": "Cloud builds for Expo and React Native apps.",
-            "tags": ["Paid"],
+            "tags": [
+              "Free tier"
+            ],
             "url": "https://expo.dev/eas"
           },
           {
             "id": "revenuecat",
             "name": "RevenueCat",
             "description": "In-app subscriptions made easy.",
-            "tags": ["Paid"],
+            "tags": [
+              "Free tier"
+            ],
             "url": "https://www.revenuecat.com"
           },
           {
             "id": "alchemy",
             "name": "Alchemy",
             "description": "The web3 development platform.",
-            "tags": ["Paid"],
+            "tags": [
+              "Free tier"
+            ],
             "url": "https://www.alchemy.com"
           },
           {
             "id": "etherscan",
             "name": "Etherscan API",
             "description": "Ethereum block explorer and API.",
-            "tags": ["Paid"],
+            "tags": [
+              "Free tier"
+            ],
             "url": "https://etherscan.io"
           },
           {
             "id": "defillama",
             "name": "DefiLlama API",
             "description": "Open and transparent DeFi analytics.",
-            "tags": ["Free"],
+            "tags": [
+              "Free"
+            ],
             "url": "https://defillama.com"
           },
           {
             "id": "goplus",
             "name": "GoPlus",
             "description": "Open, permissionless, user-driven security network.",
-            "tags": ["Paid"],
+            "tags": [
+              "Free tier"
+            ],
             "url": "https://gopluslabs.io"
           },
           {
             "id": "viem",
             "name": "Viem",
             "description": "TypeScript interface for Ethereum.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://viem.sh"
           },
           {
             "id": "wagmi",
             "name": "Wagmi",
             "description": "React Hooks for Ethereum.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://wagmi.sh"
           },
           {
             "id": "blockscout",
             "name": "Blockscout",
             "description": "Open source blockchain explorer.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://www.blockscout.com"
           },
           {
             "id": "hardhat",
             "name": "Hardhat",
             "description": "Ethereum development environment for professionals.",
-            "tags": ["OSS"],
+            "tags": [
+              "OSS"
+            ],
             "url": "https://hardhat.org"
           },
-
           {
             "id": "product-hunt",
             "name": "Product Hunt",
             "description": "The industry-standard launchpad for new software products.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.producthunt.com"
           },
@@ -150,7 +181,7 @@ export const categories: Category[] = [
             "name": "Indie Hackers",
             "description": "A community of founders sharing revenue and building in public.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.indiehackers.com"
           },
@@ -168,7 +199,7 @@ export const categories: Category[] = [
             "name": "Exploding Topics",
             "description": "Find trending topics and industries before they take off.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://explodingtopics.com"
           },
@@ -177,7 +208,7 @@ export const categories: Category[] = [
             "name": "YC Requests for Startups",
             "description": "List of high-value problems Y Combinator wants to fund.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.ycombinator.com/rfs"
           },
@@ -186,7 +217,7 @@ export const categories: Category[] = [
             "name": "Manus AI",
             "description": "Generalist AI agent that autonomously researches startup ideas and validates them.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://manus.im"
@@ -196,7 +227,7 @@ export const categories: Category[] = [
             "name": "VibeCoder Blog",
             "description": "Curated insights on building AI apps and startup ideas.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://blog.vibecoder.me"
@@ -211,7 +242,7 @@ export const categories: Category[] = [
             "name": "GummySearch",
             "description": "Audience research and idea validation tool via Reddit.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://gummysearch.com"
           },
@@ -220,7 +251,7 @@ export const categories: Category[] = [
             "name": "Google Trends",
             "description": "Analyze search term popularity and geographic trends.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://trends.google.com"
           },
@@ -229,7 +260,7 @@ export const categories: Category[] = [
             "name": "AnswerThePublic",
             "description": "Search query visualization tool discovering what questions users ask.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://answerthepublic.com"
           },
@@ -238,7 +269,7 @@ export const categories: Category[] = [
             "name": "Glimpse",
             "description": "Browser extension that enhances Google Trends with rich data.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://meetglimpse.com"
           },
@@ -247,7 +278,7 @@ export const categories: Category[] = [
             "name": "Typeform",
             "description": "Beautiful surveys for validating ideas and collecting user feedback.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.typeform.com"
           },
@@ -256,7 +287,7 @@ export const categories: Category[] = [
             "name": "Maze",
             "description": "Rapid usability testing and idea validation with real users.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://maze.co"
           }
@@ -270,7 +301,7 @@ export const categories: Category[] = [
             "name": "SimilarWeb",
             "description": "Website traffic analysis and competitive intelligence platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.similarweb.com"
           },
@@ -279,7 +310,7 @@ export const categories: Category[] = [
             "name": "SEMrush",
             "description": "All-in-one marketing toolkit with competitor research features.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.semrush.com"
           },
@@ -288,7 +319,7 @@ export const categories: Category[] = [
             "name": "Crunchbase",
             "description": "Business information platform for startup funding and competitor data.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.crunchbase.com"
           },
@@ -297,7 +328,7 @@ export const categories: Category[] = [
             "name": "SpyFu",
             "description": "Competitor keyword research and PPC spy tool.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.spyfu.com"
           }
@@ -316,7 +347,7 @@ export const categories: Category[] = [
             "name": "Mobbin",
             "description": "The definitive catalog of mobile and web interface flows.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://mobbin.com"
           },
@@ -325,7 +356,7 @@ export const categories: Category[] = [
             "name": "Refero",
             "description": "Massive UI search engine filterable by design patterns.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://refero.design"
           },
@@ -334,7 +365,7 @@ export const categories: Category[] = [
             "name": "Land-book",
             "description": "Curated collection of the web's best landing pages.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://land-book.com"
           },
@@ -343,7 +374,7 @@ export const categories: Category[] = [
             "name": "Godly",
             "description": "Showcases websites with advanced animations and layouts.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://godly.website"
           },
@@ -352,7 +383,7 @@ export const categories: Category[] = [
             "name": "Dribbble",
             "description": "Design community showcasing shots from world-class designers.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://dribbble.com"
           },
@@ -361,7 +392,7 @@ export const categories: Category[] = [
             "name": "Behance",
             "description": "Adobe's portfolio platform showcasing creative work.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.behance.net"
           },
@@ -370,7 +401,7 @@ export const categories: Category[] = [
             "name": "Awwwards",
             "description": "Award-winning website designs and digital experiences.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.awwwards.com"
           },
@@ -388,7 +419,7 @@ export const categories: Category[] = [
             "name": "CollectUI",
             "description": "Daily UI challenge inspiration gallery.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://collectui.com"
           },
@@ -406,7 +437,7 @@ export const categories: Category[] = [
             "name": "Flowrift",
             "description": "Curated UI patterns with Tailwind code.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://flowrift.com"
           }
@@ -420,7 +451,7 @@ export const categories: Category[] = [
             "name": "Framer",
             "description": "AI-powered visual web builder for animated landing pages.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.framer.com"
           },
@@ -429,7 +460,7 @@ export const categories: Category[] = [
             "name": "Webflow",
             "description": "Professional visual web design tool with CMS.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://webflow.com"
           },
@@ -438,7 +469,7 @@ export const categories: Category[] = [
             "name": "Carrd",
             "description": "Simple, minimal one-page site builder for cheap.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://carrd.co"
           },
@@ -447,7 +478,7 @@ export const categories: Category[] = [
             "name": "Dorik",
             "description": "AI-powered website builder with clean templates.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://dorik.com"
           },
@@ -456,7 +487,7 @@ export const categories: Category[] = [
             "name": "Typedream",
             "description": "Notion-like page builder for beautiful microsites.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://typedream.com"
           },
@@ -475,7 +506,7 @@ export const categories: Category[] = [
             "name": "Cruip",
             "description": "Beautifully designed HTML/React landing page templates.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://cruip.com"
           }
@@ -489,7 +520,7 @@ export const categories: Category[] = [
             "name": "21st.dev",
             "description": "Shadcn UI marketplace for ready-to-use React components.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://21st.dev"
           },
@@ -498,7 +529,7 @@ export const categories: Category[] = [
             "name": "Magic UI",
             "description": "Stunning animated components to level up landing pages.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://magicui.design"
           },
@@ -507,7 +538,7 @@ export const categories: Category[] = [
             "name": "Aceternity UI",
             "description": "Premium animated components using Framer Motion and Tailwind.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://ui.aceternity.com"
           },
@@ -516,7 +547,7 @@ export const categories: Category[] = [
             "name": "Shadcn UI",
             "description": "Copy-paste React components built on Radix with full styling control.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://ui.shadcn.com"
           },
@@ -525,7 +556,7 @@ export const categories: Category[] = [
             "name": "Radix UI",
             "description": "Accessible, unstyled React primitives for custom design systems.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.radix-ui.com"
           },
@@ -534,7 +565,7 @@ export const categories: Category[] = [
             "name": "Mantine",
             "description": "Full-featured React component library with hooks.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://mantine.dev"
           },
@@ -543,7 +574,7 @@ export const categories: Category[] = [
             "name": "Material UI (MUI)",
             "description": "Mature Material Design React component library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://mui.com"
           },
@@ -552,7 +583,7 @@ export const categories: Category[] = [
             "name": "Chakra UI",
             "description": "Accessible, composable React component library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://chakra-ui.com"
           },
@@ -561,7 +592,7 @@ export const categories: Category[] = [
             "name": "Ant Design",
             "description": "Enterprise-class UI design language and React components.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://ant.design"
           },
@@ -570,7 +601,7 @@ export const categories: Category[] = [
             "name": "NextUI",
             "description": "Modern defaults for product interfaces with Next.js.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nextui.org"
           },
@@ -588,7 +619,7 @@ export const categories: Category[] = [
             "name": "DaisyUI",
             "description": "Tailwind CSS component classes for rapid UI building.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://daisyui.com"
@@ -617,7 +648,7 @@ export const categories: Category[] = [
             "name": "LangUI",
             "description": "Tailwind components specifically designed for AI apps.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://www.langui.dev"
@@ -627,7 +658,7 @@ export const categories: Category[] = [
             "name": "Neobrutalism Components",
             "description": "Bold neobrutalist visual style components.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://neobrutalism.dev"
           },
@@ -636,7 +667,7 @@ export const categories: Category[] = [
             "name": "PrimeReact",
             "description": "Enterprise-grade React component suite.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://primereact.org"
           }
@@ -659,7 +690,7 @@ export const categories: Category[] = [
             "name": "Phosphor Icons",
             "description": "Flexible icon family with 9,000+ icons across 6 weights.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://phosphoricons.com"
           },
@@ -668,7 +699,7 @@ export const categories: Category[] = [
             "name": "Heroicons",
             "description": "Hand-crafted SVG icons from the Tailwind team.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://heroicons.com"
           },
@@ -684,9 +715,9 @@ export const categories: Category[] = [
           {
             "id": "hugeicons",
             "name": "Hugeicons",
-            "description": "4000+ icons in multiple styles â€” stroke, bulk, duotone.",
+            "description": "4000+ icons in multiple styles — stroke, bulk, duotone.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://hugeicons.com"
           },
@@ -704,7 +735,7 @@ export const categories: Category[] = [
             "name": "Boxicons",
             "description": "1600+ premium icons for web design.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://boxicons.com"
           },
@@ -722,7 +753,7 @@ export const categories: Category[] = [
             "name": "Streamline Icons",
             "description": "Premium 100,000+ icon library for professional UI.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.streamlinehq.com"
           }
@@ -754,7 +785,7 @@ export const categories: Category[] = [
             "name": "Fontsource",
             "description": "Self-host Google Fonts via npm for zero latency.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://fontsource.org"
           },
@@ -772,7 +803,7 @@ export const categories: Category[] = [
             "name": "Bunny Fonts",
             "description": "GDPR-compliant, privacy-first Google Fonts alternative.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://fonts.bunny.net"
           },
@@ -804,7 +835,7 @@ export const categories: Category[] = [
             "name": "Haikei",
             "description": "Generate unique SVG shapes, backgrounds and blobs.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://haikei.app"
@@ -814,7 +845,7 @@ export const categories: Category[] = [
             "name": "Hero Patterns",
             "description": "Repeatable SVG patterns for backgrounds.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://heropatterns.com"
           },
@@ -823,7 +854,7 @@ export const categories: Category[] = [
             "name": "Pattern Monster",
             "description": "Customizable SVG pattern generator.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://pattern.monster"
           },
@@ -832,7 +863,7 @@ export const categories: Category[] = [
             "name": "SVGRepo",
             "description": "Massive library of 500,000+ open-licensed SVG icons.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.svgrepo.com"
           },
@@ -841,7 +872,7 @@ export const categories: Category[] = [
             "name": "Shape Divider",
             "description": "Generate CSS section separators and wave shapes.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.shapedivider.app"
           },
@@ -850,7 +881,7 @@ export const categories: Category[] = [
             "name": "Get Waves",
             "description": "Generate smooth SVG wave backgrounds.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://getwaves.io"
           },
@@ -868,7 +899,7 @@ export const categories: Category[] = [
             "name": "MeshGradients",
             "description": "Beautiful mesh gradient backgrounds for UI.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://meshgradient.in"
           },
@@ -877,7 +908,7 @@ export const categories: Category[] = [
             "name": "Cool Backgrounds",
             "description": "Collection of tools to create compelling backgrounds.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://coolbackgrounds.io"
           },
@@ -886,7 +917,7 @@ export const categories: Category[] = [
             "name": "PatternPad",
             "description": "Create seamless patterns for backgrounds and mockups.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://patternpad.com"
           },
@@ -895,7 +926,7 @@ export const categories: Category[] = [
             "name": "Toptal Subtle Patterns",
             "description": "Subtle, tileable texture patterns for web.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.toptal.com/designers/subtlepatterns"
           },
@@ -904,7 +935,7 @@ export const categories: Category[] = [
             "name": "GeoPattern",
             "description": "Geometric pattern generator from strings.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/btmills/geopattern"
           }
@@ -918,7 +949,7 @@ export const categories: Category[] = [
             "name": "uiGradients",
             "description": "Beautiful color gradients for design and code.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://uigradients.com"
           },
@@ -927,7 +958,7 @@ export const categories: Category[] = [
             "name": "Coolors",
             "description": "Fast color scheme generator and palette explorer.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://coolors.co"
           },
@@ -936,7 +967,7 @@ export const categories: Category[] = [
             "name": "CSS Gradient",
             "description": "CSS gradient generator with live preview.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://cssgradient.io"
           },
@@ -945,7 +976,7 @@ export const categories: Category[] = [
             "name": "Gradient Hunt",
             "description": "Platform for discovering and sharing beautiful gradients.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://gradienthunt.com"
           },
@@ -954,7 +985,7 @@ export const categories: Category[] = [
             "name": "Color Hunt",
             "description": "Curated color palettes for designers.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://colorhunt.co"
           },
@@ -963,7 +994,7 @@ export const categories: Category[] = [
             "name": "Khroma",
             "description": "AI color tool trained on popular designer palettes.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://www.khroma.co"
@@ -973,7 +1004,7 @@ export const categories: Category[] = [
             "name": "Happy Hues",
             "description": "Curated color palette inspiration for UI design.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.happyhues.co"
           },
@@ -982,7 +1013,7 @@ export const categories: Category[] = [
             "name": "WebGradients",
             "description": "180 linear gradients as background or cover.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://webgradients.com"
           }
@@ -1005,7 +1036,7 @@ export const categories: Category[] = [
             "name": "Humaaans",
             "description": "Mix-and-match people illustration library.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.humaaans.com"
           },
@@ -1014,7 +1045,7 @@ export const categories: Category[] = [
             "name": "Open Peeps",
             "description": "Hand-drawn people illustration library by Pablo Stanley.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.openpeeps.com"
           },
@@ -1023,7 +1054,7 @@ export const categories: Category[] = [
             "name": "Storyset",
             "description": "Customizable animated story illustrations.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://storyset.com"
           },
@@ -1032,7 +1063,7 @@ export const categories: Category[] = [
             "name": "Absurd Design",
             "description": "Surrealist illustrations for unique projects.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://absurd.design"
           },
@@ -1041,7 +1072,7 @@ export const categories: Category[] = [
             "name": "Blush",
             "description": "Customizable illustrations via Figma plugin.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://blush.design"
           },
@@ -1073,7 +1104,7 @@ export const categories: Category[] = [
             "name": "Framer Motion",
             "description": "Production-ready React animation library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.framer.com/motion"
           },
@@ -1082,7 +1113,7 @@ export const categories: Category[] = [
             "name": "Motion One",
             "description": "Next-generation web animations library, tiny footprint.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://motion.dev"
           },
@@ -1091,7 +1122,7 @@ export const categories: Category[] = [
             "name": "GSAP",
             "description": "Industry-standard JavaScript animation library.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://gsap.com"
           },
@@ -1100,7 +1131,7 @@ export const categories: Category[] = [
             "name": "AutoAnimate",
             "description": "One-line drop-in smooth animations for React/Vue.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://auto-animate.formkit.com"
           },
@@ -1109,7 +1140,7 @@ export const categories: Category[] = [
             "name": "Rive",
             "description": "Real-time interactive animations for web and mobile.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://rive.app"
           },
@@ -1118,7 +1149,7 @@ export const categories: Category[] = [
             "name": "LottieFiles",
             "description": "Lightweight JSON animation player for web/mobile.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://lottiefiles.com"
           },
@@ -1127,7 +1158,7 @@ export const categories: Category[] = [
             "name": "Anime.js",
             "description": "Lightweight JavaScript animation library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://animejs.com"
           },
@@ -1136,7 +1167,7 @@ export const categories: Category[] = [
             "name": "React Spring",
             "description": "Spring physics based React animation library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.react-spring.dev"
           }
@@ -1150,7 +1181,7 @@ export const categories: Category[] = [
             "name": "Spline",
             "description": "3D web design tool for interactive landing pages.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://spline.design"
           },
@@ -1159,7 +1190,7 @@ export const categories: Category[] = [
             "name": "Three.js",
             "description": "The standard 3D graphics library for the web.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://threejs.org"
           },
@@ -1168,7 +1199,7 @@ export const categories: Category[] = [
             "name": "Babylon.js",
             "description": "Powerful, beautiful, simple 3D engine by Microsoft.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.babylonjs.com"
           },
@@ -1177,7 +1208,7 @@ export const categories: Category[] = [
             "name": "Rive",
             "description": "Interactive real-time animations with state machines.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://rive.app"
           }
@@ -1191,7 +1222,7 @@ export const categories: Category[] = [
             "name": "Chart.js",
             "description": "Simple yet flexible JavaScript charting library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.chartjs.org"
           },
@@ -1200,7 +1231,7 @@ export const categories: Category[] = [
             "name": "Recharts",
             "description": "Composable charting library built on React and D3.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://recharts.org"
           },
@@ -1209,7 +1240,7 @@ export const categories: Category[] = [
             "name": "D3.js",
             "description": "The gold standard library for data-driven visualizations.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://d3js.org"
           },
@@ -1218,7 +1249,7 @@ export const categories: Category[] = [
             "name": "Apache ECharts",
             "description": "Powerful charting library with rich interactive charts.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://echarts.apache.org"
           },
@@ -1227,7 +1258,7 @@ export const categories: Category[] = [
             "name": "ApexCharts",
             "description": "Modern JavaScript charting library for web.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://apexcharts.com"
           },
@@ -1236,7 +1267,7 @@ export const categories: Category[] = [
             "name": "Plotly",
             "description": "Interactive scientific charting library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://plotly.com"
           }
@@ -1250,7 +1281,7 @@ export const categories: Category[] = [
             "name": "React Hook Form",
             "description": "Performant, flexible form validation with minimal re-renders.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://react-hook-form.com"
           },
@@ -1259,7 +1290,7 @@ export const categories: Category[] = [
             "name": "Formik",
             "description": "Build forms in React without the tears.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://formik.org"
           },
@@ -1268,7 +1299,7 @@ export const categories: Category[] = [
             "name": "Zod",
             "description": "TypeScript-first schema validation library.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://zod.dev"
           },
@@ -1277,7 +1308,7 @@ export const categories: Category[] = [
             "name": "TanStack Table",
             "description": "Headless UI for building powerful tables and datagrids.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://tanstack.com/table"
           },
@@ -1286,7 +1317,7 @@ export const categories: Category[] = [
             "name": "AG Grid",
             "description": "The leading data grid for React, Angular, Vue.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.ag-grid.com"
           },
@@ -1295,7 +1326,7 @@ export const categories: Category[] = [
             "name": "Tabulator",
             "description": "Interactive table library with powerful filtering.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://tabulator.info"
           }
@@ -1309,7 +1340,7 @@ export const categories: Category[] = [
             "name": "Axe DevTools",
             "description": "Industry-standard accessibility testing browser extension.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.deque.com/axe/devtools"
           },
@@ -1327,7 +1358,7 @@ export const categories: Category[] = [
             "name": "Lighthouse",
             "description": "Google's automated tool for improving web quality.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://developer.chrome.com/docs/lighthouse"
           },
@@ -1336,7 +1367,7 @@ export const categories: Category[] = [
             "name": "Stark",
             "description": "Accessibility plugin for Figma, Sketch, and browser.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.getstark.co"
           },
@@ -1359,7 +1390,7 @@ export const categories: Category[] = [
             "name": "Iconify for Figma",
             "description": "Access 200,000+ icons directly in Figma.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.figma.com/community/plugin/735098390272716381/iconify"
           },
@@ -1377,7 +1408,7 @@ export const categories: Category[] = [
             "name": "Autoflow",
             "description": "Draw flows and user journeys in Figma.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.figma.com/community/plugin/733902567826686738/autoflow"
           },
@@ -1386,7 +1417,7 @@ export const categories: Category[] = [
             "name": "Content Reel",
             "description": "Pull text strings, images and icons into Figma.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.figma.com/community/plugin/731627216655469013/content-reel"
           },
@@ -1395,7 +1426,7 @@ export const categories: Category[] = [
             "name": "Blush Plugin",
             "description": "Create and customize illustrations in Figma.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://blush.design/figma-plugin"
           }
@@ -1409,7 +1440,7 @@ export const categories: Category[] = [
             "name": "Figma",
             "description": "Industry-standard collaborative interface design tool.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.figma.com"
           },
@@ -1427,7 +1458,7 @@ export const categories: Category[] = [
             "name": "Excalidraw",
             "description": "Collaborative whiteboard with hand-drawn feel.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://excalidraw.com"
           },
@@ -1436,7 +1467,7 @@ export const categories: Category[] = [
             "name": "Visily",
             "description": "AI-assisted mockup generation from screenshots.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.visily.ai"
           }
@@ -1465,7 +1496,7 @@ export const categories: Category[] = [
             "name": "Cursor",
             "description": "AI-first code editor (VSCode fork) with inline completions.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.cursor.com"
           },
@@ -1474,7 +1505,7 @@ export const categories: Category[] = [
             "name": "Windsurf",
             "description": "Agentic IDE by Codeium with Cascade AI flows.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://codeium.com/windsurf"
@@ -1504,7 +1535,7 @@ export const categories: Category[] = [
             "name": "GitHub Copilot",
             "description": "AI pair programmer by GitHub and OpenAI.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://github.com/features/copilot"
@@ -1524,7 +1555,7 @@ export const categories: Category[] = [
             "name": "Tabnine",
             "description": "Privacy-first AI code completion trained on your codebase.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.tabnine.com"
@@ -1534,7 +1565,7 @@ export const categories: Category[] = [
             "name": "Amazon CodeWhisperer",
             "description": "AWS AI coding companion with security scanning.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://aws.amazon.com/codewhisperer"
@@ -1544,7 +1575,7 @@ export const categories: Category[] = [
             "name": "Zed",
             "description": "Lightning-fast collaborative code editor with AI built-in.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://zed.dev"
@@ -1554,7 +1585,7 @@ export const categories: Category[] = [
             "name": "Replit Ghostwriter",
             "description": "AI coding assistant inside Replit's browser IDE.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://replit.com/ai"
@@ -1569,7 +1600,7 @@ export const categories: Category[] = [
             "name": "Bolt.new",
             "description": "Browser-based AI scaffolding with GitHub and Supabase integration.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://bolt.new"
@@ -1579,7 +1610,7 @@ export const categories: Category[] = [
             "name": "Lovable",
             "description": "Generates full-stack TypeScript and React apps from prompts.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://lovable.dev"
           },
@@ -1588,7 +1619,7 @@ export const categories: Category[] = [
             "name": "v0 by Vercel",
             "description": "AI-generated React/Next.js UI blocks with shadcn/UI.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://v0.dev"
           },
@@ -1607,7 +1638,7 @@ export const categories: Category[] = [
             "name": "Meku",
             "description": "Convert Figma designs into React and Tailwind code.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://meku.dev"
           },
@@ -1616,14 +1647,14 @@ export const categories: Category[] = [
             "name": "Replit",
             "description": "AI-powered browser IDE with instant deployment.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://replit.com"
           },
           {
             "id": "open-design",
             "name": "Open Design",
-            "description": "Open-source Claude Design clone â€” generates UI artifacts locally.",
+            "description": "Open-source Claude Design clone — generates UI artifacts locally.",
             "tags": [
               "OSS"
             ],
@@ -1643,7 +1674,7 @@ export const categories: Category[] = [
             "name": "Graphify",
             "description": "Turns your codebase into a knowledge graph for AI context.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/safishamsi/graphify"
@@ -1658,7 +1689,7 @@ export const categories: Category[] = [
             "name": "PromptLayer",
             "description": "Track, version and analyze your LLM prompts.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://promptlayer.com"
           },
@@ -1667,7 +1698,7 @@ export const categories: Category[] = [
             "name": "FlowGPT",
             "description": "Community-shared prompts for coding, design and startups.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://flowgpt.com"
           },
@@ -1685,7 +1716,7 @@ export const categories: Category[] = [
             "name": "PromptHub",
             "description": "Prompt management and collaboration platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.prompthub.us"
           },
@@ -1713,7 +1744,7 @@ export const categories: Category[] = [
             "name": "React",
             "description": "The dominant UI library for building component-based applications.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://react.dev"
           },
@@ -1722,7 +1753,7 @@ export const categories: Category[] = [
             "name": "Next.js",
             "description": "The React meta-framework for server-side rendering.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nextjs.org"
           },
@@ -1731,7 +1762,7 @@ export const categories: Category[] = [
             "name": "Vue.js",
             "description": "Progressive JavaScript framework with gentle learning curve.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://vuejs.org"
           },
@@ -1740,7 +1771,7 @@ export const categories: Category[] = [
             "name": "Svelte",
             "description": "Compiler-based framework with no virtual DOM overhead.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://svelte.dev"
           },
@@ -1749,7 +1780,7 @@ export const categories: Category[] = [
             "name": "Solid.js",
             "description": "Reactive UI library with fine-grained updates and no VDOM.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.solidjs.com"
           },
@@ -1758,7 +1789,7 @@ export const categories: Category[] = [
             "name": "Astro",
             "description": "Content-focused framework with zero-JS by default.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://astro.build"
           },
@@ -1767,7 +1798,7 @@ export const categories: Category[] = [
             "name": "Angular",
             "description": "Google's comprehensive enterprise web framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://angular.io"
           },
@@ -1776,7 +1807,7 @@ export const categories: Category[] = [
             "name": "Nuxt.js",
             "description": "The intuitive Vue meta-framework for SSR and SSG.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nuxt.com"
           },
@@ -1785,7 +1816,7 @@ export const categories: Category[] = [
             "name": "HTMX",
             "description": "HTML-driven interactivity without heavy JavaScript.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://htmx.org"
           },
@@ -1794,7 +1825,7 @@ export const categories: Category[] = [
             "name": "Alpine.js",
             "description": "Minimal JavaScript framework for adding interactivity to HTML.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://alpinejs.dev"
           },
@@ -1803,7 +1834,7 @@ export const categories: Category[] = [
             "name": "Remix",
             "description": "Full-stack React framework focused on web fundamentals.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://remix.run"
           }
@@ -1817,7 +1848,7 @@ export const categories: Category[] = [
             "name": "Zustand",
             "description": "Minimal state management with hooks-based API.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://zustand-demo.pmnd.rs"
           },
@@ -1826,7 +1857,7 @@ export const categories: Category[] = [
             "name": "TanStack Query",
             "description": "Powerful server state management and caching.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://tanstack.com/query"
           },
@@ -1835,7 +1866,7 @@ export const categories: Category[] = [
             "name": "Redux Toolkit",
             "description": "The official toolset for efficient Redux development.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://redux-toolkit.js.org"
           },
@@ -1844,7 +1875,7 @@ export const categories: Category[] = [
             "name": "Jotai",
             "description": "Primitive and flexible state management for React.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://jotai.org"
@@ -1854,7 +1885,7 @@ export const categories: Category[] = [
             "name": "Valtio",
             "description": "Proxy-based state management for React.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://valtio.dev"
           },
@@ -1863,7 +1894,7 @@ export const categories: Category[] = [
             "name": "Recoil",
             "description": "Facebook's experimental state management library for React.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://recoiljs.org"
           },
@@ -1872,7 +1903,7 @@ export const categories: Category[] = [
             "name": "MobX",
             "description": "Simple, scalable state management with observables.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://mobx.js.org"
           }
@@ -1886,7 +1917,7 @@ export const categories: Category[] = [
             "name": "Vite",
             "description": "Lightning-fast dev server and build tool using native ESM.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://vitejs.dev"
           },
@@ -1895,7 +1926,7 @@ export const categories: Category[] = [
             "name": "esbuild",
             "description": "Extremely fast JavaScript/TypeScript bundler written in Go.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://esbuild.github.io"
           },
@@ -1904,7 +1935,7 @@ export const categories: Category[] = [
             "name": "Turbopack",
             "description": "Rust-powered successor to Webpack by Vercel.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://turbo.build/pack"
           },
@@ -1913,7 +1944,7 @@ export const categories: Category[] = [
             "name": "Rspack",
             "description": "High-performance Rust-based bundler compatible with Webpack.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.rspack.dev"
           },
@@ -1922,7 +1953,7 @@ export const categories: Category[] = [
             "name": "Rollup",
             "description": "Module bundler optimized for JavaScript libraries.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://rollupjs.org"
           },
@@ -1931,7 +1962,7 @@ export const categories: Category[] = [
             "name": "Parcel",
             "description": "Zero-configuration web application bundler.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://parceljs.org"
           },
@@ -1940,7 +1971,7 @@ export const categories: Category[] = [
             "name": "Webpack",
             "description": "The battle-tested module bundler for complex apps.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://webpack.js.org"
           }
@@ -1954,7 +1985,7 @@ export const categories: Category[] = [
             "name": "Tailwind CSS",
             "description": "Utility-first CSS framework for rapid UI development.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://tailwindcss.com"
@@ -1964,7 +1995,7 @@ export const categories: Category[] = [
             "name": "TypeScript",
             "description": "Typed JavaScript superset improving developer productivity.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.typescriptlang.org"
           },
@@ -1973,7 +2004,7 @@ export const categories: Category[] = [
             "name": "Sass/SCSS",
             "description": "CSS preprocessor with variables, nesting and mixins.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://sass-lang.com"
           },
@@ -1982,7 +2013,7 @@ export const categories: Category[] = [
             "name": "Styled Components",
             "description": "CSS-in-JS library for component-scoped styles.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://styled-components.com"
           },
@@ -1991,7 +2022,7 @@ export const categories: Category[] = [
             "name": "UnoCSS",
             "description": "Instant on-demand atomic CSS engine.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://unocss.dev"
           }
@@ -2005,7 +2036,7 @@ export const categories: Category[] = [
             "name": "ESLint",
             "description": "The standard JavaScript linter with extensive plugins.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://eslint.org"
           },
@@ -2014,7 +2045,7 @@ export const categories: Category[] = [
             "name": "Prettier",
             "description": "Opinionated code formatter for consistent style.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://prettier.io"
           },
@@ -2023,7 +2054,7 @@ export const categories: Category[] = [
             "name": "Biome",
             "description": "Rust-powered linter and formatter, 10x faster than ESLint.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://biomejs.dev"
           },
@@ -2032,7 +2063,7 @@ export const categories: Category[] = [
             "name": "Husky",
             "description": "Git hooks to run linters before commits.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://typicode.github.io/husky"
           },
@@ -2041,7 +2072,7 @@ export const categories: Category[] = [
             "name": "Stylelint",
             "description": "Linter for CSS and SCSS files.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://stylelint.io"
           }
@@ -2055,7 +2086,7 @@ export const categories: Category[] = [
             "name": "pnpm",
             "description": "Fast, disk-efficient package manager.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://pnpm.io"
           },
@@ -2064,7 +2095,7 @@ export const categories: Category[] = [
             "name": "Bun",
             "description": "All-in-one JavaScript runtime and package manager.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://bun.sh"
           },
@@ -2073,7 +2104,7 @@ export const categories: Category[] = [
             "name": "Node.js",
             "description": "Standard JavaScript server runtime environment.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nodejs.org"
           },
@@ -2082,7 +2113,7 @@ export const categories: Category[] = [
             "name": "Yarn",
             "description": "Fast, reliable JavaScript package manager.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://yarnpkg.com"
           }
@@ -2119,7 +2150,7 @@ export const categories: Category[] = [
             "name": "Appwrite",
             "description": "Self-hostable Firebase alternative with full API suite.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://appwrite.io"
           },
@@ -2128,7 +2159,7 @@ export const categories: Category[] = [
             "name": "Firebase",
             "description": "Google's full-featured realtime backend platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://firebase.google.com"
           },
@@ -2137,7 +2168,7 @@ export const categories: Category[] = [
             "name": "Convex",
             "description": "Real-time backend with serverless functions and sync.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.convex.dev"
           },
@@ -2160,7 +2191,7 @@ export const categories: Category[] = [
             "name": "FastAPI",
             "description": "High-performance Python API framework with automatic docs.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://fastapi.tiangolo.com"
           },
@@ -2169,7 +2200,7 @@ export const categories: Category[] = [
             "name": "NestJS",
             "description": "Scalable Node.js framework with TypeScript and Angular-inspired architecture.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nestjs.com"
           },
@@ -2178,7 +2209,7 @@ export const categories: Category[] = [
             "name": "Express",
             "description": "Minimal and flexible Node.js web framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://expressjs.com"
           },
@@ -2187,7 +2218,7 @@ export const categories: Category[] = [
             "name": "Django",
             "description": "The web framework for perfectionists with deadlines.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.djangoproject.com"
           },
@@ -2196,7 +2227,7 @@ export const categories: Category[] = [
             "name": "Spring Boot",
             "description": "Java enterprise framework for rapid application development.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://spring.io/projects/spring-boot"
           },
@@ -2205,7 +2236,7 @@ export const categories: Category[] = [
             "name": "Ruby on Rails",
             "description": "Convention over configuration full-stack web framework.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://rubyonrails.org"
@@ -2215,14 +2246,14 @@ export const categories: Category[] = [
             "name": "Hono",
             "description": "Ultra-fast, lightweight web framework for edge runtimes.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://hono.dev"
           }
         ]
       },
       {
-        "name": "Databases â€” SQL",
+        "name": "Databases — SQL",
         "tools": [
           {
             "id": "postgresql",
@@ -2247,7 +2278,7 @@ export const categories: Category[] = [
             "name": "MariaDB",
             "description": "Community-driven MySQL fork with extra features.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://mariadb.org"
           },
@@ -2256,7 +2287,7 @@ export const categories: Category[] = [
             "name": "SQLite",
             "description": "Lightweight embedded SQL database for local and edge apps.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.sqlite.org"
           },
@@ -2265,7 +2296,7 @@ export const categories: Category[] = [
             "name": "CockroachDB",
             "description": "Distributed SQL database with built-in geo-partitioning.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.cockroachlabs.com"
           },
@@ -2281,14 +2312,14 @@ export const categories: Category[] = [
         ]
       },
       {
-        "name": "Databases â€” NoSQL",
+        "name": "Databases — NoSQL",
         "tools": [
           {
             "id": "mongodb",
             "name": "MongoDB",
             "description": "The leading document database for modern applications.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.mongodb.com"
           },
@@ -2297,7 +2328,7 @@ export const categories: Category[] = [
             "name": "Redis",
             "description": "In-memory data store used as cache, queue and pubsub.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://redis.io"
           },
@@ -2306,7 +2337,7 @@ export const categories: Category[] = [
             "name": "CouchDB",
             "description": "HTTP API document database with offline sync.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://couchdb.apache.org"
           },
@@ -2324,7 +2355,7 @@ export const categories: Category[] = [
             "name": "DragonflyDB",
             "description": "Redis-compatible cache with 25x more throughput.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.dragonflydb.io"
           }
@@ -2338,7 +2369,7 @@ export const categories: Category[] = [
             "name": "Qdrant",
             "description": "High-performance vector search engine for AI apps.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://qdrant.tech"
@@ -2375,7 +2406,7 @@ export const categories: Category[] = [
             "name": "Pinecone",
             "description": "Managed vector database with developer-friendly API.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.pinecone.io"
           },
@@ -2384,7 +2415,7 @@ export const categories: Category[] = [
             "name": "pgvector",
             "description": "Postgres extension for vector similarity search.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/pgvector/pgvector"
           }
@@ -2398,7 +2429,7 @@ export const categories: Category[] = [
             "name": "Neo4j",
             "description": "The world's leading graph database platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://neo4j.com"
           },
@@ -2407,7 +2438,7 @@ export const categories: Category[] = [
             "name": "Memgraph",
             "description": "In-memory graph database for real-time analytics.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://memgraph.com"
           }
@@ -2421,7 +2452,7 @@ export const categories: Category[] = [
             "name": "Prisma",
             "description": "Next-generation TypeScript ORM with type-safe queries.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.prisma.io"
           },
@@ -2430,7 +2461,7 @@ export const categories: Category[] = [
             "name": "TypeORM",
             "description": "ORM for TypeScript and JavaScript using decorators.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://typeorm.io"
           },
@@ -2439,7 +2470,7 @@ export const categories: Category[] = [
             "name": "Drizzle ORM",
             "description": "Lightweight, TypeScript-first ORM with SQL-like syntax.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://orm.drizzle.team"
           },
@@ -2448,7 +2479,7 @@ export const categories: Category[] = [
             "name": "Sequelize",
             "description": "Promise-based Node.js ORM for Postgres and MySQL.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://sequelize.org"
           },
@@ -2457,7 +2488,7 @@ export const categories: Category[] = [
             "name": "Mongoose",
             "description": "MongoDB object modeling tool for Node.js.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://mongoosejs.com"
           }
@@ -2471,7 +2502,7 @@ export const categories: Category[] = [
             "name": "Clerk",
             "description": "Drop-in authentication and user management for modern stacks.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://clerk.com"
           },
@@ -2489,7 +2520,7 @@ export const categories: Category[] = [
             "name": "Auth0",
             "description": "Enterprise-grade identity management as a service.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://auth0.com"
           },
@@ -2498,7 +2529,7 @@ export const categories: Category[] = [
             "name": "NextAuth.js",
             "description": "The standard authentication library for Next.js.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://next-auth.js.org"
           },
@@ -2516,7 +2547,7 @@ export const categories: Category[] = [
             "name": "Magic.link",
             "description": "Passwordless authentication via email magic links.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://magic.link"
           },
@@ -2599,7 +2630,7 @@ export const categories: Category[] = [
             "name": "Resend",
             "description": "Developer-first email API with React Email templates.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://resend.com"
           },
@@ -2608,7 +2639,7 @@ export const categories: Category[] = [
             "name": "Postmark",
             "description": "Fast, reliable transactional email delivery.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://postmarkapp.com"
           },
@@ -2617,7 +2648,7 @@ export const categories: Category[] = [
             "name": "SendGrid",
             "description": "Large-scale email delivery and marketing platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://sendgrid.com"
           },
@@ -2626,7 +2657,7 @@ export const categories: Category[] = [
             "name": "Mailgun",
             "description": "Powerful email API for developers.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.mailgun.com"
@@ -2636,7 +2667,7 @@ export const categories: Category[] = [
             "name": "Amazon SES",
             "description": "Cost-effective bulk email service by AWS.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://aws.amazon.com/ses"
           }
@@ -2700,7 +2731,7 @@ export const categories: Category[] = [
             "name": "Sanity",
             "description": "Flexible real-time content platform with GROQ query language.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.sanity.io"
           },
@@ -2709,7 +2740,7 @@ export const categories: Category[] = [
             "name": "Contentful",
             "description": "Enterprise headless CMS platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.contentful.com"
           },
@@ -2736,7 +2767,7 @@ export const categories: Category[] = [
             "name": "KeystoneJS",
             "description": "Node.js headless CMS with GraphQL API.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://keystonejs.com"
           }
@@ -2750,7 +2781,7 @@ export const categories: Category[] = [
             "name": "Meilisearch",
             "description": "Lightning-fast, typo-tolerant search engine.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.meilisearch.com"
           },
@@ -2768,7 +2799,7 @@ export const categories: Category[] = [
             "name": "Algolia",
             "description": "Hosted search with powerful developer tools.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.algolia.com"
           },
@@ -2777,7 +2808,7 @@ export const categories: Category[] = [
             "name": "Elasticsearch",
             "description": "Distributed search and analytics engine.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.elastic.co"
           }
@@ -2791,7 +2822,7 @@ export const categories: Category[] = [
             "name": "BullMQ",
             "description": "Redis-based queue for Node.js with concurrency support.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://bullmq.io"
           },
@@ -2809,7 +2840,7 @@ export const categories: Category[] = [
             "name": "Apache Kafka",
             "description": "Distributed event streaming platform for high-throughput.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://kafka.apache.org"
           },
@@ -2818,7 +2849,7 @@ export const categories: Category[] = [
             "name": "Temporal",
             "description": "Durable workflow execution for long-running processes.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://temporal.io"
           },
@@ -2827,7 +2858,7 @@ export const categories: Category[] = [
             "name": "Celery",
             "description": "Distributed task queue for Python applications.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://docs.celeryq.dev"
           },
@@ -2836,7 +2867,7 @@ export const categories: Category[] = [
             "name": "AWS SQS",
             "description": "Fully managed message queuing service by Amazon.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://aws.amazon.com/sqs"
           }
@@ -2850,7 +2881,7 @@ export const categories: Category[] = [
             "name": "Socket.io",
             "description": "Bidirectional event-based communication for web.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://socket.io"
           },
@@ -2859,7 +2890,7 @@ export const categories: Category[] = [
             "name": "Ably",
             "description": "Managed realtime messaging with global edge delivery.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://ably.com"
           },
@@ -2868,7 +2899,7 @@ export const categories: Category[] = [
             "name": "Pusher",
             "description": "Hosted WebSocket API with Channels and Beams.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://pusher.com"
           },
@@ -2877,7 +2908,7 @@ export const categories: Category[] = [
             "name": "Liveblocks",
             "description": "APIs for collaborative, multiplayer apps.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://liveblocks.io"
           }
@@ -2891,7 +2922,7 @@ export const categories: Category[] = [
             "name": "AWS S3",
             "description": "Industry-standard object storage from Amazon.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://aws.amazon.com/s3"
           },
@@ -2900,7 +2931,7 @@ export const categories: Category[] = [
             "name": "Supabase Storage",
             "description": "S3-compatible storage with Postgres row-level security.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://supabase.com/storage"
           },
@@ -2909,7 +2940,7 @@ export const categories: Category[] = [
             "name": "MinIO",
             "description": "High-performance, S3-compatible self-hosted object storage.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://min.io"
           },
@@ -2918,7 +2949,7 @@ export const categories: Category[] = [
             "name": "Cloudflare R2",
             "description": "Zero-egress-fee S3-compatible object storage.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.cloudflare.com/products/r2"
           },
@@ -2927,7 +2958,7 @@ export const categories: Category[] = [
             "name": "Backblaze B2",
             "description": "Low-cost cloud object storage.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.backblaze.com/cloud-storage"
           }
@@ -2941,7 +2972,7 @@ export const categories: Category[] = [
             "name": "Hasura",
             "description": "Instant GraphQL APIs over Postgres with subscriptions.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://hasura.io"
           },
@@ -2950,7 +2981,7 @@ export const categories: Category[] = [
             "name": "RapidAPI",
             "description": "The world's largest API marketplace.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://rapidapi.com"
           },
@@ -2977,7 +3008,7 @@ export const categories: Category[] = [
             "name": "PostgREST",
             "description": "Automatically generate REST APIs from Postgres schemas.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://postgrest.org"
           }
@@ -2989,14 +3020,14 @@ export const categories: Category[] = [
     "name": "AI & LLM",
     "subcategories": [
       {
-        "name": "AI Models â€” Commercial",
+        "name": "AI Models — Commercial",
         "tools": [
           {
             "id": "openai-gpt-4o",
             "name": "OpenAI GPT-4o",
             "description": "State-of-the-art multimodal model from OpenAI.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://openai.com"
@@ -3006,7 +3037,7 @@ export const categories: Category[] = [
             "name": "Anthropic Claude",
             "description": "Safe, capable AI model excelling at coding and analysis.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://anthropic.com"
@@ -3016,7 +3047,7 @@ export const categories: Category[] = [
             "name": "Google Gemini",
             "description": "Google's multimodal AI model with 1M context window.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://ai.google.dev"
@@ -3026,21 +3057,21 @@ export const categories: Category[] = [
             "name": "Cohere",
             "description": "Enterprise NLP platform with embeddings and generation.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://cohere.com"
           }
         ]
       },
       {
-        "name": "AI Models â€” Open Source",
+        "name": "AI Models — Open Source",
         "tools": [
           {
             "id": "meta-llama",
             "name": "Meta Llama",
             "description": "Meta's open-weight LLM family, widely used for fine-tuning.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://llama.meta.com"
           },
@@ -3049,7 +3080,7 @@ export const categories: Category[] = [
             "name": "Mistral AI",
             "description": "Compact, high-performance open models from France.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://mistral.ai"
@@ -3059,7 +3090,7 @@ export const categories: Category[] = [
             "name": "Google Gemma",
             "description": "Lightweight open models from Google DeepMind.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://ai.google.dev/gemma"
           },
@@ -3086,7 +3117,7 @@ export const categories: Category[] = [
             "name": "Microsoft Phi",
             "description": "Small but highly capable models for on-device AI.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://azure.microsoft.com/en-us/products/phi"
           },
@@ -3095,7 +3126,7 @@ export const categories: Category[] = [
             "name": "NVIDIA Nemotron",
             "description": "High-performance models for enterprise AI deployments.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://developer.nvidia.com/nemotron"
@@ -3171,7 +3202,7 @@ export const categories: Category[] = [
             "name": "LangGraph",
             "description": "Graph-based agent framework for stateful multi-agent apps.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://langchain-ai.github.io/langgraph"
           },
@@ -3180,7 +3211,7 @@ export const categories: Category[] = [
             "name": "CrewAI",
             "description": "Role-based multi-agent orchestration framework.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://www.crewai.com"
@@ -3190,7 +3221,7 @@ export const categories: Category[] = [
             "name": "AutoGen",
             "description": "Microsoft's multi-agent conversation framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/microsoft/autogen"
           },
@@ -3199,7 +3230,7 @@ export const categories: Category[] = [
             "name": "Pydantic AI",
             "description": "Type-safe agent framework from the Pydantic team.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://ai.pydantic.dev"
@@ -3209,7 +3240,7 @@ export const categories: Category[] = [
             "name": "OpenAI Agents SDK",
             "description": "OpenAI's official SDK for building tool-calling agents.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://openai.github.io/openai-agents-python"
@@ -3219,7 +3250,7 @@ export const categories: Category[] = [
             "name": "Semantic Kernel",
             "description": "Microsoft's LLM orchestration framework for .NET and Python.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://learn.microsoft.com/semantic-kernel"
           },
@@ -3228,7 +3259,7 @@ export const categories: Category[] = [
             "name": "LangChain",
             "description": "The most popular LLM orchestration framework.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://www.langchain.com"
@@ -3247,7 +3278,7 @@ export const categories: Category[] = [
             "name": "Magentic-One",
             "description": "Microsoft's high-performance multi-agent system for web tasks.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one"
           }
@@ -3261,7 +3292,7 @@ export const categories: Category[] = [
             "name": "Dify",
             "description": "Production-ready platform for building LLM apps with visual workflow.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://dify.ai"
           },
@@ -3270,7 +3301,7 @@ export const categories: Category[] = [
             "name": "Flowise",
             "description": "Visual drag-and-drop builder for LangChain pipelines.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://flowiseai.com"
           },
@@ -3279,7 +3310,7 @@ export const categories: Category[] = [
             "name": "Langflow",
             "description": "Visual multi-agent and RAG builder with drag-and-drop UI.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.langflow.org"
           },
@@ -3288,7 +3319,7 @@ export const categories: Category[] = [
             "name": "AnythingLLM",
             "description": "All-in-one desktop AI app supporting multiple LLMs.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://anythingllm.com"
@@ -3298,7 +3329,7 @@ export const categories: Category[] = [
             "name": "Open WebUI",
             "description": "Self-hosted ChatGPT-like interface for local and API models.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://openwebui.com"
           }
@@ -3312,7 +3343,7 @@ export const categories: Category[] = [
             "name": "LlamaIndex",
             "description": "The leading data framework for RAG and LLM applications.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://www.llamaindex.ai"
@@ -3332,7 +3363,7 @@ export const categories: Category[] = [
             "name": "Sentence Transformers",
             "description": "HuggingFace library for semantic text embeddings.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.sbert.net"
           },
@@ -3350,7 +3381,7 @@ export const categories: Category[] = [
             "name": "LiteLLM",
             "description": "Gateway SDK for 100+ LLM APIs with unified interface.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://litellm.ai"
           },
@@ -3359,7 +3390,7 @@ export const categories: Category[] = [
             "name": "vLLM",
             "description": "High-throughput LLM serving engine for self-hosted models.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://vllm.ai"
           }
@@ -3382,7 +3413,7 @@ export const categories: Category[] = [
             "name": "LM Studio",
             "description": "Desktop app to discover and run local LLMs with a UI.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://lmstudio.ai"
           },
@@ -3409,7 +3440,7 @@ export const categories: Category[] = [
             "name": "KoboldAI",
             "description": "Browser-based frontend for local AI-powered text generation.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/KoboldAI/KoboldAI-Client"
@@ -3419,7 +3450,7 @@ export const categories: Category[] = [
             "name": "llama.cpp",
             "description": "Run LLaMA models on CPU/GPU with minimal dependencies.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/ggerganov/llama.cpp"
           }
@@ -3443,7 +3474,7 @@ export const categories: Category[] = [
             "name": "Deepgram",
             "description": "Real-time speech recognition API with noise cancellation.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://deepgram.com"
           },
@@ -3452,7 +3483,7 @@ export const categories: Category[] = [
             "name": "AssemblyAI",
             "description": "Accurate speech-to-text and audio intelligence API.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.assemblyai.com"
@@ -3462,7 +3493,7 @@ export const categories: Category[] = [
             "name": "ElevenLabs",
             "description": "Ultra-realistic AI voice cloning and text-to-speech.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://elevenlabs.io"
@@ -3472,7 +3503,7 @@ export const categories: Category[] = [
             "name": "Speechmatics",
             "description": "High-accuracy speech recognition with speaker diarization.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.speechmatics.com"
           }
@@ -3505,7 +3536,7 @@ export const categories: Category[] = [
             "name": "PaddleOCR",
             "description": "Multilingual OCR toolkit by Baidu.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/PaddlePaddle/PaddleOCR"
           },
@@ -3514,7 +3545,7 @@ export const categories: Category[] = [
             "name": "EasyOCR",
             "description": "Ready-to-use OCR for 80+ languages.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/JaidedAI/EasyOCR"
           },
@@ -3523,7 +3554,7 @@ export const categories: Category[] = [
             "name": "Roboflow",
             "description": "Computer vision platform for labeling, training and deploying models.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://roboflow.com"
           },
@@ -3532,7 +3563,7 @@ export const categories: Category[] = [
             "name": "Google Cloud Vision",
             "description": "Powerful image recognition REST API by Google.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://cloud.google.com/vision"
           }
@@ -3574,7 +3605,7 @@ export const categories: Category[] = [
             "name": "ComfyUI",
             "description": "Powerful node-based UI for Stable Diffusion workflows.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/comfyanonymous/ComfyUI"
           },
@@ -3583,7 +3614,7 @@ export const categories: Category[] = [
             "name": "Fooocus",
             "description": "Simplified Stable Diffusion UI requiring minimal setup.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/lllyasviel/Fooocus"
           },
@@ -3592,7 +3623,7 @@ export const categories: Category[] = [
             "name": "Leonardo AI",
             "description": "AI image generation platform for creatives.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://leonardo.ai"
@@ -3602,7 +3633,7 @@ export const categories: Category[] = [
             "name": "RunwayML",
             "description": "AI creative platform for image and video generation.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://runwayml.com"
@@ -3617,7 +3648,7 @@ export const categories: Category[] = [
             "name": "Runway Gen-2",
             "description": "Text-to-video and image-to-video generation model.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://runwayml.com"
           },
@@ -3626,7 +3657,7 @@ export const categories: Category[] = [
             "name": "Pika Labs",
             "description": "AI video generation with motion and style control.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://pika.art"
@@ -3636,7 +3667,7 @@ export const categories: Category[] = [
             "name": "LTX Studio",
             "description": "AI-powered video creation and editing platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://ltx.studio"
           },
@@ -3645,7 +3676,7 @@ export const categories: Category[] = [
             "name": "Synthesia",
             "description": "AI video generation with virtual presenters.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.synthesia.io"
@@ -3655,7 +3686,7 @@ export const categories: Category[] = [
             "name": "Luma AI",
             "description": "AI video generation with photorealistic results.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://lumalabs.ai"
@@ -3679,7 +3710,7 @@ export const categories: Category[] = [
             "name": "AIVA",
             "description": "AI composer creating soundtrack music for games and films.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.aiva.ai"
@@ -3699,7 +3730,7 @@ export const categories: Category[] = [
             "name": "Suno",
             "description": "AI music creation platform generating full songs from prompts.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.suno.ai"
@@ -3709,7 +3740,7 @@ export const categories: Category[] = [
             "name": "Udio",
             "description": "AI music generation with high-quality audio output.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.udio.com"
@@ -3734,7 +3765,7 @@ export const categories: Category[] = [
             "name": "Perspective API",
             "description": "Google's toxicity detection API for online conversations.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://perspectiveapi.com"
           },
@@ -3743,7 +3774,7 @@ export const categories: Category[] = [
             "name": "NeMo Guardrails",
             "description": "NVIDIA's toolkit for adding guardrails to LLM applications.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/NVIDIA/NeMo-Guardrails"
@@ -3758,7 +3789,7 @@ export const categories: Category[] = [
             "name": "Awesome MCP Servers",
             "description": "Curated list of MCP servers for all major tools.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/punkpeye/awesome-mcp-servers"
           },
@@ -3767,7 +3798,7 @@ export const categories: Category[] = [
             "name": "MCP Filesystem Server",
             "description": "Give Claude/AI agents direct filesystem access.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/modelcontextprotocol/servers"
@@ -3777,7 +3808,7 @@ export const categories: Category[] = [
             "name": "MCP Browser Tools",
             "description": "Browser automation and scraping via MCP protocol.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/modelcontextprotocol/servers"
           }
@@ -3796,7 +3827,7 @@ export const categories: Category[] = [
             "name": "Vercel",
             "description": "Zero-config frontend and serverless function hosting.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://vercel.com"
           },
@@ -3805,7 +3836,7 @@ export const categories: Category[] = [
             "name": "Netlify",
             "description": "Jamstack deployment platform with edge functions.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.netlify.com"
           },
@@ -3814,7 +3845,7 @@ export const categories: Category[] = [
             "name": "Railway",
             "description": "Zero-config infra and deployment platform.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://railway.app"
@@ -3824,7 +3855,7 @@ export const categories: Category[] = [
             "name": "Render",
             "description": "Simple cloud hosting with automatic deploys from git.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://render.com"
           },
@@ -3833,7 +3864,7 @@ export const categories: Category[] = [
             "name": "Fly.io",
             "description": "Deploy app servers close to users globally.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://fly.io"
           },
@@ -3842,7 +3873,7 @@ export const categories: Category[] = [
             "name": "DigitalOcean",
             "description": "Simple VPS and cloud infrastructure.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.digitalocean.com"
           },
@@ -3851,7 +3882,7 @@ export const categories: Category[] = [
             "name": "AWS",
             "description": "Amazon's comprehensive cloud computing platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://aws.amazon.com"
           },
@@ -3860,7 +3891,7 @@ export const categories: Category[] = [
             "name": "Google Cloud",
             "description": "Google's global cloud computing services.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://cloud.google.com"
           },
@@ -3869,7 +3900,7 @@ export const categories: Category[] = [
             "name": "Microsoft Azure",
             "description": "Microsoft's enterprise cloud platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://azure.microsoft.com"
           },
@@ -3910,7 +3941,7 @@ export const categories: Category[] = [
             "name": "CapRover",
             "description": "Easy-to-use self-hosted PaaS built on Docker.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://caprover.com"
           },
@@ -3919,7 +3950,7 @@ export const categories: Category[] = [
             "name": "Kamal",
             "description": "Zero-downtime deployment tool by 37signals.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://kamal-deploy.org"
           }
@@ -3933,7 +3964,7 @@ export const categories: Category[] = [
             "name": "GitHub Actions",
             "description": "CI/CD automation built directly into GitHub repositories.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://github.com/features/actions"
           },
@@ -3942,7 +3973,7 @@ export const categories: Category[] = [
             "name": "GitLab CI/CD",
             "description": "Integrated CI/CD pipeline in GitLab.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://docs.gitlab.com/ee/ci"
           },
@@ -3951,7 +3982,7 @@ export const categories: Category[] = [
             "name": "CircleCI",
             "description": "Fast CI/CD with Docker support.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://circleci.com"
           },
@@ -3960,7 +3991,7 @@ export const categories: Category[] = [
             "name": "Drone CI",
             "description": "Container-native CI/CD platform you can self-host.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.drone.io"
           },
@@ -3969,7 +4000,7 @@ export const categories: Category[] = [
             "name": "Buildkite",
             "description": "Hybrid CI/CD using your own agents.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://buildkite.com"
           }
@@ -3983,7 +4014,7 @@ export const categories: Category[] = [
             "name": "Docker",
             "description": "The standard container platform for development and deployment.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.docker.com"
           },
@@ -4001,7 +4032,7 @@ export const categories: Category[] = [
             "name": "Docker Compose",
             "description": "Define multi-container apps in a single YAML file.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://docs.docker.com/compose"
           },
@@ -4010,7 +4041,7 @@ export const categories: Category[] = [
             "name": "OrbStack",
             "description": "Fast, lightweight Docker Desktop alternative for Mac.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://orbstack.dev"
           }
@@ -4024,7 +4055,7 @@ export const categories: Category[] = [
             "name": "Sentry",
             "description": "Application monitoring and error tracking platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://sentry.io"
           },
@@ -4051,7 +4082,7 @@ export const categories: Category[] = [
             "name": "Datadog",
             "description": "Full-stack observability platform with AI analytics.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.datadoghq.com"
@@ -4061,7 +4092,7 @@ export const categories: Category[] = [
             "name": "New Relic",
             "description": "Observability platform for full-stack engineers.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://newrelic.com"
           },
@@ -4070,7 +4101,7 @@ export const categories: Category[] = [
             "name": "Better Stack",
             "description": "Modern logging and uptime monitoring platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://betterstack.com"
           },
@@ -4102,7 +4133,7 @@ export const categories: Category[] = [
             "name": "Doppler",
             "description": "Universal secrets manager syncing env variables everywhere.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.doppler.com"
           },
@@ -4120,7 +4151,7 @@ export const categories: Category[] = [
             "name": "HashiCorp Vault",
             "description": "Secrets management for any environment.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.vaultproject.io"
           },
@@ -4143,7 +4174,7 @@ export const categories: Category[] = [
             "name": "Terraform",
             "description": "The gold standard infrastructure-as-code tool.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.terraform.io"
           },
@@ -4152,7 +4183,7 @@ export const categories: Category[] = [
             "name": "Pulumi",
             "description": "IaC using real programming languages (TypeScript/Python).",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.pulumi.com"
           },
@@ -4161,7 +4192,7 @@ export const categories: Category[] = [
             "name": "Ansible",
             "description": "Agentless automation for configuration management.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.ansible.com"
           }
@@ -4175,7 +4206,7 @@ export const categories: Category[] = [
             "name": "Cloudflare",
             "description": "Global CDN, DDoS protection and edge computing.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.cloudflare.com"
           },
@@ -4184,7 +4215,7 @@ export const categories: Category[] = [
             "name": "AWS CloudFront",
             "description": "Amazon's global CDN for content delivery.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://aws.amazon.com/cloudfront"
           },
@@ -4212,7 +4243,7 @@ export const categories: Category[] = [
             "name": "Framer",
             "description": "AI-powered landing page builder with animations.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.framer.com"
           },
@@ -4221,7 +4252,7 @@ export const categories: Category[] = [
             "name": "Webflow",
             "description": "Professional website builder with CMS for startups.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://webflow.com"
           },
@@ -4230,7 +4261,7 @@ export const categories: Category[] = [
             "name": "Carrd",
             "description": "Simple $19/year one-page site builder.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://carrd.co"
           },
@@ -4266,7 +4297,7 @@ export const categories: Category[] = [
             "name": "LaunchList",
             "description": "Simple viral waitlist builder for pre-launch apps.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://launchlist.net"
           }
@@ -4289,7 +4320,7 @@ export const categories: Category[] = [
             "name": "Plausible",
             "description": "Privacy-friendly, lightweight Google Analytics alternative.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://plausible.io"
           },
@@ -4298,7 +4329,7 @@ export const categories: Category[] = [
             "name": "Umami",
             "description": "Self-hosted, GDPR-compliant website analytics.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://umami.is"
           },
@@ -4307,7 +4338,7 @@ export const categories: Category[] = [
             "name": "Mixpanel",
             "description": "Powerful product analytics for understanding user behavior.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://mixpanel.com"
           },
@@ -4316,7 +4347,7 @@ export const categories: Category[] = [
             "name": "Amplitude",
             "description": "Enterprise product analytics and growth platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://amplitude.com"
           },
@@ -4334,7 +4365,7 @@ export const categories: Category[] = [
             "name": "Hotjar",
             "description": "Heatmaps, session recordings and user feedback.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.hotjar.com"
           },
@@ -4343,7 +4374,7 @@ export const categories: Category[] = [
             "name": "Heap",
             "description": "Auto-capture analytics without manual event tracking.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.heap.io"
           }
@@ -4366,7 +4397,7 @@ export const categories: Category[] = [
             "name": "SEMrush",
             "description": "All-in-one digital marketing and SEO toolkit.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.semrush.com"
           },
@@ -4411,7 +4442,7 @@ export const categories: Category[] = [
             "name": "Screaming Frog",
             "description": "Website crawler for technical SEO audits.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.screamingfrog.co.uk"
           }
@@ -4425,7 +4456,7 @@ export const categories: Category[] = [
             "name": "Mailchimp",
             "description": "The most popular email marketing and automation platform.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://mailchimp.com"
@@ -4435,7 +4466,7 @@ export const categories: Category[] = [
             "name": "ConvertKit",
             "description": "Email marketing platform built for creators.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://convertkit.com"
           },
@@ -4444,7 +4475,7 @@ export const categories: Category[] = [
             "name": "Beehiiv",
             "description": "Newsletter platform built for growth with monetization.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.beehiiv.com"
           },
@@ -4473,7 +4504,7 @@ export const categories: Category[] = [
             "name": "Klaviyo",
             "description": "Email and SMS marketing platform for e-commerce.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.klaviyo.com"
           }
@@ -4541,7 +4572,7 @@ export const categories: Category[] = [
             "name": "Freshdesk",
             "description": "Cloud-based helpdesk software.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://freshdesk.com"
           }
@@ -4555,7 +4586,7 @@ export const categories: Category[] = [
             "name": "Buffer",
             "description": "Simple social media scheduling with analytics.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://buffer.com"
           },
@@ -4573,7 +4604,7 @@ export const categories: Category[] = [
             "name": "Later",
             "description": "Visual social media scheduling platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://later.com"
           },
@@ -4582,7 +4613,7 @@ export const categories: Category[] = [
             "name": "Metricool",
             "description": "Social media analytics and scheduling tool.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://metricool.com"
           },
@@ -4605,7 +4636,7 @@ export const categories: Category[] = [
             "name": "Canny",
             "description": "User feedback and feature voting platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://canny.io"
           },
@@ -4614,7 +4645,7 @@ export const categories: Category[] = [
             "name": "Productboard",
             "description": "Product management platform for roadmaps and prioritization.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.productboard.com"
           },
@@ -4655,7 +4686,7 @@ export const categories: Category[] = [
             "name": "GitBook",
             "description": "Beautiful documentation and wiki platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.gitbook.com"
           },
@@ -4664,7 +4695,7 @@ export const categories: Category[] = [
             "name": "ReadMe",
             "description": "Interactive API documentation platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://readme.com"
           },
@@ -4673,7 +4704,7 @@ export const categories: Category[] = [
             "name": "MkDocs",
             "description": "Static site generator for project documentation.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.mkdocs.org"
           },
@@ -4682,7 +4713,7 @@ export const categories: Category[] = [
             "name": "Mintlify",
             "description": "Beautiful, AI-powered documentation for developer products.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://mintlify.com"
           },
@@ -4691,7 +4722,7 @@ export const categories: Category[] = [
             "name": "Notion",
             "description": "Flexible wiki and docs platform for teams.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.notion.so"
           }
@@ -4705,7 +4736,7 @@ export const categories: Category[] = [
             "name": "ChartMogul",
             "description": "Subscription analytics platform for MRR and churn.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://chartmogul.com"
           },
@@ -4742,7 +4773,7 @@ export const categories: Category[] = [
             "name": "T3 Stack",
             "description": "Full-stack Next.js + tRPC + Prisma + NextAuth boilerplate.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://create.t3.gg"
           },
@@ -4751,7 +4782,7 @@ export const categories: Category[] = [
             "name": "Next.js Boilerplate",
             "description": "Next.js production-ready template with best practices.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/ixartz/Next-js-Boilerplate"
           },
@@ -4778,7 +4809,7 @@ export const categories: Category[] = [
             "name": "Blitz.js",
             "description": "Full-stack React framework with code scaffolding.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://blitzjs.com"
           },
@@ -4787,7 +4818,7 @@ export const categories: Category[] = [
             "name": "RedwoodJS",
             "description": "Full-stack JavaScript framework for startups.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://redwoodjs.com"
           }
@@ -4801,7 +4832,7 @@ export const categories: Category[] = [
             "name": "Playwright",
             "description": "Reliable end-to-end testing across all browsers.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://playwright.dev"
           },
@@ -4810,7 +4841,7 @@ export const categories: Category[] = [
             "name": "Cypress",
             "description": "Frontend testing framework for web applications.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.cypress.io"
           },
@@ -4819,7 +4850,7 @@ export const categories: Category[] = [
             "name": "Jest",
             "description": "Delightful JavaScript unit testing framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://jestjs.io"
           },
@@ -4828,7 +4859,7 @@ export const categories: Category[] = [
             "name": "Vitest",
             "description": "Blazingly fast unit testing powered by Vite.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://vitest.dev"
           },
@@ -4837,7 +4868,7 @@ export const categories: Category[] = [
             "name": "TestCafe",
             "description": "Easy-to-set-up end-to-end testing framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://testcafe.io"
           },
@@ -4846,7 +4877,7 @@ export const categories: Category[] = [
             "name": "Postman",
             "description": "API testing and collection management platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.postman.com"
           },
@@ -4855,7 +4886,7 @@ export const categories: Category[] = [
             "name": "pytest",
             "description": "The standard testing framework for Python.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://pytest.org"
           }
@@ -4878,7 +4909,7 @@ export const categories: Category[] = [
             "name": "Insomnia",
             "description": "API design and testing client by Kong.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://insomnia.rest"
           },
@@ -4896,7 +4927,7 @@ export const categories: Category[] = [
             "name": "Thunder Client",
             "description": "Lightweight REST API client in VS Code.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.thunderclient.com"
           }
@@ -4910,7 +4941,7 @@ export const categories: Category[] = [
             "name": "Carbon",
             "description": "Create and share beautiful images of source code.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://carbon.now.sh"
           },
@@ -4919,7 +4950,7 @@ export const categories: Category[] = [
             "name": "CodeSandbox",
             "description": "Online code editor for rapid prototyping.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://codesandbox.io"
           },
@@ -4928,7 +4959,7 @@ export const categories: Category[] = [
             "name": "JSFiddle",
             "description": "Online playground for JavaScript, HTML and CSS.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://jsfiddle.net"
           },
@@ -4937,7 +4968,7 @@ export const categories: Category[] = [
             "name": "StackBlitz",
             "description": "Online IDE for web apps with instant npm packages.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://stackblitz.com"
           }
@@ -4969,7 +5000,7 @@ export const categories: Category[] = [
             "name": "Lucidchart",
             "description": "Intelligent diagramming for architecture and org charts.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.lucidchart.com"
           },
@@ -4978,7 +5009,7 @@ export const categories: Category[] = [
             "name": "System Design Primer",
             "description": "GitHub repo teaching how to design scalable systems.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/donnemartin/system-design-primer"
           },
@@ -4987,7 +5018,7 @@ export const categories: Category[] = [
             "name": "ByteByteGo",
             "description": "Visual system design articles and newsletter.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://bytebytego.com"
           }
@@ -5006,7 +5037,7 @@ export const categories: Category[] = [
             "name": "Arc",
             "description": "Next-gen browser by The Browser Company with sidebar tabs.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://arc.net"
           },
@@ -5015,7 +5046,7 @@ export const categories: Category[] = [
             "name": "Zen Browser",
             "description": "Privacy-first, Firefox-based browser with Arc-like UI.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://zen-browser.app"
           },
@@ -5024,7 +5055,7 @@ export const categories: Category[] = [
             "name": "Brave",
             "description": "Privacy-focused browser with built-in ad blocking.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://brave.com"
           },
@@ -5033,7 +5064,7 @@ export const categories: Category[] = [
             "name": "Chrome DevTools",
             "description": "The gold standard browser developer tools.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://developer.chrome.com/docs/devtools"
           },
@@ -5042,7 +5073,7 @@ export const categories: Category[] = [
             "name": "SigmaOS",
             "description": "Browser built for productivity with workspaces.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://sigmaos.com"
           }
@@ -5065,7 +5096,7 @@ export const categories: Category[] = [
             "name": "Cursor",
             "description": "AI-first code editor forked from VS Code.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.cursor.com"
           },
@@ -5074,7 +5105,7 @@ export const categories: Category[] = [
             "name": "Windsurf",
             "description": "Agentic AI IDE by Codeium.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://codeium.com/windsurf"
@@ -5084,7 +5115,7 @@ export const categories: Category[] = [
             "name": "Zed",
             "description": "Lightning-fast collaborative code editor.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://zed.dev"
           },
@@ -5093,7 +5124,7 @@ export const categories: Category[] = [
             "name": "JetBrains IDEs",
             "description": "Professional IDEs for every language.",
             "tags": [
-              "Paid",
+              "Free tier",
               "AI"
             ],
             "url": "https://www.jetbrains.com"
@@ -5108,7 +5139,7 @@ export const categories: Category[] = [
             "name": "Warp",
             "description": "AI-native terminal with command completion and history.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.warp.dev"
           },
@@ -5117,7 +5148,7 @@ export const categories: Category[] = [
             "name": "Ghostty",
             "description": "Fast, feature-rich terminal built in Zig.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://ghostty.org"
           },
@@ -5126,7 +5157,7 @@ export const categories: Category[] = [
             "name": "iTerm2",
             "description": "The most feature-complete macOS terminal.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://iterm2.com"
           },
@@ -5135,7 +5166,7 @@ export const categories: Category[] = [
             "name": "Windows Terminal",
             "description": "Modern, multi-tab terminal for Windows.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/microsoft/terminal"
           },
@@ -5144,7 +5175,7 @@ export const categories: Category[] = [
             "name": "Hyper",
             "description": "Electron-based terminal with plugin ecosystem.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://hyper.is"
           }
@@ -5158,7 +5189,7 @@ export const categories: Category[] = [
             "name": "LazyGit",
             "description": "Terminal UI for git with powerful keyboard shortcuts.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/jesseduffield/lazygit"
           },
@@ -5167,7 +5198,7 @@ export const categories: Category[] = [
             "name": "GitHub Desktop",
             "description": "Simple, official Git client by GitHub.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://desktop.github.com"
           },
@@ -5176,7 +5207,7 @@ export const categories: Category[] = [
             "name": "GitKraken",
             "description": "Cross-platform Git GUI with merge conflict editor.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.gitkraken.com"
           },
@@ -5208,7 +5239,7 @@ export const categories: Category[] = [
             "name": "TablePlus",
             "description": "Native, fast database management GUI.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://tableplus.com"
           },
@@ -5235,7 +5266,7 @@ export const categories: Category[] = [
             "name": "pgAdmin",
             "description": "The official PostgreSQL management tool.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.pgadmin.org"
           },
@@ -5244,7 +5275,7 @@ export const categories: Category[] = [
             "name": "MongoDB Compass",
             "description": "Official GUI for exploring MongoDB data.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.mongodb.com/products/compass"
           }
@@ -5258,7 +5289,7 @@ export const categories: Category[] = [
             "name": "Termius",
             "description": "Cross-platform SSH client with cloud sync.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://termius.com"
           },
@@ -5267,7 +5298,7 @@ export const categories: Category[] = [
             "name": "PuTTY",
             "description": "Classic, lightweight SSH client for Windows.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.putty.org"
           },
@@ -5276,7 +5307,7 @@ export const categories: Category[] = [
             "name": "Tabby",
             "description": "Modern, highly configurable terminal/SSH client.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://tabby.sh"
           },
@@ -5285,7 +5316,7 @@ export const categories: Category[] = [
             "name": "MobaXterm",
             "description": "Enhanced terminal with SSH, X11, and many tools.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://mobaxterm.mobatek.net"
           }
@@ -5299,7 +5330,7 @@ export const categories: Category[] = [
             "name": "Docker Desktop",
             "description": "GUI for Docker with container management.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.docker.com/products/docker-desktop"
           },
@@ -5308,7 +5339,7 @@ export const categories: Category[] = [
             "name": "OrbStack",
             "description": "Fast, lightweight Docker Desktop alternative for Mac.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://orbstack.dev"
           },
@@ -5317,7 +5348,7 @@ export const categories: Category[] = [
             "name": "Devbox",
             "description": "Instant, isolated dev environments via Nix.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.jetify.com/devbox"
           },
@@ -5326,7 +5357,7 @@ export const categories: Category[] = [
             "name": "Nix",
             "description": "Reproducible, declarative package manager.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nixos.org"
           },
@@ -5335,7 +5366,7 @@ export const categories: Category[] = [
             "name": "Distrobox",
             "description": "Run any Linux distribution inside a container.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://distrobox.it"
           }
@@ -5354,7 +5385,7 @@ export const categories: Category[] = [
             "name": "Awesome OSINT",
             "description": "The definitive GitHub list of OSINT tools and resources.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/jivoi/awesome-osint"
           },
@@ -5363,7 +5394,7 @@ export const categories: Category[] = [
             "name": "Maltego",
             "description": "Link-analysis tool for mapping relationships visually.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.maltego.com"
           },
@@ -5372,7 +5403,7 @@ export const categories: Category[] = [
             "name": "SpiderFoot",
             "description": "Automated OSINT reconnaisance tool integrating 100+ sources.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/smicallef/spiderfoot"
           },
@@ -5381,7 +5412,7 @@ export const categories: Category[] = [
             "name": "Sherlock",
             "description": "Find a username across 300+ social networks instantly.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/sherlock-project/sherlock"
           },
@@ -5390,7 +5421,7 @@ export const categories: Category[] = [
             "name": "theHarvester",
             "description": "OSINT tool for emails, hosts, IPs and domains.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/laramies/theHarvester"
           },
@@ -5399,7 +5430,7 @@ export const categories: Category[] = [
             "name": "Recon-ng",
             "description": "Full-featured web reconnaissance framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/lanmaster53/recon-ng"
           },
@@ -5408,7 +5439,7 @@ export const categories: Category[] = [
             "name": "Shodan",
             "description": "Search engine for internet-connected devices.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.shodan.io"
           },
@@ -5417,7 +5448,7 @@ export const categories: Category[] = [
             "name": "Censys",
             "description": "Internet-wide scanning and attack surface discovery.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://censys.io"
           },
@@ -5426,7 +5457,7 @@ export const categories: Category[] = [
             "name": "Holehe",
             "description": "Check if an email is registered on 120+ services.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/megadose/holehe"
           },
@@ -5435,7 +5466,7 @@ export const categories: Category[] = [
             "name": "FaceCheck.ID",
             "description": "Reverse image search for face recognition across the web.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://facecheck.id"
           },
@@ -5444,7 +5475,7 @@ export const categories: Category[] = [
             "name": "PimEyes",
             "description": "Face recognition search engine for digital footprint mapping.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://pimeyes.com"
           },
@@ -5453,7 +5484,7 @@ export const categories: Category[] = [
             "name": "IntelX",
             "description": "Search engine for breach data and intelligence.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://intelx.io"
           },
@@ -5462,7 +5493,7 @@ export const categories: Category[] = [
             "name": "GHunt",
             "description": "Investigate Google accounts from email addresses.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/mxrch/GHunt"
           }
@@ -5476,7 +5507,7 @@ export const categories: Category[] = [
             "name": "Metasploit Framework",
             "description": "The world's most used penetration testing framework.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/rapid7/metasploit-framework"
           },
@@ -5485,7 +5516,7 @@ export const categories: Category[] = [
             "name": "Nmap",
             "description": "Network exploration and security auditing tool.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://nmap.org"
           },
@@ -5494,7 +5525,7 @@ export const categories: Category[] = [
             "name": "Gobuster",
             "description": "Directory/file and DNS brute-forcing tool.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/OJ/gobuster"
           },
@@ -5503,7 +5534,7 @@ export const categories: Category[] = [
             "name": "OWASP Juice Shop",
             "description": "Intentionally vulnerable web application for security training.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/juice-shop/juice-shop"
           },
@@ -5512,7 +5543,7 @@ export const categories: Category[] = [
             "name": "Burp Suite",
             "description": "The leading web application security testing platform.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://portswigger.net/burp"
           }
@@ -5544,7 +5575,7 @@ export const categories: Category[] = [
             "name": "ExifTool",
             "description": "Read, write and edit metadata in image/video files.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://exiftool.org"
           },
@@ -5553,7 +5584,7 @@ export const categories: Category[] = [
             "name": "Trivy",
             "description": "Container and filesystem vulnerability scanner.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://aquasecurity.github.io/trivy"
           }
@@ -5567,7 +5598,7 @@ export const categories: Category[] = [
             "name": "TruffleHog",
             "description": "Scan git history for leaked secrets and API keys.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/trufflesecurity/trufflehog"
           },
@@ -5576,7 +5607,7 @@ export const categories: Category[] = [
             "name": "Gitleaks",
             "description": "Detect secrets and credentials in git repos.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/gitleaks/gitleaks"
           },
@@ -5585,7 +5616,7 @@ export const categories: Category[] = [
             "name": "Semgrep",
             "description": "Static analysis for finding security issues in code.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://semgrep.dev"
           },
@@ -5594,7 +5625,7 @@ export const categories: Category[] = [
             "name": "Snyk",
             "description": "Developer security platform for code, deps and containers.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://snyk.io"
           }
@@ -5613,7 +5644,7 @@ export const categories: Category[] = [
             "name": "MDN Web Docs",
             "description": "The absolute standard for HTML, CSS and Web APIs.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://developer.mozilla.org"
           },
@@ -5622,7 +5653,7 @@ export const categories: Category[] = [
             "name": "DevDocs",
             "description": "All developer documentation in one searchable interface.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://devdocs.io"
           },
@@ -5631,7 +5662,7 @@ export const categories: Category[] = [
             "name": "W3Schools",
             "description": "Beginner-friendly reference for web technologies.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.w3schools.com"
           },
@@ -5640,7 +5671,7 @@ export const categories: Category[] = [
             "name": "Roadmap.sh",
             "description": "Community-driven developer learning roadmaps.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://roadmap.sh"
           }
@@ -5672,7 +5703,7 @@ export const categories: Category[] = [
             "name": "Coursera",
             "description": "University-backed online courses and certifications.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.coursera.org"
           },
@@ -5699,7 +5730,7 @@ export const categories: Category[] = [
             "name": "edX",
             "description": "Online courses from MIT, Harvard and other institutions.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.edx.org"
           },
@@ -5722,7 +5753,7 @@ export const categories: Category[] = [
             "name": "OverAPI",
             "description": "Collecting cheat sheets for almost every language.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://overapi.com"
           },
@@ -5731,16 +5762,16 @@ export const categories: Category[] = [
             "name": "DevHints",
             "description": "Handcrafted developer cheat sheets.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://devhints.io"
           },
           {
             "id": "cheat-sh",
             "name": "Cheat.sh",
-            "description": "The only cheat sheet you need â€” access via curl.",
+            "description": "The only cheat sheet you need — access via curl.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://cheat.sh"
           },
@@ -5749,7 +5780,7 @@ export const categories: Category[] = [
             "name": "Learn X in Y Minutes",
             "description": "Quick syntax primers for any programming language.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://learnxinyminutes.com"
           }
@@ -5761,9 +5792,9 @@ export const categories: Category[] = [
           {
             "id": "fireship",
             "name": "Fireship",
-            "description": "Fast-paced developer tutorials â€” '100 Seconds of Code' format.",
+            "description": "Fast-paced developer tutorials — '100 Seconds of Code' format.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.youtube.com/@Fireship"
           },
@@ -5772,7 +5803,7 @@ export const categories: Category[] = [
             "name": "Traversy Media",
             "description": "Full-stack development crash courses.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.youtube.com/@TraversyMedia"
           },
@@ -5781,7 +5812,7 @@ export const categories: Category[] = [
             "name": "The Net Ninja",
             "description": "Beginner-friendly web dev tutorial series.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.youtube.com/@NetNinja"
           },
@@ -5790,7 +5821,7 @@ export const categories: Category[] = [
             "name": "TechWorld with Nana",
             "description": "DevOps and Kubernetes tutorials.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.youtube.com/@TechWorldwithNana"
           },
@@ -5799,7 +5830,7 @@ export const categories: Category[] = [
             "name": "Academind",
             "description": "In-depth Angular, React and full-stack tutorials.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.youtube.com/@academind"
           },
@@ -5808,7 +5839,7 @@ export const categories: Category[] = [
             "name": "Programming with Mosh",
             "description": "High-quality beginner to advanced programming courses.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.youtube.com/@programmingwithmosh"
           }
@@ -5822,7 +5853,7 @@ export const categories: Category[] = [
             "name": "TLDR Newsletter",
             "description": "Daily 5-minute digest of dev, AI and startup news.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://tldr.tech"
@@ -5832,7 +5863,7 @@ export const categories: Category[] = [
             "name": "Bytes.dev",
             "description": "Entertaining weekly JavaScript newsletter.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://bytes.dev"
           },
@@ -5841,7 +5872,7 @@ export const categories: Category[] = [
             "name": "JavaScript Weekly",
             "description": "Weekly JavaScript news and articles.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://javascriptweekly.com"
           },
@@ -5850,7 +5881,7 @@ export const categories: Category[] = [
             "name": "Pointer",
             "description": "Curated reading list for engineering leaders.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.pointer.io"
           },
@@ -5859,7 +5890,7 @@ export const categories: Category[] = [
             "name": "The Rundown AI",
             "description": "Daily AI news for builders and founders.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://www.therundown.ai"
@@ -5869,7 +5900,7 @@ export const categories: Category[] = [
             "name": "DevOps Weekly",
             "description": "Weekly DevOps and infrastructure news.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.devopsweekly.com"
           }
@@ -5883,7 +5914,7 @@ export const categories: Category[] = [
             "name": "Syntax.fm",
             "description": "Tasty web development treats by Wes Bos and Scott Tolinski.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://syntax.fm"
           },
@@ -5892,7 +5923,7 @@ export const categories: Category[] = [
             "name": "Software Engineering Daily",
             "description": "Daily interviews with software engineers.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://softwareengineeringdaily.com"
@@ -5911,7 +5942,7 @@ export const categories: Category[] = [
             "name": "Indie Hackers Podcast",
             "description": "Founder stories and lessons building in public.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.indiehackers.com/podcast"
           },
@@ -5920,7 +5951,7 @@ export const categories: Category[] = [
             "name": "Coding Blocks",
             "description": "Design patterns and software development best practices.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.codingblocks.net"
           }
@@ -5934,7 +5965,7 @@ export const categories: Category[] = [
             "name": "Dev.to",
             "description": "Community of software developers sharing ideas.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://dev.to"
           },
@@ -5943,7 +5974,7 @@ export const categories: Category[] = [
             "name": "HackerNoon",
             "description": "Technology stories from real practitioners.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://hackernoon.com"
           },
@@ -5952,7 +5983,7 @@ export const categories: Category[] = [
             "name": "Smashing Magazine",
             "description": "Web design and development articles for professionals.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.smashingmagazine.com"
           },
@@ -5961,7 +5992,7 @@ export const categories: Category[] = [
             "name": "CSS-Tricks",
             "description": "Daily articles and tips about web design.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://css-tricks.com"
           },
@@ -5970,7 +6001,7 @@ export const categories: Category[] = [
             "name": "Martin Fowler Blog",
             "description": "Architecture and software patterns by Martin Fowler.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://martinfowler.com"
           },
@@ -5979,7 +6010,7 @@ export const categories: Category[] = [
             "name": "Hacker News",
             "description": "Y Combinator's tech news and discussion board.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://news.ycombinator.com"
           }
@@ -5993,7 +6024,7 @@ export const categories: Category[] = [
             "name": "LeetCode",
             "description": "The #1 platform for coding interview preparation.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://leetcode.com"
           },
@@ -6002,7 +6033,7 @@ export const categories: Category[] = [
             "name": "NeetCode",
             "description": "Curated LeetCode roadmap with video explanations.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://neetcode.io"
           },
@@ -6020,7 +6051,7 @@ export const categories: Category[] = [
             "name": "HackerRank",
             "description": "Coding challenges for developers and companies.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.hackerrank.com"
           },
@@ -6038,7 +6069,7 @@ export const categories: Category[] = [
             "name": "Coding Interview University",
             "description": "Self-study plan for software engineer interviews.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/jwasham/coding-interview-university"
           }
@@ -6057,7 +6088,7 @@ export const categories: Category[] = [
             "name": "Build Your Own X",
             "description": "Recreate your favourite technology from scratch.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/codecrafters-io/build-your-own-x"
           },
@@ -6066,7 +6097,7 @@ export const categories: Category[] = [
             "name": "Project Based Learning",
             "description": "Project tutorials grouped by programming language.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/practical-tutorials/project-based-learning"
           },
@@ -6075,7 +6106,7 @@ export const categories: Category[] = [
             "name": "Developer Roadmap",
             "description": "Community roadmaps for different developer roles.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/kamranahmedse/developer-roadmap"
           },
@@ -6084,7 +6115,7 @@ export const categories: Category[] = [
             "name": "Karan Projects",
             "description": "List of over 500 practical programming project ideas.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/karan/Projects"
           }
@@ -6107,7 +6138,7 @@ export const categories: Category[] = [
             "name": "Awesome AI Agents",
             "description": "Master list of autonomous AI agents and tools.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/e2b-dev/awesome-ai-agents"
@@ -6117,7 +6148,7 @@ export const categories: Category[] = [
             "name": "Awesome LLM Apps",
             "description": "Curated list of LLM apps across categories.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
           },
@@ -6126,7 +6157,7 @@ export const categories: Category[] = [
             "name": "Awesome OSINT",
             "description": "Massive list of OSINT tools and resources.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/jivoi/awesome-osint"
           },
@@ -6144,7 +6175,7 @@ export const categories: Category[] = [
             "name": "Awesome Generative AI",
             "description": "Curated list of modern generative AI projects.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/steven2358/awesome-generative-ai"
@@ -6163,7 +6194,7 @@ export const categories: Category[] = [
             "name": "Awesome Indie",
             "description": "Resources for independent developers and founders.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/mezod/awesome-indie"
           }
@@ -6177,16 +6208,16 @@ export const categories: Category[] = [
             "name": "Devpost",
             "description": "Platform for discovering and entering hackathons.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://devpost.com"
           },
           {
             "id": "mlh",
             "name": "MLH",
-            "description": "Major League Hacking â€” the official hackathon organizer.",
+            "description": "Major League Hacking — the official hackathon organizer.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://mlh.io"
           },
@@ -6195,7 +6226,7 @@ export const categories: Category[] = [
             "name": "Lablab.ai",
             "description": "AI hackathons with prizes and mentorship.",
             "tags": [
-              "Paid",
+              "Free",
               "AI"
             ],
             "url": "https://lablab.ai"
@@ -6205,7 +6236,7 @@ export const categories: Category[] = [
             "name": "Buildspace",
             "description": "Guided hackathon-style builds for startup ideas.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://buildspace.so"
           }
@@ -6217,7 +6248,7 @@ export const categories: Category[] = [
           {
             "id": "posthog",
             "name": "PostHog",
-            "description": "Open-source product analytics â€” study their growth.",
+            "description": "Open-source product analytics — study their growth.",
             "tags": [
               "OSS"
             ],
@@ -6226,9 +6257,9 @@ export const categories: Category[] = [
           {
             "id": "plausible-analytics",
             "name": "Plausible Analytics",
-            "description": "Privacy-first analytics â€” great OSS SaaS example.",
+            "description": "Privacy-first analytics — great OSS SaaS example.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://plausible.io"
           },
@@ -6253,7 +6284,7 @@ export const categories: Category[] = [
           {
             "id": "n8n",
             "name": "n8n",
-            "description": "Open-source workflow automation â€” huge community.",
+            "description": "Open-source workflow automation — huge community.",
             "tags": [
               "OSS"
             ],
@@ -6283,7 +6314,7 @@ export const categories: Category[] = [
             "name": "OpenWeather API",
             "description": "Current weather and forecasts for any location.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://openweathermap.org/api"
           },
@@ -6292,7 +6323,7 @@ export const categories: Category[] = [
             "name": "NewsAPI",
             "description": "Search news articles from 80,000+ sources.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://newsapi.org"
           },
@@ -6319,7 +6350,7 @@ export const categories: Category[] = [
             "name": "RapidAPI Hub",
             "description": "Marketplace of 50,000+ APIs across all categories.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://rapidapi.com/hub"
           }
@@ -6374,7 +6405,7 @@ export const categories: Category[] = [
             "name": "Hugging Face Datasets",
             "description": "Largest collection of AI/ML datasets.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://huggingface.co/datasets"
           },
@@ -6392,7 +6423,7 @@ export const categories: Category[] = [
             "name": "Google Dataset Search",
             "description": "Search engine for datasets across the web.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://datasetsearch.research.google.com"
           },
@@ -6401,7 +6432,7 @@ export const categories: Category[] = [
             "name": "Awesome Public Datasets",
             "description": "Curated list of high-quality open datasets.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://github.com/awesomedata/awesome-public-datasets"
           }
@@ -6420,7 +6451,7 @@ export const categories: Category[] = [
             "name": "n8n",
             "description": "Fair-code workflow automation you can self-host.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://n8n.io"
           },
@@ -6429,7 +6460,7 @@ export const categories: Category[] = [
             "name": "Zapier",
             "description": "The standard integration platform connecting 7,000+ apps.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://zapier.com"
           },
@@ -6438,7 +6469,7 @@ export const categories: Category[] = [
             "name": "Make (Integromat)",
             "description": "Visual drag-and-drop workflow mapper.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.make.com"
           },
@@ -6461,7 +6492,7 @@ export const categories: Category[] = [
             "name": "Playwright",
             "description": "Reliable browser automation by Microsoft.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://playwright.dev"
           },
@@ -6470,7 +6501,7 @@ export const categories: Category[] = [
             "name": "Puppeteer",
             "description": "Headless Chrome automation by Google.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://pptr.dev"
           },
@@ -6479,7 +6510,7 @@ export const categories: Category[] = [
             "name": "Firecrawl",
             "description": "Web scraping API that converts websites to LLM-ready data.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.firecrawl.dev"
           },
@@ -6516,7 +6547,7 @@ export const categories: Category[] = [
             "name": "Leaked System Prompts",
             "description": "Community-sourced collection of AI system prompts.",
             "tags": [
-              "Paid",
+              "OSS",
               "AI"
             ],
             "url": "https://github.com/jujumilk3/leaked-system-prompts"
@@ -6526,7 +6557,7 @@ export const categories: Category[] = [
             "name": "Prompt Engineering Guide",
             "description": "Comprehensive guide to prompt engineering techniques.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://www.promptingguide.ai"
           }
@@ -6540,7 +6571,7 @@ export const categories: Category[] = [
             "name": "Cursor Rules",
             "description": "Community repository of .cursorrules for better code.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://cursor.directory"
           },
@@ -6549,7 +6580,7 @@ export const categories: Category[] = [
             "name": "Windsurf Rules",
             "description": "Rules and configurations for Windsurf IDE.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://github.com/nicholasgasior/windsurf-rules"
           },
@@ -6558,7 +6589,7 @@ export const categories: Category[] = [
             "name": "CLAUDE.md Templates",
             "description": "CLAUDE.md project context templates for Claude Code.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://github.com/search?q=CLAUDE.md"
           }
@@ -6577,7 +6608,7 @@ export const categories: Category[] = [
             "name": "Notion",
             "description": "All-in-one workspace for notes, wikis and tasks.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.notion.so"
           },
@@ -6586,7 +6617,7 @@ export const categories: Category[] = [
             "name": "Obsidian",
             "description": "Local-first markdown notes with graph view.",
             "tags": [
-              "Paid"
+              "Free"
             ],
             "url": "https://obsidian.md"
           },
@@ -6618,7 +6649,7 @@ export const categories: Category[] = [
             "name": "Linear",
             "description": "The issue tracker that makes software development faster.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://linear.app"
           },
@@ -6627,7 +6658,7 @@ export const categories: Category[] = [
             "name": "Jira",
             "description": "Industry-standard agile project management by Atlassian.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.atlassian.com/software/jira"
           },
@@ -6636,7 +6667,7 @@ export const categories: Category[] = [
             "name": "Notion Projects",
             "description": "Project management built into Notion.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.notion.so/product/projects"
           },
@@ -6645,7 +6676,7 @@ export const categories: Category[] = [
             "name": "Trello",
             "description": "Visual Kanban board for task management.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://trello.com"
           }
@@ -6659,7 +6690,7 @@ export const categories: Category[] = [
             "name": "Loom",
             "description": "Async video messaging for developers and teams.",
             "tags": [
-              "Paid"
+              "Free tier"
             ],
             "url": "https://www.loom.com"
           },
@@ -6696,7 +6727,7 @@ export const categories: Category[] = [
             "name": "Beginner SaaS Stack",
             "description": "Next.js + Supabase + Clerk + Stripe + Resend + Vercel + PostHog",
             "tags": [
-              "Paid"
+              "Stack"
             ],
             "url": "https://nextjs.org"
           },
@@ -6705,7 +6736,7 @@ export const categories: Category[] = [
             "name": "AI SaaS Stack",
             "description": "Next.js + OpenRouter/Groq + Qdrant + LangGraph + Stripe + Vercel",
             "tags": [
-              "Paid",
+              "Stack",
               "AI"
             ],
             "url": "https://bolt.new"
@@ -6715,7 +6746,7 @@ export const categories: Category[] = [
             "name": "Blockchain Forensics Stack",
             "description": "Next.js + PostgreSQL + Redis + Alchemy + Etherscan + DefiLlama + Neo4j",
             "tags": [
-              "Paid",
+              "Stack",
               "AI"
             ],
             "url": "https://ethereum.org"
@@ -6725,7 +6756,7 @@ export const categories: Category[] = [
             "name": "OSINT Platform Stack",
             "description": "FastAPI + PostgreSQL + Sherlock + SpiderFoot + Neo4j + Maltego",
             "tags": [
-              "Paid"
+              "Stack"
             ],
             "url": "https://github.com/jivoi/awesome-osint"
           },
@@ -6734,7 +6765,7 @@ export const categories: Category[] = [
             "name": "Landing Page Stack",
             "description": "Framer/Webflow + MotionSites.ai + 21st.dev + Magic UI + Resend",
             "tags": [
-              "Paid",
+              "Stack",
               "AI"
             ],
             "url": "https://framer.com"
@@ -6744,7 +6775,7 @@ export const categories: Category[] = [
             "name": "Mobile App Stack",
             "description": "React Native + Expo + Supabase + Clerk + Stripe",
             "tags": [
-              "Paid"
+              "Stack"
             ],
             "url": "https://expo.dev"
           }
@@ -6772,7 +6803,7 @@ export const categories: Category[] = [
             "name": "LibreChat",
             "description": "ChatGPT-like interface supporting multiple API providers.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://www.librechat.ai"
           },
@@ -6781,7 +6812,7 @@ export const categories: Category[] = [
             "name": "Dify",
             "description": "LangSmith alternative for LLM app management.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://dify.ai"
           },
@@ -6880,7 +6911,7 @@ export const categories: Category[] = [
             "name": "Gitea",
             "description": "Self-hosted Git service like GitHub.",
             "tags": [
-              "Paid"
+              "OSS"
             ],
             "url": "https://gitea.io"
           }
@@ -6899,35 +6930,45 @@ export const categories: Category[] = [
             "name": "Neon",
             "description": "Serverless Postgres built for the cloud.",
             "url": "https://neon.tech",
-            "tags": ["Database"]
+            "tags": [
+              "Database"
+            ]
           },
           {
             "id": "clerk",
             "name": "Clerk",
             "description": "Complete authentication and user management.",
             "url": "https://clerk.com",
-            "tags": ["Auth"]
+            "tags": [
+              "Auth"
+            ]
           },
           {
             "id": "shadcn-ui",
             "name": "shadcn/ui",
             "description": "Beautifully designed components that you can copy and paste into your apps.",
             "url": "https://ui.shadcn.com",
-            "tags": ["UI"]
+            "tags": [
+              "UI"
+            ]
           },
           {
             "id": "aceternity-ui",
             "name": "Aceternity UI",
             "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations.",
             "url": "https://ui.aceternity.com",
-            "tags": ["UI"]
+            "tags": [
+              "UI"
+            ]
           },
           {
             "id": "n8n",
             "name": "n8n",
             "description": "Free and open node based Workflow Automation Tool. Easily automate tasks across different services.",
             "url": "https://n8n.io",
-            "tags": ["Automation"]
+            "tags": [
+              "Automation"
+            ]
           }
         ]
       }
